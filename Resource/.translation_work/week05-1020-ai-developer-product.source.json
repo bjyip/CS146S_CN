@@ -1,0 +1,630 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:0",
+    "text": "Use warp as the demonstration tool",
+    "runs": [
+      "Use warp as the demonstration tool"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "How many people use the terminal here?",
+    "runs": [
+      "How many ",
+      "people",
+      " use the terminal here?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:1",
+    "text": "Show the native mac terminal app",
+    "runs": [
+      "Show the native mac terminal app"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:2",
+    "text": "Let’s bring it all together",
+    "runs": [
+      "Let’s bring it all together"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "https://explainshell.com/explain as a starting point",
+    "runs": [
+      "https://explainshell.com/explain",
+      " as a starting point"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:1",
+    "text": "Align behind a shared universal painpoint",
+    "runs": [
+      "Align behind a shared universal painpoint"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:2",
+    "text": "“Tar -czvf” example",
+    "runs": [
+      "“Tar -czvf” example"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:3",
+    "text": "Weaning off the commandline interface",
+    "runs": [
+      "Weaning off the commandline interface"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "Warp profiles per user ",
+    "runs": [
+      "Warp profiles per user "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:0",
+    "text": "Stickiness of “tab”, “enter” features",
+    "runs": [
+      "Stickiness of “tab”, “enter” features"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:0",
+    "text": "Debugging an error in Warp",
+    "runs": [
+      "Debugging an error in Warp"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Show how Warp integrates with MCP",
+    "runs": [
+      "Show how Warp integrates with MCP"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:1",
+    "text": "Show example of using context7 for up-to-date braintrust",
+    "runs": [
+      "Show example of using context7 for up-to-date braintrust"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:0",
+    "text": "Real-time update canvas in Bolt/Lovable",
+    "runs": [
+      "Real-time update canvas in Bolt/Lovable"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:1",
+    "text": "Warp take action and immediate reaction to that action",
+    "runs": [
+      "Warp take action and immediate reaction to that action"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:2",
+    "text": "You see the effects of your changes",
+    "runs": [
+      "You see the effects of your changes"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "Show yolo mode in Warp",
+    "runs": [
+      "Show yolo mode in Warp"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 10/24/25",
+    "runs": [
+      "Guest Lecture - 10/",
+      "24",
+      "/25"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "CEO of Warp, Zach Lloyd",
+    "runs": [
+      "CEO",
+      " of ",
+      "Warp",
+      ", ",
+      "Zach Lloyd"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "Building a breakout AI developer product",
+    "runs": [
+      "Building a breakout AI developer product"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "We’re seeing some of the fastest adoption of new dev tools in history",
+    "runs": [
+      "We’re seeing some of the fastest adoption of new dev tools in history"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:1",
+    "text": "The UX/UI for developer tools are changing rapidly to best leverage agentic autonomy ",
+    "runs": [
+      "The UX/UI for developer tools are changing rapidly to best leverage agentic autonomy "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "What does having agents in your developer environment change about the product you are using?",
+    "runs": [
+      "What does having agents in your developer environment change about the product you are using?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "7 Product Principles of Modern AI Dev Tools",
+    "runs": [
+      "7 Product Principles of Modern AI Dev Tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "Start with what developers know",
+    "runs": [
+      "Start with what developers know"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Encourage transition from existing interfaces",
+    "runs": [
+      "Encourage",
+      " transition from existing interfaces"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Everyone uses an IDE (Cursor)",
+    "runs": [
+      "Everyone uses an IDE (Cursor)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:6",
+    "text": "Terminal is well-understood UX (Warp)",
+    "runs": [
+      "Terminal is well-understood UX (Warp)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "People know chat (Bolt)",
+    "runs": [
+      "People know chat (Bolt)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:8",
+    "text": "Easily switch between code and natural language",
+    "runs": [
+      "Easily switch between code and natural language"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "Configuration flexibility",
+    "runs": [
+      "Configuration flexibility"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:4",
+    "text": "Zero setup required to demonstrate value for average user",
+    "runs": [
+      "Zero setup required to demonstrate value for average user"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Swap between models seamlessly",
+    "runs": [
+      "Swap between models seamlessly"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Tremendous configurability for power user",
+    "runs": [
+      "Tremendous configurability for power user"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Prompts",
+    "runs": [
+      "Prompts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:8",
+    "text": "Project rules",
+    "runs": [
+      "Project rules"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:9",
+    "text": "MCP",
+    "runs": [
+      "MCP"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "Focus on developer ergonomics",
+    "runs": [
+      "Focus on ",
+      "developer",
+      " ergonomics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "If you can shave off a single keystroke, do it",
+    "runs": [
+      "If you can shave off a single keystroke, do it"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "Keyboard hotkeys ",
+    "runs": [
+      "Keyboard hotkeys "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Zero onboarding friction",
+    "runs": [
+      "Zero onboarding friction"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "“5 minutes to WOW”",
+    "runs": [
+      "“5 minutes to WOW”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "Chat as a first-class citizen",
+    "runs": [
+      "Chat as a first-class citizen"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Code is inherently a contrived representation of human intent",
+    "runs": [
+      "Code is inherently a contrived representation of human intent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "As tools evolve, more of them will involve just speaking in natural language",
+    "runs": [
+      "As tools evolve, more of them will involve just speaking in natural language"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:6",
+    "text": "Progress toward simply communicating developer intent rather than syntax",
+    "runs": [
+      "Progress toward simply communicating developer intent rather than syntax"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "MCP Integration",
+    "runs": [
+      "MCP Integration"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "MCP has become the lingua franca for allowing LLMs to interact with the real-world ",
+    "runs": [
+      "MCP has become the ",
+      "lingua franca ",
+      "for allowing LLMs to interact with the real-world "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Extensible tool ecosystem to give LLMs access to any resource and ability to do anything",
+    "runs": [
+      "Extensible tool ecosystem to give LLMs access to any resource and ability to do anything"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "Rapid feedback loops\t",
+    "runs": [
+      "Rapid ",
+      "feedback",
+      " loops\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "Allow iterating on changes and seeing updates quickly",
+    "runs": [
+      "Allow iterating on changes and seeing updates quickly"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "Panels and dashboards that change in near real-time based on prompts",
+    "runs": [
+      "Panels and dashboards that change in near real-time based on prompts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "This is why entire projects are committed to just reducing build time",
+    "runs": [
+      "This is why entire projects are committed to just reducing build time"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:7",
+    "text": "Explainability is first-class citizen",
+    "runs": [
+      "Explainability is first-class citizen"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Agent Workflows",
+    "runs": [
+      "Agent Workflows"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "Full autonomy for substantive tasks",
+    "runs": [
+      "Full autonomy for substantive tasks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:5",
+    "text": "Increasing adoption of an “agent-take-the-wheel” approach",
+    "runs": [
+      "Increasing adoption of an “agent-take-the-wheel” approach"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:6",
+    "text": "Varied levels of human-in-the-loop involvement",
+    "runs": [
+      "Varied levels of human-in-the-loop involvement"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:7",
+    "text": "Agent asks clarifying questions",
+    "runs": [
+      "Agent asks clarifying questions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:8",
+    "text": "YOLO",
+    "runs": [
+      "YOLO"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "Open Questions",
+    "runs": [
+      "Open Questions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "Will we see massive consolidation from point solutions (for code review, app building, monitoring) into a single all-in-one platform?",
+    "runs": [
+      "Will we see massive consolidation from point solutions (for code review, app building, monitoring) into a single all-in-one platform?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:5",
+    "text": "Will AI IDEs just evolve into AI terminals into AI browser replits? ",
+    "runs": [
+      "Will AI IDEs just evolve into AI terminals into AI browser replits? "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:6",
+    "text": "Will tools like Warp/Cursor become more verticalized, specializing their offering for tasks like full stack development?",
+    "runs": [
+      "Will tools like Warp/Cursor become more verticalized, specializing their offering for tasks like full stack development?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:7",
+    "text": "What universal standard will emerge for personalizing your coding agents and giving them project-specific rules? ",
+    "runs": [
+      "What universal standard will emerge for personalizing your coding agents and giving them project-specific rules? "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:8",
+    "text": "We won’t be in a fragmented .cursorrules / CLAUDE.md / etc world for long.",
+    "runs": [
+      "We won’t be in a fragmented .cursorrules /",
+      " CLAUDE.md",
+      " / etc world for long."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:9",
+    "text": "AGENTS.md is a first step in that direction",
+    "runs": [
+      "AGENTS.md",
+      " is a first step in that direction"
+    ]
+  }
+]

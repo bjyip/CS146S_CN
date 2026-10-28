@@ -1,0 +1,687 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:0",
+    "text": "Recall what we did in the last class, this was like the pre-MCP days. The APIs were pretty well-formatted so getting the LLM to use them wasn’t super challenging.",
+    "runs": [
+      "Recall what we did in the last class, this was like the pre-MCP days. The APIs were pretty well-formatted so getting the LLM to use them wasn’t super challenging."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:0",
+    "text": "You want to enable your LLM to access a 3rd party API",
+    "runs": [
+      "You want to enable your LLM to access a 3rd party API"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:1",
+    "text": "But think of all the things that could be challenging:",
+    "runs": [
+      "But think of all the things that could be challenging:"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:2",
+    "text": "Poor documentation",
+    "runs": [
+      "Poor documentation"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:3",
+    "text": "Inconsistent data exchange formats",
+    "runs": [
+      "Inconsistent data exchange formats"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:4",
+    "text": "Authentication",
+    "runs": [
+      "Authentication"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:5",
+    "text": "Error handling",
+    "runs": [
+      "Error handling"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:6",
+    "text": "The onus is on your to interpret all of those factors for this API",
+    "runs": [
+      "The onus is on your to interpret all of those factors for this API"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "Now imagine having to do that for 100s of APIs",
+    "runs": [
+      "Now imagine having to do that for 100s of APIs"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Now imagine integrating many LLM apps",
+    "runs": [
+      "Now imagine integrating many LLM apps"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:1",
+    "text": "It’s a mess: NxM connectors across LLM apps and API integration points",
+    "runs": [
+      "It’s a mess: NxM ",
+      "connectors",
+      " across LLM apps and API integration points"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Test list_files",
+    "runs": [
+      "Test list_files"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:1",
+    "text": "Test edit_file",
+    "runs": [
+      "Test edit_file"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:2",
+    "text": "You can see the tool being called by the MCP server, though we have to be a bit more explicit about mentioning what server to use since there are a lot of tools. ",
+    "runs": [
+      "You can see the tool being called by the MCP server, though we have to be a bit more explicit about mentioning what server to use since there are a lot of tools. "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:3",
+    "text": "Mitigations: https://arxiv.org/pdf/2505.03275",
+    "runs": [
+      "Mitigations: https://arxiv.org/pdf/2505.03275"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:0",
+    "text": "Discuss Cursor hard limit on # of tools",
+    "runs": [
+      "Discuss Cursor hard limit on # of tools"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "Discuss Cursor hard limit on # of tools",
+    "runs": [
+      "Discuss Cursor hard limit on # of tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "To MCP and Beyond",
+    "runs": [
+      "To MCP and Beyond"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:1",
+    "text": "LLMs have vast (but static) world knowledge that only updates when we retrain",
+    "runs": [
+      "LLMs have vast (but static) world knowledge that only updates when we retrain"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:2",
+    "text": "To build fully autonomous systems we need robust ways to feed dynamic data in",
+    "runs": [
+      "To build fully autonomous systems we need robust ways to feed dynamic data in"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "What’s the weather today",
+    "runs": [
+      "What’s the weather today"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:4",
+    "text": "Who’s president",
+    "runs": [
+      "Who’s president"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:5",
+    "text": "What’s the price of Bitcoin",
+    "runs": [
+      "What’s the price of Bitcoin"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:6",
+    "text": "Who’s the narrator in Nike’s latest ad campaign",
+    "runs": [
+      "Who’s the narrator in Nike’s latest ad campaign"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:7",
+    "text": "RAG and tool-calling are the best answer we have today",
+    "runs": [
+      "RAG and tool-calling are the best answer we have today"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Basics",
+    "runs": [
+      "Basics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "Model Context Protocol",
+    "runs": [
+      "M",
+      "odel ",
+      "C",
+      "ontext ",
+      "P",
+      "rotocol"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:2",
+    "text": "Open protocol that allows systems to provide context to AI models in a manner generalizable across integrations",
+    "runs": [
+      "Open protocol that allows systems to provide context to AI models in a manner generalizable across integrations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "In English: standard format for exposing tools to LLMs",
+    "runs": [
+      "In English: standard format for exposing tools to LLMs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "History: in the distant past pre-November 2024 when MCP was introduced…",
+    "runs": [
+      "History: in the distant past pre-November 2024 when MCP was introduced…"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "????",
+    "runs": [
+      "????"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "What APIs do you expose?",
+    "runs": [
+      "What APIs do you expose?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "Imagine integrating with a questionable 3rd party API",
+    "runs": [
+      "Imagine integrating with a questionable 3rd party API"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "????",
+    "runs": [
+      "????"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:4",
+    "text": "Now many APIs",
+    "runs": [
+      "Now many APIs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:7",
+    "text": "????",
+    "runs": [
+      "????"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:8",
+    "text": "????",
+    "runs": [
+      "????"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Now many LLM apps",
+    "runs": [
+      "Now many LLM apps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "Basics",
+    "runs": [
+      "Basics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:1",
+    "text": "MCP",
+    "runs": [
+      "MCP"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:2",
+    "text": "Does away with the need to build M x N connectors from LLM host/agent to underlying tool",
+    "runs": [
+      "Does away with the need to build M x N connectors from LLM host/agent to underlying tool"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "Don’t need to reimplement auth, error handling, rate-limiting, etc",
+    "runs": [
+      "Don’t need to reimplement auth, error handling, rate-limiting, etc"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:4",
+    "text": "Enforces consistent output format using JSON-RPC",
+    "runs": [
+      "Enforces consistent output format using JSON-RPC"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Extends from Language Server Protocols",
+    "runs": [
+      "Extends from Language Server Protocols"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Allows for proactive agentic workflows rather than purely reactive ones as in LSP",
+    "runs": [
+      "Allows for proactive agentic workflows rather than purely reactive ones as in LSP"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Integrating with tools goes from M x N →M + N connectors",
+    "runs": [
+      "Integrating with tools goes from M x N ",
+      "→",
+      "M + N connectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "MCP A Bit Deeper",
+    "runs": [
+      "MCP A Bit Deeper"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Terminology",
+    "runs": [
+      "Terminology"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "Host: Cursor, Claude Desktop",
+    "runs": [
+      "Host",
+      ": Cursor, Claude Desktop"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "MCP Client: Library embedded on host (stateful session per server)",
+    "runs": [
+      "MCP Client",
+      ": Library embedded on host (stateful session per server)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "MCP Server: Lightweight wrapper in front of a tool ",
+    "runs": [
+      "MCP Server",
+      ": Lightweight wrapper in front of a tool "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "Tool: Callable function (could be data source, API)",
+    "runs": [
+      "Tool",
+      ": Callable function (could be data source, API)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Flow",
+    "runs": [
+      "Flow"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "Client calls tools/list to MCP server (what can you do?)",
+    "runs": [
+      "Client calls tools/list to MCP server (what can you do?)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:8",
+    "text": "Server returns JSON describing each tool (name, summary, JSON schema)",
+    "runs": [
+      "Server returns JSON describing each tool (name, summary, JSON schema)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:9",
+    "text": "Host injects that JSON into model’s context",
+    "runs": [
+      "Host injects that JSON into model’s context"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:10",
+    "text": "User prompt triggers model, emitting a structured tool call",
+    "runs": [
+      "User prompt triggers model, emitting a structured tool call"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:11",
+    "text": "MCP server executes and conversation resumes",
+    "runs": [
+      "MCP server executes and conversation resumes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:12",
+    "text": "MCP provides stdio and SSE transport layer",
+    "runs": [
+      "MCP provides stdio and SSE transport layer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:14",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "MCP client",
+    "runs": [
+      "MCP client"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "Summarize my emails from Jack",
+    "runs": [
+      "Summarize my emails from Jack"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "MCP server",
+    "runs": [
+      "MCP server"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:8",
+    "text": "1",
+    "runs": [
+      "1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:9",
+    "text": "Ask query",
+    "runs": [
+      "Ask query"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:10",
+    "text": "2",
+    "runs": [
+      "2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:11",
+    "text": "Get tools",
+    "runs": [
+      "Get tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:12",
+    "text": "3",
+    "runs": [
+      "3"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:13",
+    "text": "Send query and pick tool with params",
+    "runs": [
+      "Send query and pick tool with params"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:14",
+    "text": "4",
+    "runs": [
+      "4"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:15",
+    "text": "Call function for tool and get response",
+    "runs": [
+      "Call function for tool and get response"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:16",
+    "text": "Send response",
+    "runs": [
+      "Send response"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:17",
+    "text": "5",
+    "runs": [
+      "5"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "Let’s build a custom MCP server from scratch!",
+    "runs": [
+      "Let’s build a custom MCP server from scratch!"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Agents don’t handle many tools very well today",
+    "runs": [
+      "Agents don’t handle many tools very well today"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "APIs eat up your context window quickly",
+    "runs": [
+      "APIs eat up your context window quickly"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Design APIs to be AI-native rather that rigid",
+    "runs": [
+      "Design APIs to be AI-native rather that rigid"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

@@ -1,0 +1,741 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:0",
+    "text": "Because I’m a software development purist",
+    "runs": [
+      "Because I’m a software development purist"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:0",
+    "text": "Salesforce in 1999 often considered first SaaS platform",
+    "runs": [
+      "Salesforce in 1999 often considered first SaaS platform"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "LAMP Stack",
+    "runs": [
+      "LAMP Stack"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:1",
+    "text": "Technologies: Linux (OS), Apache (Web Server), MySQL (Database), PHP (Backend)",
+    "runs": [
+      "Technologies:",
+      " Linux (OS), Apache (Web Server), MySQL (Database), PHP (Backend)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:2",
+    "text": "Description: Classic open-source web stack for dynamic websites and traditional web apps.",
+    "runs": [
+      "Description:",
+      " Classic open-source web stack for dynamic websites and traditional web apps."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:4",
+    "text": "MERN Stack",
+    "runs": [
+      "MERN Stack"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:5",
+    "text": "Technologies: MongoDB, Express.js, React.js, Node.js",
+    "runs": [
+      "Technologies:",
+      " MongoDB, Express.js, React.js, Node.js"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:6",
+    "text": "Description: Full JavaScript stack for building modern, interactive single-page web apps (SPAs).",
+    "runs": [
+      "Description:",
+      " Full JavaScript stack for building modern, interactive single-page web apps (SPAs)."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:8",
+    "text": "MEVN Stack",
+    "runs": [
+      "MEVN Stack"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:9",
+    "text": "Technologies: MongoDB, Express.js, Vue.js, Node.js",
+    "runs": [
+      "Technologies:",
+      " MongoDB, Express.js, Vue.js, Node.js"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:10",
+    "text": "Description: JavaScript-based stack using Vue instead of React — lightweight, flexible, and easy to learn.",
+    "runs": [
+      "Description:",
+      " JavaScript-based stack using Vue instead of React — lightweight, flexible, and easy to learn."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:12",
+    "text": "Serverless Stack",
+    "runs": [
+      "Serverless Stack"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:13",
+    "text": "Technologies: Frontend (React/Vue/Svelte), Backend (AWS Lambda, Google Cloud Functions), Database (DynamoDB, Firebase)",
+    "runs": [
+      "Technologies:",
+      " Frontend (React/Vue/Svelte), Backend (AWS Lambda, Google Cloud Functions), Database (DynamoDB, Firebase)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:14",
+    "text": "Description: Cloud-native stack — runs backend logic on-demand without managing servers; ideal for scalable, event-driven apps.",
+    "runs": [
+      "Description:",
+      " Cloud-native stack — runs backend logic on-demand without managing servers; ideal for scalable, event-driven apps."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "MERN",
+    "runs": [
+      "MERN"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "JAM",
+    "runs": [
+      "JAM"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:1",
+    "text": "Components:",
+    "runs": [
+      "Components:"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:2",
+    "text": "JavaScript – for dynamic functionalities",
+    "runs": [
+      "JavaScript",
+      " – for dynamic functionalities"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:3",
+    "text": "APIs – to connect backend services",
+    "runs": [
+      "APIs",
+      " – to connect backend services"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:4",
+    "text": "Markup – prebuilt static HTML",
+    "runs": [
+      "Markup",
+      " – prebuilt static HTML"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:5",
+    "text": "Usage: Used for static sites and modern web apps. Common tools include Gatsby, Next.js, or Nuxt.js with headless CMSs like Contentful or Sanity.",
+    "runs": [
+      "Usage:",
+      " Used for static sites and modern web apps. Common tools include Gatsby, Next.js, or Nuxt.js with headless CMSs like Contentful or Sanity."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:0",
+    "text": "AWS Stack",
+    "runs": [
+      "AWS Stack"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "Bolt example with FE/BE",
+    "runs": [
+      "Bolt example with FE/BE"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:1",
+    "text": "Make salsa partner finder",
+    "runs": [
+      "Make salsa partner finder"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:2",
+    "text": "Additional changes after initial generation",
+    "runs": [
+      "Additional changes after initial generation"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:3",
+    "text": "Update color palette",
+    "runs": [
+      "Update color palette"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:4",
+    "text": "Iconography",
+    "runs": [
+      "Iconography"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:5",
+    "text": "Typography",
+    "runs": [
+      "Typography"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:6",
+    "text": "—-",
+    "runs": [
+      "—-"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:7",
+    "text": "This looks good. I want to update the color pallette to follow the following colors:",
+    "runs": [
+      "This looks good. I want to update the color pallette to follow the following colors:"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:8",
+    "text": "#EF8354",
+    "runs": [
+      "#EF8354"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:9",
+    "text": "#660000",
+    "runs": [
+      "#660000"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:10",
+    "text": "#EFCA08",
+    "runs": [
+      "#EFCA08"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:0",
+    "text": "Webcontainer running arbitrary generated code",
+    "runs": [
+      "Webcontainer running arbitrary generated code"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:0",
+    "text": "Explicitly requests only established, well-known technologies/frameworks",
+    "runs": [
+      "Explicitly requests only established, well-known technologies/frameworks"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:1",
+    "text": "https://gist.github.com/curran/753aa62fd99b7df8f858743d605f1d02",
+    "runs": [
+      "https://gist.github.com/curran/753aa62fd99b7df8f858743d605f1d02"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:2",
+    "text": "https://app.prompthub.us/prompthub/bolt-agent-system-prompt",
+    "runs": [
+      "https://app.prompthub.us/prompthub/bolt-agent-system-prompt"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:3",
+    "text": "boltartifact/Boltaction to designate things that should happen (file creation, file running, etc) in the webcontainer",
+    "runs": [
+      "boltartifact/Boltaction to designate things that should happen (file creation, file running, etc) in the webcontainer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "Automated UI and App Building",
+    "runs": [
+      "Automated UI and App Building"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "This is not the “vibe coding” class",
+    "runs": [
+      "This is ",
+      "not",
+      " the “vibe coding” class"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "…except today",
+    "runs": [
+      "…except today"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Modern SaaS development has focused on web apps for over two decades",
+    "runs": [
+      "Modern",
+      " SaaS development has focused on web apps for over two decades"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "LAMP",
+    "runs": [
+      "LAMP"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "MERN",
+    "runs": [
+      "MERN"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "JAM",
+    "runs": [
+      "JAM"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "Serverless",
+    "runs": [
+      "Serverless"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "The Old Days",
+    "runs": [
+      "The Old Days"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "The Old Days",
+    "runs": [
+      "The Old Days"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "client-side",
+    "runs": [
+      "client-side"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:6",
+    "text": "server-side",
+    "runs": [
+      "server",
+      "-side"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "database",
+    "runs": [
+      "database"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "The Old Days",
+    "runs": [
+      "The Old Days"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "The Old Days",
+    "runs": [
+      "The Old Days"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "Take #1: Visual Low-code/No-code",
+    "runs": [
+      "Take #1: Visual Low-code/No-code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:2",
+    "text": "Wix",
+    "runs": [
+      "Wix"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "Squarespace",
+    "runs": [
+      "Squarespace"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Webflow",
+    "runs": [
+      "Webflow"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "The New AI World",
+    "runs": [
+      "The New AI World"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:2",
+    "text": "Lovable",
+    "runs": [
+      "Lovable"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "Replit",
+    "runs": [
+      "Replit"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "Vercel v0",
+    "runs": [
+      "Vercel v0"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Base44",
+    "runs": [
+      "Base44"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:6",
+    "text": "Cursor/Claude Code/etc",
+    "runs": [
+      "Cursor/Claude Code/etc"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "What Has Changed",
+    "runs": [
+      "What Has Changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Prompt your way to a fully fledged app",
+    "runs": [
+      "Prompt",
+      " your way to a fully fledged app"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "Engineers are becoming more cross-functional",
+    "runs": [
+      "Engineers are becoming more cross-functional"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Design",
+    "runs": [
+      "Design"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "Product management",
+    "runs": [
+      "Product management"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "Anyone can build an app now",
+    "runs": [
+      "Anyone can build an app now"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "More user-friendly than 1st generation no-code platforms like Webflow, Wix, Squarespace",
+    "runs": [
+      "More user-friendly than 1st generation no-code platforms like Webflow, Wix, Squarespace"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Let’s Make An App Right Now",
+    "runs": [
+      "Let’s Make An App Right Now"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "App Builder Architecture",
+    "runs": [
+      "App Builder Architecture"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:6",
+    "text": "WebContainer",
+    "runs": [
+      "WebContainer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "App Builder System Prompt",
+    "runs": [
+      "App Builder System Prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:0",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:1",
+    "text": "Everything is awesome when it works but once things break we’re back at square 1",
+    "runs": [
+      "Everything is awesome when it works but once things break we’re back at square 1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:2",
+    "text": "Prompts are just suggestions. Not every user understands that",
+    "runs": [
+      "Prompts are just suggestions. Not every user understands that"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "Security has been an issue in the past",
+    "runs": [
+      "Security has been an ",
+      "issue in the past"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "How do we prevent all these apps from looking the same?",
+    "runs": [
+      "How do we prevent all these apps from looking the same?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:5",
+    "text": "How complex can these apps realistically get?",
+    "runs": [
+      "How complex can these apps realistically get?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

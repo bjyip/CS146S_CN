@@ -1,0 +1,750 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "Every developer operates as a tech lead controlling their own army of agents handling specialized tasks (PR, quality assurance, etc), languages (react, fastapi python, svelte), role responsibilities (data engineer, ml engineer, devops)",
+    "runs": [
+      "Every developer operates as a tech lead",
+      " controlling their own army of agents handling specialized tasks (PR, quality assurance, etc), languages (react, fastapi python, svelte), role responsibilities (data engineer, ml engineer, devops)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:1",
+    "text": "Eventually a moderately technical PM will be able to do the same thing",
+    "runs": [
+      "Eventually a moderately technical PM will be able to do the same thing"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Breakdown of typical tasks and who is responsible for what: green is human, blue is agent",
+    "runs": [
+      "Breakdown of typical ",
+      "tasks",
+      " and who is responsible for what: green is human, blue is agent"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "See examples of all of these IRL",
+    "runs": [
+      "See examples of all of these IRL"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:0",
+    "text": "Provide a sample",
+    "runs": [
+      "Provide a sample"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:0",
+    "text": "Provide a sample",
+    "runs": [
+      "Provide a sample"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:1",
+    "text": "Ship-it command in claude code",
+    "runs": [
+      "Ship-it command in claude code"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Compare to Claude.md files which are more about anchoring behavior",
+    "runs": [
+      "Compare to ",
+      "Claude.md",
+      " files which are more about anchoring behavior"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:1",
+    "text": "Examples: https://github.com/SuperClaude-Org/SuperClaude_Framework/tree/master/SuperClaude/Agents",
+    "runs": [
+      "Examples: ",
+      "https://github.com/SuperClaude-Org/SuperClaude_Framework/tree/master/SuperClaude/Agents"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:0",
+    "text": "Different models for different tasks",
+    "runs": [
+      "Different models for different tasks"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:1",
+    "text": "Opus for planning, sonnet as a workhorse",
+    "runs": [
+      "Opus for planning, sonnet as a workhorse"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "On an actual set of tasks, what changes are necessary - see how agents are getting spun up",
+    "runs": [
+      "On an actual set of tasks, what changes are necessary - see how agents are getting spun up"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:1",
+    "text": "Show claude proxy output",
+    "runs": [
+      "Show claude proxy output"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 10/17/25",
+    "runs": [
+      "Guest Lecture - 10/17/25"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "Anthropic Creator of Claude Code, Boris Cherny",
+    "runs": [
+      "Anthropic",
+      " Creator of ",
+      "Claude Code",
+      ", Boris Cherny"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "How to be an Agent Manager  ",
+    "runs": [
+      "How to be an Agent Manager  "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "Development evolution",
+    "runs": [
+      "Development evolution"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:2",
+    "text": "Single developer managing single developer’s output",
+    "runs": [
+      "Single developer managing single developer’s output"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "Lead managing many developers worth of output",
+    "runs": [
+      "Lead managing many developers worth of output"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "Lead managing many developers worth of output (assisted by an AI system)",
+    "runs": [
+      "Lead managing many developers worth of output (assisted by an AI system)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:5",
+    "text": "Single developer managing many AI agents worth of work",
+    "runs": [
+      "Single developer managing many AI agents worth of work"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "A brief history of software teams",
+    "runs": [
+      "A brief history of software teams"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "Mainstream adoption of software teams, specialization emerges",
+    "runs": [
+      "Mainstream adoption of software teams, specialization emerges"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:8",
+    "text": "First software teams emerge driven by requirements of NASA, DoD projects",
+    "runs": [
+      "First software teams emerge driven by requirements of NASA, DoD projects"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:12",
+    "text": "1940",
+    "runs": [
+      "1940"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:13",
+    "text": "2030",
+    "runs": [
+      "2030"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:15",
+    "text": "2025",
+    "runs": [
+      "2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:16",
+    "text": "Teams with developers managing groups of diverse agents",
+    "runs": [
+      "Teams with developers managing groups of diverse agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:21",
+    "text": "2023",
+    "runs": [
+      "2023"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:22",
+    "text": "Software teams with developers assisted by AI coding systems",
+    "runs": [
+      "Software teams with developers assisted by AI coding systems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:25",
+    "text": "1960",
+    "runs": [
+      "1960"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:27",
+    "text": "Solo developers handling full projects",
+    "runs": [
+      "Solo developers handling full projects"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:29",
+    "text": "1970",
+    "runs": [
+      "1970"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:30",
+    "text": "1990",
+    "runs": [
+      "1990"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Goals",
+    "runs": [
+      "Goals"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "….",
+    "runs": [
+      "…."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "Software task steps",
+    "runs": [
+      "Software task steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Provide high level requirements 🟩",
+    "runs": [
+      "Provide high level requirements 🟩"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Convert requirements into a design doc 🟩/🟦",
+    "runs": [
+      "Convert requirements into a design doc ",
+      "🟩/",
+      "🟦"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:6",
+    "text": "Implement solution from doc 🟦",
+    "runs": [
+      "Implement solution from doc 🟦"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "Add tests 🟦",
+    "runs": [
+      "Add tests 🟦"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:8",
+    "text": "Ensure CI (continuous integration) passes 🟦",
+    "runs": [
+      "Ensure CI (continuous integration) passes 🟦"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:9",
+    "text": "Code review 🟦",
+    "runs": [
+      "Code review 🟦"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:10",
+    "text": "Update docs 🟦 ",
+    "runs": [
+      "Update docs 🟦 "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "Techniques for directing agents",
+    "runs": [
+      "Techniques for directing agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:4",
+    "text": "Agent behavior files (Claude.md/Cursorrules/agents.md)",
+    "runs": [
+      "Agent behavior files (Claude.md/Cursorrules/agents.md)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Hooks",
+    "runs": [
+      "Hooks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Commands",
+    "runs": [
+      "Commands"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Subagents",
+    "runs": [
+      "Subagents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "Hooks",
+    "runs": [
+      "Hooks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Deterministic scripts that run on predefined event types",
+    "runs": [
+      "Deterministic scripts that run on predefined event types"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "PreToolUse",
+    "runs": [
+      "PreToolUse"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "PostToolUse",
+    "runs": [
+      "PostToolUse"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "UserPromptSubmit",
+    "runs": [
+      "UserPromptSubmit"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "PreCompact",
+    "runs": [
+      "PreCompact"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "…and more",
+    "runs": [
+      "…and more"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "Commands",
+    "runs": [
+      "Commands"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "Provide frequently-used prompts as files that the agent can execute",
+    "runs": [
+      "Provide frequently-used prompts as files that the agent can execute"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:2",
+    "text": "Use cases",
+    "runs": [
+      "Use cases"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "Running tests",
+    "runs": [
+      "Running tests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Reviewing code",
+    "runs": [
+      "Reviewing code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "Form a git commit, push",
+    "runs": [
+      "Form a git commit, push"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "Subagents",
+    "runs": [
+      "Subagents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:1",
+    "text": "Runtime delegation",
+    "runs": [
+      "Runtime delegation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:2",
+    "text": "Purposes of a subagent is to",
+    "runs": [
+      "Purposes of a subagent is to"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "Create distinct developer personas for different types of work (frontend, backend, etc)",
+    "runs": [
+      "Create distinct developer personas for different types of work (frontend, backend, etc)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "Cleanly separate contexts for different work streams",
+    "runs": [
+      "Cleanly ",
+      "separate",
+      " contexts for different work streams"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Offer",
+    "runs": [
+      "Offer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:6",
+    "text": "Customized system prompts, tools, and a separate context window",
+    "runs": [
+      "Customized system prompts, tools, and a separate context window"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:7",
+    "text": "A move toward agents managing other agents",
+    "runs": [
+      "A move toward agents managing other agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:8",
+    "text": "Use cases",
+    "runs": [
+      "Use cases"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:9",
+    "text": "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/CLAUDE.md",
+    "runs": [
+      "https://github.com/vijaythecoder/awesome-claude-agents/blob/main/CLAUDE.md"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:10",
+    "text": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
+    "runs": [
+      "https://github.com/SuperClaude-Org/SuperClaude_Framework"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:13",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "You need careful backstops\t",
+    "runs": [
+      "You need careful backstops\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Tests in codebase",
+    "runs": [
+      "Tests in codebase"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "CI/CD best practices",
+    "runs": [
+      "CI/CD best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Auditability of each agent",
+    "runs": [
+      "Auditability of each agent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "Label every diff made by an agent ",
+    "runs": [
+      "Label every diff made by an agent "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "Different models for different classes of tasks",
+    "runs": [
+      "Different models for different classes of tasks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "More complex tasks you may need to handhold a bit more upfront vs fully async ones",
+    "runs": [
+      "More complex tasks you may need to handhold a bit more upfront vs fully async ones"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:7",
+    "text": "Checkpoint (commit) regularly ",
+    "runs": [
+      "Checkpoint (commit) regularly "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:11",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Workflow walkthrough",
+    "runs": [
+      "Workflow walkthrough"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "How can we automate the first 10-20% research phase of any task?",
+    "runs": [
+      "How can we automate the first 10-20% research phase of any task?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "How to maintain a queue of pending tasks (easier for 1-off changes)?",
+    "runs": [
+      "How to maintain a queue of pending tasks (easier for 1-off changes)?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:5",
+    "text": "Open questions",
+    "runs": [
+      "Open questions"
+    ]
+  }
+]

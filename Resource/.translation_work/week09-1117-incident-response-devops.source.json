@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:0",
+    "text": "Creator of opentelemetry",
+    "runs": [
+      "Creator of opentelemetry"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:1",
+    "text": "Deepmind staff MLE",
+    "runs": [
+      "Deepmind staff MLE"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "estimates that downtime and service degradation cost the Global 2000 about $400 billion annually",
+    "runs": [
+      "estimates that downtime and service degradation cost the Global 2000 about $400 billion annually"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Latency: Measures how long it takes to service a request. Track both successful and failed requests separately, since failed requests (like HTTP 500s) can distort averages. Slow errors are especially concerning and should be monitored closely.",
+    "runs": [
+      "Latency:",
+      " Measures how long it takes to service a request. Track both successful and failed requests separately, since failed requests (like HTTP 500s) can distort averages. Slow errors are especially concerning and should be monitored closely."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:1",
+    "text": "Traffic: Represents system demand, typically measured as requests per second or equivalent units depending on the system (e.g., sessions for streaming, transactions for databases).",
+    "runs": [
+      "Traffic:",
+      " Represents system demand, typically measured as requests per second or equivalent units depending on the system (e.g., sessions for streaming, transactions for databases)."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:2",
+    "text": "Errors: The rate of failed requests, whether explicit (e.g., HTTP 500s), implicit (wrong content despite 200 OK), or policy-based (e.g., exceeding response-time commitments). Use multiple layers of monitoring to catch different failure types.",
+    "runs": [
+      "Errors:",
+      " The rate of failed requests, whether explicit (e.g., HTTP 500s), implicit (wrong content despite 200 OK), or policy-based (e.g., exceeding response-time commitments). Use multiple layers of monitoring to catch different failure types."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:3",
+    "text": "Saturation: Indicates how \"full\" your system is — tracking constrained resources like CPU, memory, or I/O. Systems often slow before hitting 100% utilization, so define safe thresholds. Monitor for signs of impending limits, such as rising latency or storage nearing capacity.",
+    "runs": [
+      "Saturation:",
+      " Indicates how \"full\" your system is — tracking constrained resources like CPU, memory, or I/O. Systems often slow before hitting 100% utilization, so define safe thresholds. Monitor for signs of impending limits, such as rising latency or storage nearing capacity."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "What do we do? Ask for thoughts from the audience",
+    "runs": [
+      "What do we do? Ask for thoughts from the audience"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:0",
+    "text": "Acknowledge & Assess",
+    "runs": [
+      "Acknowledge & Assess"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:1",
+    "text": "Acknowledge in PagerDuty",
+    "runs": [
+      "Acknowledge in PagerDuty"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:2",
+    "text": "Confirm severity: check app + DB dashboards",
+    "runs": [
+      "Confirm severity: check app + DB dashboards"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:3",
+    "text": "Identify whether impact is partial or full outage",
+    "runs": [
+      "Identify whether impact is partial or full outage"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:5",
+    "text": "Check the Golden Signals (DB First)",
+    "runs": [
+      "Check the Golden Signals (DB First)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:6",
+    "text": "Connections: maxed? stuck? sudden drops?",
+    "runs": [
+      "Connections:",
+      " maxed? stuck? sudden drops?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:7",
+    "text": "Latency: P95 spikes? slow queries?",
+    "runs": [
+      "Latency:",
+      " P95 spikes? slow queries?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:8",
+    "text": "Errors: timeouts? refused connections? aborted transactions?",
+    "runs": [
+      "Errors:",
+      " timeouts? refused connections? aborted transactions?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:9",
+    "text": "Saturation: CPU, IOPS, locks, memory, replication lag",
+    "runs": [
+      "Saturation:",
+      " CPU, IOPS, locks, memory, replication lag"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:11",
+    "text": "Look for What Changed",
+    "runs": [
+      "Look for What Changed"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:12",
+    "text": "Recent deploy?",
+    "runs": [
+      "Recent deploy?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:13",
+    "text": "DB migration?",
+    "runs": [
+      "DB migration?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:14",
+    "text": "Config / feature flag change?",
+    "runs": [
+      "Config / feature flag change?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:15",
+    "text": "Autoscaling event? → Roll back / revert immediately if correlated.",
+    "runs": [
+      "Autoscaling event?",
+      " ",
+      "→ Roll back / revert immediately if correlated."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:17",
+    "text": "Localize the Failure",
+    "runs": [
+      "Localize the Failure"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:18",
+    "text": "All queries or specific ones?",
+    "runs": [
+      "All queries or specific ones?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:19",
+    "text": "Read vs write?",
+    "runs": [
+      "Read vs write?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:20",
+    "text": "Primary vs replicas?",
+    "runs": [
+      "Primary vs replicas?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:21",
+    "text": "One shard/instance or all?",
+    "runs": [
+      "One shard/instance or all?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:22",
+    "text": "App side (pools/timeouts) vs DB side (load/locks)?",
+    "runs": [
+      "App side (pools/timeouts) vs DB side (load/locks)?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:24",
+    "text": "Apply Fast Mitigations",
+    "runs": [
+      "Apply Fast Mitigations"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:25",
+    "text": "Connection issues: restart app pods, reduce concurrency",
+    "runs": [
+      "Connection issues:",
+      " restart app pods, reduce concurrency"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:26",
+    "text": "DB saturation: disable heavy jobs, throttle traffic, route reads to replicas",
+    "runs": [
+      "DB saturation:",
+      " disable heavy jobs, throttle traffic, route reads to replicas"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:27",
+    "text": "Bad/slow queries: disable feature/endpoint, enable cached/degraded mode",
+    "runs": [
+      "Bad/slow queries:",
+      " disable feature/endpoint, enable cached/degraded mode"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:28",
+    "text": "Replica lag: route reads to primary, restart replica",
+    "runs": [
+      "Replica lag:",
+      " route reads to primary, restart replica"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:29",
+    "text": "Unhealthy node: restart only replicas; escalate for primary",
+    "runs": [
+      "Unhealthy node:",
+      " restart only replicas; escalate for primary"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:31",
+    "text": "Stabilize & Monitor",
+    "runs": [
+      "Stabilize & Monitor"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:32",
+    "text": "Watch 500 rate, DB latency, and traffic normalize",
+    "runs": [
+      "Watch 500 rate, DB latency, and traffic normalize"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:33",
+    "text": "Ensure no retry storms or cascading failures",
+    "runs": [
+      "Ensure no retry storms or cascading failures"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:34",
+    "text": "Validate app health checks recover",
+    "runs": [
+      "Validate app health checks recover"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:36",
+    "text": "Communicate",
+    "runs": [
+      "Communicate"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:37",
+    "text": "Brief updates: issue → action → current status",
+    "runs": [
+      "Brief updates: issue → action → current status"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:38",
+    "text": "Update every 10–15 minutes during active incident",
+    "runs": [
+      "Update every 10–15 minutes during active incident"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:40",
+    "text": "Close Out",
+    "runs": [
+      "Close Out"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:41",
+    "text": "Capture timeline",
+    "runs": [
+      "Capture timeline"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:42",
+    "text": "Identify root cause driver",
+    "runs": [
+      "Identify root cause driver"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:43",
+    "text": "Log follow-ups: query fixes, indexing, scaling, retry tuning, capacity review",
+    "runs": [
+      "Log follow-ups: query fixes, indexing, scaling, retry tuning, capacity review"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Reported SLA is not explicitly tracked",
+    "runs": [
+      "Reported SLA is not explicitly tracked"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:0",
+    "text": "Observability, working theories",
+    "runs": [
+      "Observability, working theories"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:1",
+    "text": "SPan information",
+    "runs": [
+      "SPan information"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:2",
+    "text": "Heavily evidence-based ",
+    "runs": [
+      "Heavily evidence-based "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:3",
+    "text": "Chat for more dynamic querying of information",
+    "runs": [
+      "Chat for more dynamic querying of information"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 11/21/25",
+    "runs": [
+      "Guest Lecture - 11/21/25"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "Member of Technical Staff Resolve",
+    "runs": [
+      "Member of Technical Staff",
+      " ",
+      "Resolve"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:5",
+    "text": "Milind Ganjoo",
+    "runs": [
+      "Milind Ganjoo"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:7",
+    "text": "CTO of Resolve",
+    "runs": [
+      "CTO of ",
+      "Resolve"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:8",
+    "text": "Mayank Agarwal",
+    "runs": [
+      "Mayank Agarwal"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "AI DevOps",
+    "runs": [
+      "AI DevOps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Monitoring software systems in production remains a mission-critical task",
+    "runs": [
+      "Monitoring software systems in production remains a mission-critical task"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "Coding represents just 30 percent of engineering time",
+    "runs": [
+      "Coding represents just 30 percent of engineering time"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:2",
+    "text": "Harder 70 percent is running that code in production where complexity, tool silos, knowledge gaps, and interdependencies all collide",
+    "runs": [
+      "Harder 70 percent is running that code in production where complexity, tool silos, knowledge gaps, and interdependencies all collide"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "Managing production often requires laborious software triaging handled by SREs",
+    "runs": [
+      "Managing production often requires laborious ",
+      "software",
+      " triaging handled by SREs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:6",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "The Old World",
+    "runs": [
+      "The Old World"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "Responsibilities of SRE",
+    "runs": [
+      "Responsibilities of SRE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "Operational monitoring",
+    "runs": [
+      "Operational monitoring"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "on-call, troubleshooting, infrastructure management and security",
+    "runs": [
+      "on-call, troubleshooting, infrastructure management and security"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:4",
+    "text": "Incident resolution involves piecing together info from many different sources and teams",
+    "runs": [
+      "Incident resolution involves piecing together info from many different sources and teams"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:5",
+    "text": "Maintain oftentimes outdated runbooks for how to resolve issues",
+    "runs": [
+      "Maintain oftentimes outdated runbooks for how to resolve issues"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "Shift to cloud-native architectures with containerized workloads and Kubernetes has introduced more data, dependencies, and complexity across systems",
+    "runs": [
+      "Shift to cloud-native architectures with containerized workloads and Kubernetes has introduced more data, dependencies, and complexity across systems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:7",
+    "text": "SREs often get burned out due to on-call shifts",
+    "runs": [
+      "SREs o",
+      "ften get burned out due to on-call shifts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "Principles of Infrastructure and DevOps ",
+    "runs": [
+      "Principles of Infrastructure and DevOps "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:1",
+    "text": "Four golden signals of monitoring",
+    "runs": [
+      "Four golden signals of monitoring"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "Latency",
+    "runs": [
+      "Latency"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "Errors",
+    "runs": [
+      "Errors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Traffic",
+    "runs": [
+      "Traffic"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Requests/sec",
+    "runs": [
+      "Requests/sec"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:6",
+    "text": "Saturation",
+    "runs": [
+      "Saturation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "Monitor production traces",
+    "runs": [
+      "Monitor production traces"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "At 3:12 am you get a ping from PagerDuty that you’re seeing a spike in 500s on your database queries. What do we do?",
+    "runs": [
+      "At 3:12 am you get a ping from PagerDuty that you’re seeing a spike in 500s on your database queries. What do we do?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "A Potential Playbook",
+    "runs": [
+      "A Potential Playbook"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Acknowledge and assess",
+    "runs": [
+      "Acknowledge and assess"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "Check DB + app",
+    "runs": [
+      "Check DB + app"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "Identify recent changes",
+    "runs": [
+      "Identify recent changes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "Localize blast radius",
+    "runs": [
+      "Localize blast radius"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "Execute mitigations",
+    "runs": [
+      "Execute mitigations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Stabilize + monitor",
+    "runs": [
+      "Stabilize + monitor"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "Communicate",
+    "runs": [
+      "Communicate"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:8",
+    "text": "Document",
+    "runs": [
+      "Document"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "Metrics Tracked",
+    "runs": [
+      "Metrics Tracked"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:1",
+    "text": "Mean-time-to-repair (MTTR)",
+    "runs": [
+      "Mean-time-to-repair (MTTR)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:2",
+    "text": "How many engineers are pulled into incident",
+    "runs": [
+      "How many engineers are pulled into incident"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "Reported SLA for customers",
+    "runs": [
+      "Reported SLA for customers"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "The New AI World",
+    "runs": [
+      "The New AI World"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Resolve AI (guest lecture 11/21)",
+    "runs": [
+      "Resolve AI",
+      " ",
+      "(guest lecture 11/21)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "DataDog Bits AI Agent",
+    "runs": [
+      "DataDog Bits AI Agent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Splunk Observability Assistant",
+    "runs": [
+      "Splunk Observability Assistant"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Characteristics of an AI SRE",
+    "runs": [
+      "Characteristics of an AI SRE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "Dynamic mapping of a knowledge graph",
+    "runs": [
+      "Dynamic ",
+      "mapping of a knowledge graph"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "Agentic system across observability stack and clouds",
+    "runs": [
+      "Agentic system across observability stack and clouds"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "Generates real-time narratives of what is happening, pinpoints likely root causes with supporting evidence, and recommends prescriptive remediation steps",
+    "runs": [
+      "Generates real-time narratives of what is happening, pinpoints likely root causes with supporting evidence, and recommends prescriptive remediation steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "Heavy emphasis on explainability and auditability of predictions/reasoning",
+    "runs": [
+      "Heavy emphasis on explainability and auditability of predictions/reasoning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "What Has Changed",
+    "runs": [
+      "What Has Changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:4",
+    "text": "AI promises to scale out organizational and service level knowledge ",
+    "runs": [
+      "AI promises to scale out organizational and service level knowledge "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:5",
+    "text": "Information is not siloed to the only engineers who know the undocumented dependencies, brittle legacy services, and quirks that only surface during high-stakes incidents. ",
+    "runs": [
+      "Information is not siloed to the only ",
+      "engineers who know the undocumented dependencies, brittle legacy services, and quirks that only surface during high-stakes incidents.",
+      " "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:0",
+    "text": "What Has Changed",
+    "runs": [
+      "What Has Changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "Automation reduces review time and catches issues early",
+    "runs": [
+      "Automation reduces review time and catches issues early"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:5",
+    "text": "Developers learn best practices through AI suggestions",
+    "runs": [
+      "Developers learn best practices through AI suggestions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:6",
+    "text": "AI applies the same standards across all code reviews",
+    "runs": [
+      "AI applies the same standards across all code reviews"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:7",
+    "text": "AI handles routine checks, letting humans focus on complex logic",
+    "runs": [
+      "AI handles routine checks, letting humans focus on complex logic"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:8",
+    "text": "AI systems improve over time with more data",
+    "runs": [
+      "AI systems improve over time with more data"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:9",
+    "text": "modern AI code review tools go deeper, offering contextual analysis and pattern recognition",
+    "runs": [
+      "modern AI code review tools go deeper, offering contextual analysis and pattern recognition"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:0",
+    "text": "Let’s See AI SRE in Action",
+    "runs": [
+      "Let’s See AI SRE in Action"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:0",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "Complexity of incidents that can be resolved",
+    "runs": [
+      "Complexity of incidents that can be resolved"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "Heterogeneity of modern production stacks",
+    "runs": [
+      "Heterogeneity of modern production stacks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:6",
+    "text": "Ability to remediate actual code based on what has been detected",
+    "runs": [
+      "Ability to remediate actual code based on what has been detected"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:7",
+    "text": "Eventual goal though all providers are starting with root cause analysis",
+    "runs": [
+      "Eventual goal though all providers are starting with root cause analysis"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:8",
+    "text": "Good root cause analysis requires good monitoring gardening",
+    "runs": [
+      "Good root cause analysis requires good monitoring gardening"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:9",
+    "text": "Security could be a new attack vector",
+    "runs": [
+      "Security could be a new attack vector"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:2",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

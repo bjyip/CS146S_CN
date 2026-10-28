@@ -1,0 +1,263 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:0",
+    "text": "User interacts with coding agent client (windsurf, cursor, claude code) and runs a loop with an underlying llm. Sometimes the llm issues tool calls which the client executes (off-LLM)",
+    "runs": [
+      "User interacts with coding agent client (windsurf, cursor, claude code) and runs a loop with an underlying llm. Sometimes the llm issues tool calls which the client executes (off-LLM)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "Building a Coding Agent From Scratch",
+    "runs": [
+      "Building a Coding Agent From Scratch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:4",
+    "text": "It’s that simple",
+    "runs": [
+      "It’s that simple"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Terminology",
+    "runs": [
+      "Terminology"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "System prompt",
+    "runs": [
+      "System prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:2",
+    "text": "Define the behavior and some directives for the overall LLM",
+    "runs": [
+      "Define the behavior and some directives for the overall LLM"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "User prompt",
+    "runs": [
+      "User prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "Custom user requests",
+    "runs": [
+      "Custom user requests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:5",
+    "text": "Assistant prompt",
+    "runs": [
+      "Assistant prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:6",
+    "text": "LLM’s response",
+    "runs": [
+      "LLM’s response"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Steps",
+    "runs": [
+      "Steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:1",
+    "text": "Read in terminal and keep appending to conversation",
+    "runs": [
+      "Read in terminal and keep appending to conversation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "Tell LLM what tools are available",
+    "runs": [
+      "Tell LLM what tools are available"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "It asks for tool use at appropriate time",
+    "runs": [
+      "It asks for tool use at appropriate time"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "You execute tool offline and return response",
+    "runs": [
+      "You execute tool offline and return response"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "“Read_file”",
+    "runs": [
+      "“Read_file”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:6",
+    "text": "“List_dir”",
+    "runs": [
+      "“List_dir”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:7",
+    "text": "“Edit_file”",
+    "runs": [
+      "“Edit_file”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:8",
+    "text": "Create a new file, edit a new file",
+    "runs": [
+      "Create a new file, edit a new file"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Let’s build a coding agent from scratch!",
+    "runs": [
+      "Let’s build a coding agent from scratch!"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "The “Secret” Sauce",
+    "runs": [
+      "The “Secret” Sauce"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:1",
+    "text": "Looking under the hood of Claude",
+    "runs": [
+      "Looking under the hood of Claude"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "Front-load context with tiny targeted prompts",
+    "runs": [
+      "Front-load context with tiny targeted prompts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "System reminders everywhere including system/user prompts, tool calls, tool results to prevent drift (<system-reminder> tags)",
+    "runs": [
+      "System reminders everywhere including system/user prompts, tool calls, tool results to prevent drift (<system-reminder> tags)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Command prefix extraction",
+    "runs": [
+      "Command prefix extraction"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Spawns sub agents (likely to help with preventing context overloading)",
+    "runs": [
+      "Spawns sub agents (likely to help with ",
+      "preventing",
+      " context overloading)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  }
+]

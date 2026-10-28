@@ -1,0 +1,1673 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide1.xml:0",
+    "text": "Welcome to english 170 - structured writing for professionals",
+    "runs": [
+      "Welcome to english 170 - structured writing for professionals"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:0",
+    "text": "Jokes! It’s 8:30 am after all",
+    "runs": [
+      "Jokes! It’s 8:30 am after all"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:1",
+    "text": "But as we’ll see this class we will spend a lot of time learning to write well-structured english prose, more than sophisticated fancy code",
+    "runs": [
+      "But as we’ll see this class we will spend a lot of time learning to write well-structured english prose, more than sophisticated fancy code"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:2",
+    "text": "This is the way that software engineering is evolving as we learn to interact with modern AI systems",
+    "runs": [
+      "This is the way that software engineering is evolving as we ",
+      "learn to interact with modern AI systems"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:4",
+    "text": "For whom is this your first class of the quarter? First class at Stanford? Exciting, you’ll either walk out of this thinking I’m so lucky to be @ Stanford, or when’s the deadline for me to get refunded on my tuition?\t",
+    "runs": [
+      "For whom is this your first class of the quarter? First class at Stanford? Exciting, you’ll either walk out of this thinking I’m so lucky to be @ Stanford, or when’s the deadline for me to get refunded on my tuition?\t"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:0",
+    "text": "Today I’ll given an overview for what the structure and topics of the course",
+    "runs": [
+      "Today I’ll given an overview for what the structure and topics of the course"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:1",
+    "text": "Then we’ll spend some time doing a how the sausage is made for LLMs",
+    "runs": [
+      "Then we’ll spend some time doing a how the sausage is made for LLMs"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:2",
+    "text": "The most “AI”-ey lecture we’ll have all quarter so stick with me",
+    "runs": [
+      "The most “AI”-ey lecture we’ll have all quarter so stick with me"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:0",
+    "text": "The generative AI revolution is poised to revolutionize just about every industry out there",
+    "runs": [
+      "The generative AI revolution is poised to revolutionize just about every industry out there"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:1",
+    "text": "New headlines come up every day about the advances that have been made ",
+    "runs": [
+      "New headlines come up every day about the advances that have been made "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:2",
+    "text": "Huge capital investment from major tech corporations, it is likely the closest we have been to AGI in human history",
+    "runs": [
+      "Huge capital investment from major tech corporations, it is likely the closest we have been to AGI in human history"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:3",
+    "text": "In the 13 years I’ve been doing AI, the excitement level for the field is higher than it’s ever been ",
+    "runs": [
+      "In the 13 years I’ve been ",
+      "doing",
+      " AI, the excitement level for the field is higher than it’s ever been "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:0",
+    "text": "But for software, there are some hard truths",
+    "runs": [
+      "But for software, there are some hard truths"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:1",
+    "text": "Not going to mince words, software engineering as an industry is getting shaken - we’re experiencing a huge overhaul for the entire ecosystem",
+    "runs": [
+      "Not going to mince words, software engineering as an industry is getting shaken - we’re experiencing a huge overhaul for the entire ecosystem"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:2",
+    "text": "20% drop in enrollment for this major",
+    "runs": [
+      "20% drop in enrollment for this major"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:3",
+    "text": "The only professions with higher unemployment rate: graphic design (hello midjourney/veo3), chemistry (have you ever met a chemist?), anthropology (no one’s paying to find out how humans descended from homo habilis)",
+    "runs": [
+      "The only professions with higher unemployment rate: ",
+      "graphic",
+      " design (hello midjourney/veo3), chemistry (have you ever met a chemist?), anthropology (no one’s paying to find out how humans descended from homo habilis)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "But there is some good news",
+    "runs": [
+      "But there is some good news"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:1",
+    "text": "Students learning CS today have the potential to be an order of magnitude better than I was when I was learning. ",
+    "runs": [
+      "Students learning CS today have the potential to be an order of magnitude better than I was when I was learning. "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:2",
+    "text": "Part of the software engineering identity crisis is about asking ourselves what it really means to be a developer?",
+    "runs": [
+      "Part of the software engineering identity crisis is about asking ourselves what it really means to be a developer?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:3",
+    "text": "If your only value add is knowing how to copy-paste from Stackoverflow then you will be replaced by AI",
+    "runs": [
+      "If your only value add is knowing how to copy-paste from Stackoverflow then you will be replaced by AI"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:4",
+    "text": "If you think in terms of systems, understand business context, think through resilient architectures and abstractions, AI will strap a rocket to your back in terms of productivity",
+    "runs": [
+      "If you think in terms of systems, understand business context, think through resilient architectures and abstractions, AI will strap a rocket to your back in terms of productivity"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:5",
+    "text": "I promise I will teach you the state-of-the-art in how to use AI in software development today. This will make you irreplaceable",
+    "runs": [
+      "I promise I will teach you the state-of-the-art in how to use AI in software development today. This will make you irreplaceable"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Which brings us to this course…",
+    "runs": [
+      "Which brings us to this course…"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:1",
+    "text": "I want to set expectation upfront to scare off the GSB students. This is not the vibe coding class. ",
+    "runs": [
+      "I want to set expectation upfront to scare off the GSB students. This is not the vibe coding class. "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:2",
+    "text": "Vibe coding has different definitions but the standard one of just YOLO-ing and tab-accepting AI code is not the focus here",
+    "runs": [
+      "Vibe ",
+      "coding",
+      " has different definitions but the standard one of just YOLO-ing and tab-accepting AI code is not the focus here"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:3",
+    "text": "I’ll tell you why: vibe coding is just not good enough to truly build good software. Hard to predict but we’re likely 2-10+ years away from that being a viable way to build robust production-level software",
+    "runs": [
+      "I’ll tell you why: vibe coding is just not good enough to truly build good software. Hard to predict but we’re likely 2-10+ years away from that being a viable way to build robust production-level software"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:4",
+    "text": "Again this is not a class to teach non-technical users how to not have to hire developers.",
+    "runs": [
+      "Again t",
+      "his is not a class to teach non-technical users how to not have to hire developers."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:5",
+    "text": "This is a class for fairly experienced engineers to truly become 10x engineers",
+    "runs": [
+      "This is a class for fairly experienced engineers to truly become 10x engineers"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:0",
+    "text": "My alternative to vibe coding: human-agent engineering",
+    "runs": [
+      "My alternative to vibe coding: human-agent engineering"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:1",
+    "text": "These days bad code is both architecturally wrong decisions but also functionally incorrect software (from hallucinating LLMs)",
+    "runs": [
+      "These days bad code is both architecturally wrong ",
+      "decisions",
+      " but also functionally incorrect software (from hallucinating LLMs)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Tools will go out of date. I won’t be too prescriptive here. This class will evolve just as the field is evolving",
+    "runs": [
+      "Tools will go out of date. I won’t be too prescriptive here. This class will evolve just as the field is evolving"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "Elephant in the room",
+    "runs": [
+      "Elephant in the room"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:1",
+    "text": "Unlikely that we’ll be able to significantly increase enrollment cap (not my call)",
+    "runs": [
+      "Unlikely that we’ll be able to significantly increase enrollment cap (not my call)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:2",
+    "text": "If it were up to me everyone would be allowed in and we’d be teaching this class in the Stanford football stadium",
+    "runs": [
+      "If it were up to me everyone would be allowed in and we’d be teaching this class in the Stanford football stadium"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:3",
+    "text": "If you’re #45 on the waitlist perhaps you’ll get lucky and people will be so turned off after this lecture that you get in",
+    "runs": [
+      "If you’re #45 on the waitlist perhaps you’ll get lucky and people will be so turned off ",
+      "after this lecture that you get in"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:4",
+    "text": "We’ll try to get a larger space ",
+    "runs": [
+      "We’ll try to get a larger space "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:5",
+    "text": "All lecture materials on official course page",
+    "runs": [
+      "All lecture materials on ",
+      "official",
+      " course page"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:6",
+    "text": "Additional reading will be there",
+    "runs": [
+      "Additional reading will be there"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:7",
+    "text": "Links to assignments",
+    "runs": [
+      "Links to assignments"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:8",
+    "text": "Joke",
+    "runs": [
+      "Joke"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:9",
+    "text": "Who here has used AI coding tools?",
+    "runs": [
+      "Who here has used AI coding tools?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:10",
+    "text": "ChatGPT?",
+    "runs": [
+      "ChatGPT?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:11",
+    "text": "Who has used ChatGPT to cheat on an assignment? [GET THEM!]",
+    "runs": [
+      "Who has used ChatGPT to cheat on an assignment? [GET THEM!]"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:12",
+    "text": "These are assignments are meant to be done using coding assignments",
+    "runs": [
+      "These are assignments are meant to be done using coding assignments"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:13",
+    "text": "Assignments",
+    "runs": [
+      "Assignments"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:14",
+    "text": "Mainly in python and javascript",
+    "runs": [
+      "Mainly in python and javascript"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:15",
+    "text": "You should really have familiarity with this, so if you’re going to write messages in Ed asking for how to install python on your machine this isn’t the class for you",
+    "runs": [
+      "You ",
+      "should",
+      " really have familiarity with this, so if you’re going to write messages in Ed asking for how to install python on your machine this isn’t the class for you"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:16",
+    "text": "Quite a bit of software experience is necessary",
+    "runs": [
+      "Quite a bit of software experience is necessary"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:17",
+    "text": "Don’t worry too much about grades",
+    "runs": [
+      "Don’t worry too much about grades"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:18",
+    "text": "Assignments are more about completion rather than correctness",
+    "runs": [
+      "Assignments are more about completion rather than correctness"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:19",
+    "text": "Much of it will be about experimentation - I will give you parameters and invite you to explore ",
+    "runs": [
+      "Much of it will be about experimentation - I will give you parameters and invite you to explore "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:20",
+    "text": "Description of final project will go out later today",
+    "runs": [
+      "Description of final project will go out later today"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:21",
+    "text": "The students that are enrolled in the class will get access to many credits from different AI dev tool providers",
+    "runs": [
+      "The students that are enrolled in the class will get access to many credits from different AI dev tool providers"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:0",
+    "text": "Only math equation of the quarter. This equation explains why “context length” is such an important concept in LLMs (also to scare away the GSB students)",
+    "runs": [
+      "Only math equation of the quarter. This equation explains why “context length” is such an important concept in LLMs (also to scare away the GSB students)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:0",
+    "text": "Causal self-attention mechanism - internal mathematical mechanism that helps the model learn relationships between words, syntactically and semantically ",
+    "runs": [
+      "Causal self-attention mechanism - internal mathematical mechanism that helps the model learn ",
+      "relationships",
+      " between words, syntactically and semantically "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:1",
+    "text": "Tokenization is a bit more complicated (tokens that are embedded aren’t always full english words)",
+    "runs": [
+      "Tokenization is a bit more complicated (tokens that are embedded aren’t always full english words)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:2",
+    "text": "At the end every words is just a probability in a table",
+    "runs": [
+      "At the end every words is just a probability in a table"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:0",
+    "text": "GPT-3 (OpenAI)",
+    "runs": [
+      "GPT-3 (OpenAI)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:1",
+    "text": "Trained on ~300 billion tokens.",
+    "runs": [
+      "Trained on ",
+      "~300 billion tokens",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:2",
+    "text": "Sources included Common Crawl, WebText2, Books1/2, and Wikipedia.",
+    "runs": [
+      "Sources included Common Crawl, WebText2, Books1/2, and Wikipedia."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:3",
+    "text": "Roughly 570 GB of clean text data after filtering and deduplication.",
+    "runs": [
+      "Roughly ",
+      "570 GB of clean text data",
+      " after filtering and deduplication."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:4",
+    "text": "PaLM (Google, 2022)",
+    "runs": [
+      "PaLM (Google, 2022)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:5",
+    "text": "Trained on 780 billion tokens.",
+    "runs": [
+      "Trained on ",
+      "780 billion tokens",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:6",
+    "text": "Mixture of web documents, books, Wikipedia, and GitHub code.",
+    "runs": [
+      "Mixture of web documents, books, Wikipedia, and GitHub code."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:7",
+    "text": "LLaMA (Meta, 2023)",
+    "runs": [
+      "LLaMA (Meta, 2023)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:8",
+    "text": "LLaMA-65B: 1.4 trillion tokens.",
+    "runs": [
+      "LLaMA-65B: ",
+      "1.4 trillion tokens",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:9",
+    "text": "Mix of Common Crawl, GitHub, Wikipedia, ArXiv, StackExchange, and books.",
+    "runs": [
+      "Mix of Common Crawl, GitHub, Wikipedia, ArXiv, StackExchange, and books."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:11",
+    "text": " Code-Specific Models",
+    "runs": [
+      " Code-Specific Models"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:12",
+    "text": "Codex (OpenAI, 2021)",
+    "runs": [
+      "Codex (OpenAI, 2021)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:13",
+    "text": "Based on GPT-3, further pretrained on tens of billions of code tokens from public GitHub repositories.",
+    "runs": [
+      "Based on GPT-3, further pretrained on ",
+      "tens of billions of code tokens",
+      " from public GitHub repositories."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:14",
+    "text": "Exact size not disclosed, but estimates put it around 150+ GB of code.",
+    "runs": [
+      "Exact size not disclosed, but estimates put it around ",
+      "150+ GB of code",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:15",
+    "text": "Code LLaMA (Meta, 2023)",
+    "runs": [
+      "Code LLaMA (Meta, 2023)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:16",
+    "text": "Built on LLaMA-2, trained on 500 billion code tokens.",
+    "runs": [
+      "Built on LLaMA-2, trained on ",
+      "500 billion code tokens",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:17",
+    "text": "Sources: GitHub, StackOverflow, coding tutorials, and filtered high-quality code corpora.",
+    "runs": [
+      "Sources: GitHub, StackOverflow, coding tutorials, and filtered high-quality code corpora."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:18",
+    "text": "StarCoder (HuggingFace + ServiceNow, 2023)",
+    "runs": [
+      "StarCoder (HuggingFace + ServiceNow, 2023)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:19",
+    "text": "Trained on 1 trillion tokens total, with a large fraction being over 600+ programming languages from The Stack dataset.",
+    "runs": [
+      "Trained on ",
+      "1 trillion tokens total",
+      ", with a large fraction being ",
+      "over 600+ programming languages",
+      " from The Stack dataset."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:20",
+    "text": "About 3.1 TB of source code after filtering.",
+    "runs": [
+      "About ",
+      "3.1 TB of source code",
+      " after filtering."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:22",
+    "text": "For reference English wikipedia is about 3B tokens",
+    "runs": [
+      "For reference English wikipedia is about 3B tokens"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:0",
+    "text": "Reasoning models are typically the ones that say “-think” in the model name",
+    "runs": [
+      "Reasoning models are typically the ones that say “-think” in the model name"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:1",
+    "text": "LLMs are trained to have “special” capabilities like the ability to generate relevant functions",
+    "runs": [
+      "LLMs are trained to have “special” ",
+      "capabilities",
+      " like the ability to generate relevant functions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:0",
+    "text": "Hallucinations seem more prominent in languages that are less well-represented in public code corpora",
+    "runs": [
+      "Hallucinations seem more prominent in languages that are less well-represented in public code corpora"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:1",
+    "text": "Context windows",
+    "runs": [
+      "Context windows"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:2",
+    "text": "primacy/recency bias (recency ends up still being strong)",
+    "runs": [
+      "primacy/recency bias (recency ends up still being strong)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:3",
+    "text": "Lost-in-the-middle effect",
+    "runs": [
+      "Lost-in-the-middle effect"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:4",
+    "text": "Latency",
+    "runs": [
+      "Latency"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:5",
+    "text": "Thinking through how to organize your work so that you are maximizing your thinking utilization",
+    "runs": [
+      "Thinking through how to organize your ",
+      "work so that you are maximizing your thinking utilization"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:6",
+    "text": "A lot of human context switching",
+    "runs": [
+      "A lot of human context switching"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide19.xml:7",
+    "text": "Still pretty expensive to run LLMs at scale but that cost drops by around 10x every year",
+    "runs": [
+      "Still pretty expensive to run LLMs at scale but that cost drops by around 10x every year"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "Structured Writing for Professionals",
+    "runs": [
+      "Structured Writing for Professionals"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "English 170 ",
+    "runs": [
+      "English 170 "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "Introduction and How LLMs are Made",
+    "runs": [
+      "Introduction and How LLMs are Made"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "State of the World: 2025 ",
+    "runs": [
+      "State of the World: 2025 "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Bad News",
+    "runs": [
+      "Bad News"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "Windsurf team",
+    "runs": [
+      "Windsurf team"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Good News",
+    "runs": [
+      "Good News"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "Software developers have the potential to be more productive than they have ever been in history",
+    "runs": [
+      "Software ",
+      "developers",
+      " have the potential to be more productive than they have ever been in history"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "With AI coding an engineer can pick up tech stacks and tools at an unprecedented pace",
+    "runs": [
+      "With AI coding an engineer can pick up tech stacks and tools at an unprecedented pace"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "You won’t be replaced by AI. You’ll be replaced by a competent engineer who knows how to use AI. ",
+    "runs": [
+      "You won’t be replaced by AI. You’ll be replaced by a competent engineer who knows how to use AI. "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "This is not the “vibe coding” class",
+    "runs": [
+      "This is ",
+      "not",
+      " the ",
+      "“",
+      "vibe coding",
+      "”",
+      " class"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": " 10 weeks in 2 slides",
+    "runs": [
+      " 10 weeks in 2 slides"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "The Takeaway",
+    "runs": [
+      "The Takeaway"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "Human-agent engineering ",
+    "runs": [
+      "Human-agent engineering "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:2",
+    "text": "Focus on the skills that are not yet replaced by AI systems",
+    "runs": [
+      "Focus on the skills that are not yet replaced by AI systems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "Business understanding",
+    "runs": [
+      "Business understanding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Become the tech lead",
+    "runs": [
+      "Become the tech lead"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "LLMs are only as good as you are",
+    "runs": [
+      "LLMs are only as good as you are"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:6",
+    "text": "Good context leads to good code",
+    "runs": [
+      "Good context leads to good code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "If you can’t understand your codebase, neither will an LLM",
+    "runs": [
+      "If you can’t understand your codebase, neither will an LLM"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "The Takeaway",
+    "runs": [
+      "The Takeaway"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:1",
+    "text": "Read and review a lot of code",
+    "runs": [
+      "Read and review ",
+      "a lot",
+      " of code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:2",
+    "text": "Learn to discern good from bad, wrong software",
+    "runs": [
+      "Learn to discern good from bad, wrong software"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "Have good taste",
+    "runs": [
+      "Have good taste"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "Experiment aggressively",
+    "runs": [
+      "Experiment aggressively"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "There are no established software patterns yet",
+    "runs": [
+      "There are no established software patterns yet"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:6",
+    "text": "Everyone is still figuring it out",
+    "runs": [
+      "Everyone is still figuring it out"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:7",
+    "text": "This class will introduce many workflows and tools - figure out what works for you",
+    "runs": [
+      "This class will introduce many workflows and tools - figure out what works for you"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "Course Logistics",
+    "runs": [
+      "Course Logistics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "A bit about me",
+    "runs": [
+      "A bit about me"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "Stanford undergrad/grad",
+    "runs": [
+      "Stanford undergrad/grad"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Head of AI at a stealth startup in the sales space",
+    "runs": [
+      "Head of AI at a stealth startup in the sales space"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "Built first LLMs at Amazon Alexa",
+    "runs": [
+      "Built first LLMs at Amazon Alexa"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "Founded and sold an ML education startup",
+    "runs": [
+      "Founded and sold an ML education startup"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "Founded a YC-backed AI coding company",
+    "runs": [
+      "Founded a YC-backed AI coding company"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:7",
+    "text": "1 awesome CA",
+    "runs": [
+      "1 awesome CA"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:8",
+    "text": "Febie Lin",
+    "runs": [
+      "Febie Lin"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Course Logistics",
+    "runs": [
+      "Course Logistics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "https://themodernsoftware.dev",
+    "runs": [
+      "https://themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "Lectures",
+    "runs": [
+      "Lectures"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "Mon/Fri 8:30-9:20 am",
+    "runs": [
+      "Mon/Fri 8:30-9:20 am"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "Deliverables",
+    "runs": [
+      "Deliverables"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:5",
+    "text": "9 assignments (1x/week) focusing on lecture material practice",
+    "runs": [
+      "9 assignments (1x/week) focusing on lecture material practice"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:6",
+    "text": "https://github.com/mihail911/modern-software-dev-assignments",
+    "runs": [
+      "https://github.com/mihail911/modern-software-dev-assignments"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:7",
+    "text": "1 final open-ended project in which you will exercise AI coding principles we cover",
+    "runs": [
+      "1 final open-ended project in which you will exercise AI coding principles we cover"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:8",
+    "text": "Grading",
+    "runs": [
+      "Grading"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:9",
+    "text": "80/15/5 breakdown for project/assignments/participation",
+    "runs": [
+      "80/15/5 breakdown for project/assignments/participation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:10",
+    "text": "Something pretty awesome",
+    "runs": [
+      "Something pretty awesome"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:11",
+    "text": "Guest lectures from founders leading top AI developer startups today",
+    "runs": [
+      "Guest lectures from founders leading top AI developer startups today"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:12",
+    "text": "$100s of millions raised, billions in valuation",
+    "runs": [
+      "$100s of millions raised, billions in valuation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:13",
+    "text": "Don’t miss these talks!",
+    "runs": [
+      "Don’t miss these talks!"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:16",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "How LLMs Work in 5 Slides ",
+    "runs": [
+      "How LLMs Work in 5 Slides "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "(For Engineers)",
+    "runs": [
+      "(",
+      "For Engineers)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "Basics",
+    "runs": [
+      "Basics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:1",
+    "text": "LLMs (large language models) are autoregressive models for next-token prediction",
+    "runs": [
+      "LLMs (large language models) are autoregressive models for next-token prediction"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:1",
+    "text": "Basics",
+    "runs": [
+      "Basics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "a ",
+    "runs": [
+      "a "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:6",
+    "text": "for ",
+    "runs": [
+      "for",
+      " "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:8",
+    "text": "loop ",
+    "runs": [
+      "loop",
+      " "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:10",
+    "text": "for ",
+    "runs": [
+      "for",
+      " "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:12",
+    "text": "Embedding layer",
+    "runs": [
+      "Embedding layer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:18",
+    "text": "0.3",
+    "runs": [
+      "0.3"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:19",
+    "text": "the",
+    "runs": [
+      "the"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:20",
+    "text": "0.6",
+    "runs": [
+      "0.6"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:21",
+    "text": "idx",
+    "runs": [
+      "idx"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:22",
+    "text": "0.1",
+    "runs": [
+      "0.1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:23",
+    "text": "cat",
+    "runs": [
+      "cat"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:42",
+    "text": "Tokenize inputs using fixed vocabulary",
+    "runs": [
+      "Tokenize inputs using fixed vocabulary"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:43",
+    "text": "Convert tokens into fixed-dimensional numerical vectors (~1-3K dimensions)",
+    "runs": [
+      "Convert tokens into fixed-dimensional numerical vectors (~1-3K dimensions)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:44",
+    "text": "Transformers layers (12-96+) using self-attention mechanism (Viswani et. al. 2017)",
+    "runs": [
+      "Transformers layers (12-96+) using self-attention mechanism (Viswani et. al. 2017)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:45",
+    "text": "Get probability distribution over most likely next token",
+    "runs": [
+      "Get probability distribution over most likely next token"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:0",
+    "text": "Training Process",
+    "runs": [
+      "Training Process"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:1",
+    "text": "Stage 1",
+    "runs": [
+      "Stage 1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "Self-supervised pretraining",
+    "runs": [
+      "Self-supervised pretraining"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:3",
+    "text": "Teach the model notion of language on a variety of often public data sources",
+    "runs": [
+      "Teach the model notion of language on a variety of often public data sources"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:4",
+    "text": "100s of billions to trillion+ tokens (language and code)",
+    "runs": [
+      "100s of billions to trillion+ tokens (language and code)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:5",
+    "text": "Common Crawl, Wikipedia, StackExchange, Public Github repos",
+    "runs": [
+      "Common Crawl, Wikipedia, StackExchange, Public Github repos"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:6",
+    "text": "Write a for loop → that could be used in a piece of code",
+    "runs": [
+      "Write a for loop",
+      " → ",
+      "that could be used in a piece of code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:7",
+    "text": "Stage 2",
+    "runs": [
+      "Stage 2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:8",
+    "text": "Supervised finetuning",
+    "runs": [
+      "Supervised finetuning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:9",
+    "text": "Teach model to follow instructions",
+    "runs": [
+      "Teach model to follow instructions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:10",
+    "text": "High-quality, curated prompt-response pairs (“what is the capital of Croatia” -> “Zagreb is the capital”)",
+    "runs": [
+      "High-quality, curated prompt-response pairs (“",
+      "what is the capital of Croatia",
+      "” -> “",
+      "Zagreb is the capital",
+      "”)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:11",
+    "text": "Tens of thousands to 100s of thousands of pairs ",
+    "runs": [
+      "Tens of thousands to 100s of thousands of pairs "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:12",
+    "text": "Write a for loop → ok here’s a for loop…",
+    "runs": [
+      "Write a for loop",
+      " → ",
+      "ok here’s a for loop…"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:13",
+    "text": "Stage 3",
+    "runs": [
+      "Stage 3"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:14",
+    "text": "Preferencing tuning",
+    "runs": [
+      "Preferencing tuning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:15",
+    "text": "Align model outputs with human preferences (helpfulness, correctness, readability)",
+    "runs": [
+      "Align model outputs with human preferences (helpfulness, correctness, readability)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:16",
+    "text": "Collect pairs of outputs for same prompt and train reward model to predict preferred output",
+    "runs": [
+      "Collect pairs of outputs for same prompt and train reward model to predict preferred output"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:17",
+    "text": "Tens of thousands to 100s of thousands of human-labeled comparisons",
+    "runs": [
+      "Tens of thousands to 100s of thousands of human-labeled comparisons"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:18",
+    "text": "Write a for loop → for idx in range(10):",
+    "runs": [
+      "Write a for loop",
+      " → ",
+      "for idx in range(10):"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:21",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:0",
+    "text": "Training Process",
+    "runs": [
+      "Training Process"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:1",
+    "text": "Reasoning models",
+    "runs": [
+      "Reasoning models"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:2",
+    "text": "Extend training with chain-of-thought reasoning traces",
+    "runs": [
+      "Extend training with chain-of-thought reasoning traces"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "Tool-use integration",
+    "runs": [
+      "Tool-use integration"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "Get human preferences on reasoning steps",
+    "runs": [
+      "Get human preferences on reasoning steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "Reinforcement learning to learn how to evaluate reasoning traces, backtrack, etc",
+    "runs": [
+      "Reinforcement learning to learn how to evaluate reasoning traces, backtrack, etc"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:6",
+    "text": "Size",
+    "runs": [
+      "Size"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:7",
+    "text": "GPT-3/Claude 3.5 Sonnet - 175B parameters",
+    "runs": [
+      "GPT-3/Claude 3.5 Sonnet - 175B parameters"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:8",
+    "text": "LLaMA 3.1 - 405B parameters",
+    "runs": [
+      "LLaMA 3.1 - 405B parameters"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:9",
+    "text": "GPT-4 - 1.8T (reported)",
+    "runs": [
+      "GPT-4 - 1.8T (reported)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:12",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:0",
+    "text": "In practice",
+    "runs": [
+      "In practice"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:1",
+    "text": "Strengths",
+    "runs": [
+      "Strengths"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:2",
+    "text": "Expert-level code completion",
+    "runs": [
+      "Expert-level code completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:3",
+    "text": "Code understanding",
+    "runs": [
+      "Code understanding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:4",
+    "text": "Code fixing",
+    "runs": [
+      "Code fixing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:5",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:6",
+    "text": "Hallucinations",
+    "runs": [
+      "Hallucinations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:7",
+    "text": "Generating non-existent/out-of-date APIs (mitigated with robust context engineering)",
+    "runs": [
+      "Generating non-existent/out-of-date APIs (mitigated with robust context engineering)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:8",
+    "text": "Context window limits",
+    "runs": [
+      "Context window limits"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:9",
+    "text": "~100-200K tokens but not all are created equal",
+    "runs": [
+      "~100-200K tokens but not all are created equal"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:10",
+    "text": "Latency",
+    "runs": [
+      "Latency"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:11",
+    "text": "Seconds to minutes per request depending on task (plan and delegate accordingly)",
+    "runs": [
+      "Seconds to ",
+      "minutes",
+      " per request depending on task (plan and delegate accordingly)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:12",
+    "text": "Cost\t",
+    "runs": [
+      "Cost\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:13",
+    "text": "$1-3 per million input tokens, $10+ per million output tokens for best models",
+    "runs": [
+      "$1-3 per million input tokens, $10+ per ",
+      "million",
+      " output tokens for best models"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:16",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:3",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

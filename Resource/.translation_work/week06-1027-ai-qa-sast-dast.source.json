@@ -1,0 +1,902 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "Cover code + runtime + dependencies",
+    "runs": [
+      "Cover code + runtime + dependencies"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Give examples of SAST tools",
+    "runs": [
+      "Give examples of SAST tools"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:1",
+    "text": "Bandit",
+    "runs": [
+      "Bandit"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:2",
+    "text": "Semgrep",
+    "runs": [
+      "Semgrep"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:3",
+    "text": "Eslint + extensions",
+    "runs": [
+      "Eslint + extensions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "Give examples of DAST tools",
+    "runs": [
+      "Give examples of DAST tools"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide13.xml:0",
+    "text": "Extracting system prompts from ai agents (AMP code in this case)",
+    "runs": [
+      "Extracting system prompts from ai agents (AMP code in this case)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:0",
+    "text": "https://embracethered.com/blog/posts/2025/amp-agents-that-modify-system-configuration-and-escape/",
+    "runs": [
+      "https://embracethered.com/blog/posts/2025/amp-agents-that-modify-system-configuration-and-escape/"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 10/31/25",
+    "runs": [
+      "Guest Lecture - 10/31/25"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "CEO of Semgrep, Isaac Evans",
+    "runs": [
+      "CEO of ",
+      "Semgrep",
+      ", Isaac Evans"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "AI Testing and Security",
+    "runs": [
+      "AI Testing and Security"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Software errors can dash user trust in a product/company and incur huge financial costs ",
+    "runs": [
+      "Software errors can dash user trust in a product/company and incur huge financial costs "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "When an LLM is writing most of your code, you need extensive guardrails to prevent those errors",
+    "runs": [
+      "When an LLM is writing most of your code, you need extensive guardrails to prevent those errors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Existing threat landscape",
+    "runs": [
+      "Existing threat landscape"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:1",
+    "text": "SQL injections",
+    "runs": [
+      "SQL injections"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "Cross-site scripting",
+    "runs": [
+      "Cross-site scripting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "Broken authentication",
+    "runs": [
+      "Broken authentication"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:4",
+    "text": "Insecure direct object references",
+    "runs": [
+      "Insecure direct object references"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "Security misconfigurations",
+    "runs": [
+      "Security misconfigurations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:6",
+    "text": "Sensitive data exposure",
+    "runs": [
+      "Sensitive data exposure"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Vulnerability detection techniques",
+    "runs": [
+      "Vulnerability detection techniques"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "SAST",
+    "runs": [
+      "SAST"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "DAST",
+    "runs": [
+      "DAST"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "SCA",
+    "runs": [
+      "SCA"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "SAST",
+    "runs": [
+      "SAST"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:1",
+    "text": "Static Application Security Testing ",
+    "runs": [
+      "S",
+      "tatic ",
+      "A",
+      "pplication ",
+      "S",
+      "ecurity ",
+      "T",
+      "esting "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "White box testing technique",
+    "runs": [
+      "White box testing technique"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "Analyzes binaries and source code",
+    "runs": [
+      "Analyzes binaries and source code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "Happens early in software development life cycle when much cheaper to identify and correct",
+    "runs": [
+      "Happens early in software development life cycle when much cheaper to identify and correct"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Identify vulnerabilities like SQL injections, command injections, cross-site scripting",
+    "runs": [
+      "Identify vulnerabilities like SQL injections, command injections, cross-site scripting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:6",
+    "text": "Techniques",
+    "runs": [
+      "Techniques"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "Codebase scan with pattern matching",
+    "runs": [
+      "Codebase scan with pattern matching"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:0",
+    "text": "DAST",
+    "runs": [
+      "DAST"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:1",
+    "text": "Dynamic Application Security Testing ",
+    "runs": [
+      "D",
+      "ynamic",
+      " ",
+      "A",
+      "pplication ",
+      "S",
+      "ecurity ",
+      "T",
+      "esting "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:2",
+    "text": "Black box testing technique",
+    "runs": [
+      "Black box testing technique"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "Mimic actions of real-world hackers to uncover vulnerabilities",
+    "runs": [
+      "Mimic actions of real-world hackers to uncover vulnerabilities"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:4",
+    "text": "Can happen throughout SDLC and offers fewer false positives",
+    "runs": [
+      "Can happen throughout SDLC and offers fewer false positives"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Identify vulnerabilities like SQL injections, broken authentication, cross-site scripting",
+    "runs": [
+      "Identify vulnerabilities like SQL injections, broken authentication, cross-site scripting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Techniques",
+    "runs": [
+      "Techniques"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Input fuzzing",
+    "runs": [
+      "Input fuzzing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:8",
+    "text": "Manipulating session tokens",
+    "runs": [
+      "Manipulating session tokens"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:9",
+    "text": "Configuration/header testing",
+    "runs": [
+      "Configuration/header testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:10",
+    "text": "Brute force rate-limit tests",
+    "runs": [
+      "Brute force rate-limit tests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:12",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "SCA",
+    "runs": [
+      "SCA"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Software Composition Analysis ",
+    "runs": [
+      "S",
+      "oftware ",
+      "C",
+      "omposition ",
+      "A",
+      "nalysis",
+      " "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "Deep analysis of OSS packages used by application",
+    "runs": [
+      "Deep analysis of OSS packages used by application"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "Perform analysis of package managers, infrastructure-as-code, pull images to find vulnerabilities",
+    "runs": [
+      "Perform analysis of package managers, infrastructure-as-code, pull images to find vulnerabilities"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "Techniques",
+    "runs": [
+      "Techniques"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "Analyze package metadata for dependencies",
+    "runs": [
+      "Analyze package metadata for dependencies"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Transitive dependency resolution",
+    "runs": [
+      "Transitive dependency resolution"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "Match against DB of vulnerabilities ",
+    "runs": [
+      "Match against DB of vulnerabilities "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:8",
+    "text": "Binary/artifact scanning",
+    "runs": [
+      "Binary/artifact scanning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "What has changed",
+    "runs": [
+      "What has changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Bad: new AI agent attack vectors",
+    "runs": [
+      "Bad: new AI agent attack vectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "Good: new techniques for improving SAST/DAST/SCA",
+    "runs": [
+      "Good: new techniques for improving SAST/DAST/SCA"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "New AI agent attack vectors",
+    "runs": [
+      "New AI agent attack vectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "Prompt injection",
+    "runs": [
+      "Prompt injection"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Hidden or misleading instructions to gen AI system to make it deviate from intended behavior",
+    "runs": [
+      "Hidden or misleading instructions to gen AI system to make it deviate from intended behavior"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "New AI agent attack vectors",
+    "runs": [
+      "New AI agent attack vectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "Tool misuse",
+    "runs": [
+      "Tool misuse"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:5",
+    "text": "Manipulate agent through deceptive prompts to abuse its integrated tools",
+    "runs": [
+      "Manipulate agent through deceptive prompts to abuse its integrated tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:0",
+    "text": "New AI agent attack vectors",
+    "runs": [
+      "New AI agent attack vectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "Code attacks",
+    "runs": [
+      "Code attacks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:5",
+    "text": "Exploit agent’s ability to execute code to gain unauthorized access to execution environment",
+    "runs": [
+      "Exploit agent’s ability to execute code to gain unauthorized access to execution environment"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:0",
+    "text": "New AI agent attack vectors",
+    "runs": [
+      "New AI agent attack vectors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "Prompt injection",
+    "runs": [
+      "Prompt injection"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "Hidden or misleading instructions to gen AI system to make it deviate from intended behavior",
+    "runs": [
+      "Hidden or misleading instructions to gen AI system to make it deviate from intended behavior"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:6",
+    "text": "Tool misuse",
+    "runs": [
+      "Tool misuse"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:7",
+    "text": "Manipulate agent through deceptive prompts to abuse its integrated tools",
+    "runs": [
+      "Manipulate agent through deceptive prompts to abuse its integrated tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:8",
+    "text": "Intent breaking",
+    "runs": [
+      "Intent breaking"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:9",
+    "text": "Manipulate agent’s plan to redirect actions away from original intent",
+    "runs": [
+      "Manipulate agent’s plan to redirect actions away from original intent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:10",
+    "text": "Identity spoofing",
+    "runs": [
+      "Identity spoofing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:11",
+    "text": "Exploit compromised authentication to pose as legitimate agents",
+    "runs": [
+      "Exploit compromised authentication to pose as legitimate agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:12",
+    "text": "Code attacks",
+    "runs": [
+      "Code attacks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:13",
+    "text": "Exploit agent’s ability to execute code to gain unauthorized access to execution environment",
+    "runs": [
+      "Exploit agent’s ability to execute code to gain unauthorized access to execution environment"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:0",
+    "text": "What has changed",
+    "runs": [
+      "What has changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:4",
+    "text": "“Shift left” security is more accessible than ever",
+    "runs": [
+      "“Shift left” security is more accessible than ever"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:5",
+    "text": "LLMs can be introduced in a workflow to spot issues",
+    "runs": [
+      "LLMs can be introduced in a workflow to spot issues"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:6",
+    "text": "Automated penetration testing",
+    "runs": [
+      "Automated penetration testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:0",
+    "text": "How LLMs are used for security and testing",
+    "runs": [
+      "How LLMs are used for security and testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:0",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:4",
+    "text": "In AI SAST, false positive rates are incredibly high",
+    "runs": [
+      "In AI SAST, false positive rates are incredibly high"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:5",
+    "text": "Claude Code/Codex can be 50-100% depending on the vulnerability",
+    "runs": [
+      "Claude Code/Codex can be 50-100% depending on the vulnerability"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:6",
+    "text": "Compare to 50+% for traditional SAST techniques",
+    "runs": [
+      "Compare to 50+% for traditional SAST techniques"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:7",
+    "text": "Existing benchmarks are often unrealistic so hard to evaluate LLM",
+    "runs": [
+      "Existing benchmarks are often unrealistic so hard to evaluate LLM"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:8",
+    "text": "Nondeterministic analysis\t",
+    "runs": [
+      "Nondeterministic analysis\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:9",
+    "text": "Run the same prompt multiple times and get different results → how do you know you’re catching all vulnerabilities?",
+    "runs": [
+      "Run the same prompt multiple times and get different results → how do you know you’re catching all vulnerabilities?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:10",
+    "text": "Context rot",
+    "runs": [
+      "Context rot"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:11",
+    "text": "Not all context is created equally",
+    "runs": [
+      "Not all context is created equally"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:12",
+    "text": "Compaction",
+    "runs": [
+      "Compaction"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:13",
+    "text": "Summarize so that things fit into context",
+    "runs": [
+      "Summarize so that things fit into context"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:0",
+    "text": "Open Questions",
+    "runs": [
+      "Open Questions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:4",
+    "text": "How to reduce false positives and hallucinations in vulnerability detection?",
+    "runs": [
+      "How to reduce false positives and hallucinations in vulnerability detection?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:5",
+    "text": "How do we verify that LLM-generated patches are secure and don’t introduce regressions?",
+    "runs": [
+      "How do we verify that LLM-generated patches are secure and don’t introduce regressions?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:6",
+    "text": "How can LLMs explain why they flag a vulnerability or propose a fix?",
+    "runs": [
+      "How can LLMs explain ",
+      "why",
+      " they flag a vulnerability or propose a fix?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:7",
+    "text": "What are the right benchmarks for measuring LLMs’ AppSec performance?",
+    "runs": [
+      "What are the right benchmarks for measuring LLMs’ AppSec performance?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:8",
+    "text": "How should LLMs be embedded in CI/CD without overwhelming teams with noise?",
+    "runs": [
+      "How should LLMs be embedded in CI/CD without overwhelming teams with noise?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:9",
+    "text": "Who is accountable if an AI-generated patch introduces a vulnerability?",
+    "runs": [
+      "Who is accountable if an AI-generated patch introduces a vulnerability?"
+    ]
+  }
+]

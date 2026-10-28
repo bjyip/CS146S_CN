@@ -1,0 +1,996 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:0",
+    "text": "𝗧𝘂𝗿𝗯𝗼 𝗣𝗮𝘀𝗰𝗮𝗹 (𝟭𝟵𝟴𝟯): First all-in-one editor, compiler, and linker. Focused solely on the Pascal language.",
+    "runs": [
+      "𝗧𝘂𝗿𝗯𝗼 𝗣𝗮𝘀𝗰𝗮𝗹 (𝟭𝟵𝟴𝟯): First all-in-one editor, compiler, and linker. Focused solely on the Pascal language."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:1",
+    "text": "𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗩𝗶𝘀𝘂𝗮𝗹 𝗦𝘁𝘂𝗱𝗶𝗼 (𝟭𝟵𝟵𝟳): Offered advanced debugging capabilities for the C++/Visual Basic language. First usage of Intellisense (precursor to Tab-Complete).",
+    "runs": [
+      "𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗩𝗶𝘀𝘂𝗮𝗹 𝗦𝘁𝘂𝗱𝗶𝗼 (𝟭𝟵𝟵𝟳): Offered advanced debugging capabilities for the C++/Visual Basic language. First usage of Intellisense (precursor to Tab-Complete)."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:2",
+    "text": "𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗷 𝗜𝗗𝗘𝗔 (𝟮𝟬𝟬𝟭): Released with advanced contextual code navigation, refactoring, code completion (conceptual ancestor of much of the AI functionality now baked into modern IDEs).",
+    "runs": [
+      "𝗜𝗻𝘁𝗲𝗹𝗹𝗶𝗷 𝗜𝗗𝗘𝗔 (𝟮𝟬𝟬𝟭): Released with advanced contextual code navigation, refactoring, code completion (conceptual ancestor of much of the AI functionality now baked into modern IDEs)."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:3",
+    "text": "𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗩𝗦𝗖𝗼𝗱𝗲 (𝟮𝟬𝟭𝟱): Offered  lightweight editor with highly extensible ecosystem of plugins. Allowed for an ecosystem of AI extensions like Copilot, Codeium (Windsurf), etc. Also introduced LSP (the conceptual inspiration for MCP).",
+    "runs": [
+      "𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗩𝗦𝗖𝗼𝗱𝗲 (𝟮𝟬𝟭𝟱): Offered  lightweight editor with highly extensible ecosystem of plugins. Allowed for an ecosystem of AI extensions like Copilot, Codeium (Windsurf), etc. Also introduced LSP (the conceptual inspiration for MCP)."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:4",
+    "text": "𝗖𝘂𝗿𝘀𝗼𝗿 (𝟮𝟬𝟮𝟯): Leaned heavily into AI-assisted development in all parts of IDE experience with refactoring, debugging, documentation generation, multi-file reasoning.",
+    "runs": [
+      "𝗖𝘂𝗿𝘀𝗼𝗿 (𝟮𝟬𝟮𝟯): Leaned heavily into AI-assisted development in all parts of IDE experience with refactoring, debugging, documentation generation, multi-file reasoning."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:5",
+    "text": "And here we are!",
+    "runs": [
+      "And here we are!"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:6",
+    "text": "In the IDE evolution, there’s always a see-saw between functionality consolidation and developer customization. Bring more into one platform but still allow power users to choose their own adventure.",
+    "runs": [
+      "In the IDE evolution, there’s always a see-saw between functionality consolidation and developer customization. Bring more into one platform but still allow power users to choose their own adventure."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "Different modes (in Cursor) for different complexity:\t* Tab (simple inline)\t* Cmd-K - simple question / a few lines\t* Cmd-L - multi-file",
+    "runs": [
+      "Different modes (in Cursor) for different complexity:",
+      "\t* Tab (simple inline)",
+      "\t* Cmd-K - simple question / a few lines",
+      "\t* Cmd-L - multi-file"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "Can see which files have been indexed in “Indexing & Docs” > “Ignore Files in .cursorignore” > “View included files”",
+    "runs": [
+      "Can see which files have been indexed in “Indexing & Docs” > “Ignore Files in .cursorignore” > “View included files”"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:0",
+    "text": "This is something you should iterate on to find what works for you",
+    "runs": [
+      "This is something you should iterate on to find what works for you"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:1",
+    "text": "These high level points should suffice",
+    "runs": [
+      "These high level points should suffice"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Do an actual more complex coding task with a specs doc",
+    "runs": [
+      "Do an actual more complex coding task with a specs doc"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:0",
+    "text": "A messy repo could be as simple as having different access patterns (like for a DB), variable naming, multiple functions that do the same thing",
+    "runs": [
+      "A messy repo could be as simple as having different access patterns (like for a DB), variable naming, multiple functions that do the same thing"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:0",
+    "text": "https://github.com/openai/codex/blob/main/AGENTS.md",
+    "runs": [
+      "https://github.com/openai/codex/blob/main/AGENTS.md"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:1",
+    "text": "Agents.md",
+    "runs": [
+      "Agents.md"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:2",
+    "text": "README.md files are for humans: quick starts, project descriptions, and contribution guidelines.",
+    "runs": [
+      "README.md files are for humans: quick starts, project descriptions, and contribution guidelines."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:3",
+    "text": "AGENTS.md complements this by containing the extra, sometimes detailed context coding agents need: build steps, tests, and conventions that might clutter a README or aren’t relevant to human contributors.",
+    "runs": [
+      "AGENTS.md complements this by containing the extra, sometimes detailed context coding agents need: build steps, tests, and conventions that might clutter a README or aren’t relevant to human contributors."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:4",
+    "text": "We intentionally kept it separate to:",
+    "runs": [
+      "We intentionally kept it separate to:"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:5",
+    "text": "Give agents a clear, predictable place for instructions.",
+    "runs": [
+      "Give agents a clear, predictable place for instructions."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:6",
+    "text": "Keep READMEs concise and focused on human contributors.",
+    "runs": [
+      "Keep READMEs concise and focused on human contributors."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:7",
+    "text": "Provide precise, agent-focused guidance that complements existing README and docs.",
+    "runs": [
+      "Provide precise, agent-focused guidance that complements existing README and docs."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:8",
+    "text": "What to include",
+    "runs": [
+      "What to include"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:9",
+    "text": "Add sections that help an agent work effectively with your project. Popular choices:",
+    "runs": [
+      "Add sections that help an agent work effectively with your project. Popular choices:"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:10",
+    "text": "Project overview",
+    "runs": [
+      "Project overview"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:11",
+    "text": "Build and test commands",
+    "runs": [
+      "Build and test commands"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:12",
+    "text": "Code style guidelines",
+    "runs": [
+      "Code style guidelines"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:13",
+    "text": "Testing instructions",
+    "runs": [
+      "Testing instructions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide14.xml:14",
+    "text": "Security considerations",
+    "runs": [
+      "Security considerations"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:0",
+    "text": "See some cursorrules/claude code specs as a learning tool",
+    "runs": [
+      "See some cursorrules/claude code ",
+      "specs",
+      " as a learning tool"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:1",
+    "text": "Where do they exist in the repo",
+    "runs": [
+      "Where do they exist in the repo"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide15.xml:2",
+    "text": "How extensive they can get",
+    "runs": [
+      "How extensive they can get"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 10/10/25 (8:30am PT, 420-041)",
+    "runs": [
+      "Guest Lecture - 10/10/25 (8:30am PT, 420-041)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "Cognition Head of Research, Silas Alberti",
+    "runs": [
+      "Cognition",
+      " Head of Research, Silas Alberti"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "The AI IDE: Fundamentals to Power User",
+    "runs": [
+      "The AI IDE: Fundamentals to Power User"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "IDE (Integrated Development Environment) ",
+    "runs": [
+      "IDE (Integrated Development Environment) "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:2",
+    "text": "All-in-one workspaces for software development containing editor, compiler, debugger, and more",
+    "runs": [
+      "All-in-one workspaces for software development containing editor, compiler, debugger, and more"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "Most development work is done there so it’s a natural form factor for AI enhancement",
+    "runs": [
+      "Most development work is done there so it’s a natural form factor for AI enhancement"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "In their evolution, there’s always a see-saw between functionality consolidation and developer customization",
+    "runs": [
+      "In their evolution, there’s always a see-saw between functionality consolidation and developer customization"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "A brief history",
+    "runs": [
+      "A brief history"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "2001",
+    "runs": [
+      "2001"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:6",
+    "text": "Intellij IDEA released with advanced contextual code navigation, refactoring, code completion",
+    "runs": [
+      "Intellij IDEA released with advanced contextual code navigation, refactoring, code completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:10",
+    "text": "2015",
+    "runs": [
+      "2015"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:11",
+    "text": "Microsoft VSCode released offering lightweight editor with highly extensible ecosystem",
+    "runs": [
+      "Microsoft VSCode released offering lightweight editor with highly extensible ecosystem"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:14",
+    "text": "1983",
+    "runs": [
+      "1983"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:16",
+    "text": "Release of Turbo Pascal, first true IDE",
+    "runs": [
+      "Release of Turbo Pascal, first true IDE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:19",
+    "text": "1997",
+    "runs": [
+      "1997"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:21",
+    "text": "Microsoft Visual Studio released, offering advanced debugging capabilities for the C++/Visual Basic language",
+    "runs": [
+      "Microsoft Visual Studio released, offering advanced debugging capabilities for the C++/Visual Basic language"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:25",
+    "text": "1980",
+    "runs": [
+      "1980"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:26",
+    "text": "2030",
+    "runs": [
+      "2030"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:28",
+    "text": "2023",
+    "runs": [
+      "2023"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:29",
+    "text": "Cursor released, one of the first widely used AI native IDEs",
+    "runs": [
+      "Cursor released, one of the first widely used AI native IDEs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Usage",
+    "runs": [
+      "Usage"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "Bread-and-butter modes",
+    "runs": [
+      "Bread-and-butter modes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "Inline",
+    "runs": [
+      "Inline"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "Function",
+    "runs": [
+      "Function"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:4",
+    "text": "Single-file",
+    "runs": [
+      "Single-file"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:5",
+    "text": "Multi-file",
+    "runs": [
+      "Multi-file"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "True AI-native",
+    "runs": [
+      "True AI-native"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:7",
+    "text": "Background agents",
+    "runs": [
+      "Background agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:8",
+    "text": "MCP ",
+    "runs": [
+      "MCP "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:9",
+    "text": "Learn memories",
+    "runs": [
+      "Learn memories"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:10",
+    "text": "Bugbot (PR review)",
+    "runs": [
+      "Bugbot (PR review)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:12",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "Let’s see some of this in action",
+    "runs": [
+      "Let’s see some of this in action"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:1",
+    "text": "How an AI IDE works under-the-hood",
+    "runs": [
+      "How an AI IDE works under-the-hood"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Tab-complete",
+    "runs": [
+      "Tab-complete"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Small context window around current code is encrypted",
+    "runs": [
+      "Small context window around current code is encrypted"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Server receives and runs infilling LLM ",
+    "runs": [
+      "Server receives and runs infilling LLM "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:8",
+    "text": "Suggestion sent back and displayed",
+    "runs": [
+      "Suggestion sent back and displayed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:14",
+    "text": "Chat",
+    "runs": [
+      "Chat"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:15",
+    "text": "Store code chunks as embeddings in semantic index on server (obfuscated filename + code)",
+    "runs": [
+      "Store code chunks as embeddings in semantic index on server (obfuscated filename + code)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:16",
+    "text": "Any query retrieves most relevant chunks and feeds as context into LLM",
+    "runs": [
+      "Any query retrieves most relevant chunks and feeds as context into LLM"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:17",
+    "text": "IDE regularly re-index code chunks and syncs embeddings ",
+    "runs": [
+      "IDE regularly re-index code chunks and syncs embeddings "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:18",
+    "text": "Chunk diffs are computed via Merkle trees for efficient updates",
+    "runs": [
+      "Chunk diffs are computed via Merkle trees for efficient updates"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "For simple changes you don’t have to be too thoughtful about prompting",
+    "runs": [
+      "For simple changes you don’t have to be too thoughtful about prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "For more complex tasks, you’re going to become a product manager",
+    "runs": [
+      "For more complex tasks, you’re ",
+      "going",
+      " to become a product manager"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "Carefully crafted specs doc",
+    "runs": [
+      "Carefully crafted specs doc"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:0",
+    "text": "Goal",
+    "runs": [
+      "Goal"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "What is the purpose of the change",
+    "runs": [
+      "What is the purpose of the change"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:2",
+    "text": "Definitions",
+    "runs": [
+      "Definitions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "What prereqs does the LLM need to know about the problem",
+    "runs": [
+      "What prereqs does the LLM need to know about the problem"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Plan",
+    "runs": [
+      "Plan"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "High-level implementation breakdown",
+    "runs": [
+      "High-level implementation breakdown"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:6",
+    "text": "Source files being changed",
+    "runs": [
+      "Source files being changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "What parts of the codebase are relevant and why",
+    "runs": [
+      "What parts of the codebase are relevant and why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:8",
+    "text": "Test cases",
+    "runs": [
+      "Test cases"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:9",
+    "text": "How will testing be done",
+    "runs": [
+      "How will testing be done"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:10",
+    "text": "Edge cases",
+    "runs": [
+      "Edge cases"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:11",
+    "text": "What special cases need to be accounted for",
+    "runs": [
+      "What special cases need to be accounted for"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:12",
+    "text": "Out-of-scope",
+    "runs": [
+      "Out-of-scope"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:13",
+    "text": "What should *not* be changed",
+    "runs": [
+      "What should *not* be changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:14",
+    "text": "Extensions",
+    "runs": [
+      "Extensions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:15",
+    "text": "What changes will be relevant later so the LLM can future-proof its design and not take shortcuts",
+    "runs": [
+      "What changes will be relevant later so the LLM can future-proof its design and not take shortcuts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:18",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:19",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "Let’s see some of this in action",
+    "runs": [
+      "Let’s see some of this in action"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "Optimize your codebase so that a human and an agent could understand what’s going on",
+    "runs": [
+      "Optimize your codebase so that a human and an agent could understand what’s going on"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Much of LLM confusion comes from trying to finish a task with a messy repo as context",
+    "runs": [
+      "Much of LLM confusion comes from trying to finish a task with a messy repo as context"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "Provide optimal context for LLMs by describing",
+    "runs": [
+      "Provide optimal context for LLMs by describing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:3",
+    "text": "Repo orientation",
+    "runs": [
+      "Repo orientation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "File structure",
+    "runs": [
+      "File structure"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:5",
+    "text": "Setup and environment",
+    "runs": [
+      "Setup and environment"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:6",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:7",
+    "text": "Code style",
+    "runs": [
+      "Code style"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:8",
+    "text": "Access patterns",
+    "runs": [
+      "Access patterns"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:9",
+    "text": "APIs and contracts",
+    "runs": [
+      "APIs and contracts"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:10",
+    "text": "All of this should be thoroughly documented",
+    "runs": [
+      "All of this should be thoroughly documented"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:11",
+    "text": "Tip: a monorepo design in your repo is highly encouraged",
+    "runs": [
+      "Tip:",
+      " a monorepo design in your repo is highly encouraged"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:14",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:15",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Help LLM navigate your codebase with agent configurations",
+    "runs": [
+      "Help LLM navigate your codebase with agent configurations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "claude.md",
+    "runs": [
+      "claude.md"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "CLAUDE.md is a special file that Claude automatically pulls into context when starting a conversation. This makes it an ideal place for documenting: common bash commands, core files and utility functions, code style guidelines, testing instructions.",
+    "runs": [
+      "CLAUDE.md",
+      " is a special file that Claude automatically pulls into context when starting a conversation. This makes it an ideal place for documenting: common bash commands, core files and utility functions, code style guidelines, testing instructions."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "cursorrules",
+    "runs": [
+      "c",
+      "ursorrules"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "AGENTS.md \t",
+    "runs": [
+      "AGENTS.md",
+      " ",
+      "\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:5",
+    "text": "Open format ",
+    "runs": [
+      "Open format "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:6",
+    "text": "llms.txt",
+    "runs": [
+      "llms.txt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:7",
+    "text": "Provide that navigation guidance for LLMs scraping the web",
+    "runs": [
+      "Provide that navigation guidance for LLMs scraping the web"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:8",
+    "text": "Note: The agents won’t always adhere to these descriptions/directives. They are intended as guidance.",
+    "runs": [
+      "Note:",
+      " The agents won’t always adhere to these descriptions/directives. They are intended as guidance."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:12",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:2",
+    "text": "Samples",
+    "runs": [
+      "Samples"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "Let’s see some of this in action",
+    "runs": [
+      "Let’s see some of this in action"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  }
+]

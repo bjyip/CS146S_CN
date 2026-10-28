@@ -1,0 +1,807 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide2.xml:0",
+    "text": "Pause for questions",
+    "runs": [
+      "Pause for questions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:0",
+    "text": "Idioms in your codebase",
+    "runs": [
+      "Idioms in your codebase"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:1",
+    "text": "Database access patterns (i.e. use this service rather than a direct DB lookup)",
+    "runs": [
+      "Database access patterns (i.e. use this service rather than a direct DB lookup)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:0",
+    "text": "Helps team members adapt their mental model of the system as it’s changing",
+    "runs": [
+      "Helps team members adapt their mental model of the system as it’s changing"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:1",
+    "text": "Ensures the change correctly solves the problem",
+    "runs": [
+      "Ensures the change correctly solves the problem"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:2",
+    "text": "Opens discussion for strengths and weaknesses of a design",
+    "runs": [
+      "Opens discussion for strengths and weaknesses of a design"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:3",
+    "text": "Catches bugs before they get to production",
+    "runs": [
+      "Catches bugs before they get to production"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide17.xml:4",
+    "text": "Keeps the code style and organization consistent",
+    "runs": [
+      "Keeps the code style and organization consistent"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:0",
+    "text": "Provides specific details.",
+    "runs": [
+      "Provides specific details."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:1",
+    "text": "References specific code or issues.",
+    "runs": [
+      "References specific code or issues."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:2",
+    "text": "Suggests a resolution to the problem.",
+    "runs": [
+      "Suggests a resolution to the problem."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:3",
+    "text": "Cites evidence or provides an explanation",
+    "runs": [
+      "Cites evidence or provides an explanation"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:0",
+    "text": "Automation reduces review time and catches issues early",
+    "runs": [
+      "Automation reduces review time and catches issues early"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:1",
+    "text": "Developers learn best practices through AI suggestions",
+    "runs": [
+      "Developers learn best practices through AI suggestions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:2",
+    "text": "AI applies the same standards across all code reviews",
+    "runs": [
+      "AI applies the same standards across all code reviews"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:3",
+    "text": "AI handles routine checks, letting humans focus on complex logic",
+    "runs": [
+      "AI handles routine checks, letting humans focus on complex logic"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:4",
+    "text": "AI systems improve over time with more data",
+    "runs": [
+      "AI systems improve over time with more data"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:5",
+    "text": "modern AI code review tools go deeper, offering contextual analysis and pattern recognition",
+    "runs": [
+      "modern AI code review tools go deeper, offering contextual analysis and pattern recognition"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:0",
+    "text": "Automation reduces review time and catches issues early",
+    "runs": [
+      "Automation reduces review time and catches issues early"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:1",
+    "text": "Developers learn best practices through AI suggestions",
+    "runs": [
+      "Developers learn best practices through AI suggestions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:2",
+    "text": "AI applies the same standards across all code reviews",
+    "runs": [
+      "AI applies the same standards across all code reviews"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:3",
+    "text": "AI handles routine checks, letting humans focus on complex logic",
+    "runs": [
+      "AI handles routine checks, letting humans focus on complex logic"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:4",
+    "text": "AI systems improve over time with more data",
+    "runs": [
+      "AI systems improve over time with more data"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:5",
+    "text": "modern AI code review tools go deeper, offering contextual analysis and pattern recognition",
+    "runs": [
+      "modern AI code review tools go deeper, offering contextual analysis and pattern recognition"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide22.xml:0",
+    "text": "Source: https://www.youtube.com/watch?v=TswQeKftnaw",
+    "runs": [
+      "Source: https://www.youtube.com/watch?v=TswQeKftnaw"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:0",
+    "text": "Graphite example",
+    "runs": [
+      "Graphite example"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:1",
+    "text": "Developers learn best practices through AI suggestions",
+    "runs": [
+      "Developers learn best practices through AI suggestions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:2",
+    "text": "AI applies the same standards across all code reviews",
+    "runs": [
+      "AI applies the same standards across all code reviews"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:3",
+    "text": "AI handles routine checks, letting humans focus on complex logic",
+    "runs": [
+      "AI handles routine checks, letting humans focus on complex logic"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:4",
+    "text": "AI systems improve over time with more data",
+    "runs": [
+      "AI systems improve over time with more data"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:5",
+    "text": "modern AI code review tools go deeper, offering contextual analysis and pattern recognition",
+    "runs": [
+      "modern AI code review tools go deeper, offering contextual analysis and pattern recognition"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:0",
+    "text": "Need to explicitly tell it what not to review and aspects of your code patterns/idioms",
+    "runs": [
+      "Need to explicitly tell it what not to review and aspects of your code patterns/idioms"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:1",
+    "text": "Be especially mindful of user input, authentication, file operations, network requests",
+    "runs": [
+      "Be especially mindful of user input, authentication, file operations, network requests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "Guest Lecture - 11/7/25",
+    "runs": [
+      "Guest Lecture - 11/7/25"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:4",
+    "text": "CPO of Graphite, Tomas Reimers",
+    "runs": [
+      "CPO of ",
+      "Graphite",
+      ", Tomas Reimers"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "AI Code Review",
+    "runs": [
+      "AI Code Review"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Software code review is one of the highest leverage activities you can do to become a better engineer and improve overall team code quality",
+    "runs": [
+      "Software code review is one of the highest leverage activities you can do to become a better engineer and improve overall team code quality"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "Why",
+    "runs": [
+      "Why"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Statistics",
+    "runs": [
+      "Statistics"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "Code review has 55-60% error detection rate compared to 25-45% for different testing modes",
+    "runs": [
+      "Code review has 55-60% error detection rate compared to 25-45% for different testing modes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "Study of errors on programs without/with code review reported 4.5 → 0.82 errors/100 lines",
+    "runs": [
+      "Study of errors on programs without/with code review reported 4.5 → 0.82 errors/100 lines"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "Study at AT&T showed code review had 14% increase in productivity and 90% decrease in defects",
+    "runs": [
+      "Study at AT&T showed code review had 14% increase in productivity and 90% decrease in defects"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:7",
+    "text": "Source: Coding Horror",
+    "runs": [
+      "Source: ",
+      "Coding Horror"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "What to Catch",
+    "runs": [
+      "What to Catch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:1",
+    "text": "Logic and correctness errors",
+    "runs": [
+      "Logic and correctness errors"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "What to Catch",
+    "runs": [
+      "What to Catch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Readability and maintainability",
+    "runs": [
+      "Readability and maintainability"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:0",
+    "text": "What to Catch",
+    "runs": [
+      "What to Catch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:1",
+    "text": "Performance",
+    "runs": [
+      "Performance"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "What to Catch",
+    "runs": [
+      "What to Catch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "Security",
+    "runs": [
+      "Security"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "What to Catch",
+    "runs": [
+      "What to Catch"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:1",
+    "text": "Best practices",
+    "runs": [
+      "Best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "Source: Blake Smith",
+    "runs": [
+      "Source: ",
+      "Blake Smith"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:1",
+    "text": "What’s a Good Code Review",
+    "runs": [
+      "What’s a Good Code Review"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "This won’t work",
+    "runs": [
+      "This won’t work"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "vs",
+    "runs": [
+      "vs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:6",
+    "text": "I see your new method matches the existing style in this file, taking [X] parameters. Having that many parameters hurts readability and implies the function is doing too much. What do you think about refactoring this method and the existing ones in a later pull request to reduce how many parameters they take?",
+    "runs": [
+      "I see your new method matches the existing style in this file, taking [X] parameters. Having that many parameters hurts readability and implies the function is doing too much. What do you think about refactoring this method and the existing ones in a later pull request to reduce how many parameters they take?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:0",
+    "text": "The New AI World",
+    "runs": [
+      "The New AI World"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:1",
+    "text": "Graphite (guest lecture 11/7)",
+    "runs": [
+      "Graphite ",
+      "(guest lecture 11/7)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:2",
+    "text": "Greptile",
+    "runs": [
+      "Greptile"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:3",
+    "text": "Coderabbit",
+    "runs": [
+      "Coderabbit"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:4",
+    "text": "Claude Code / Codex",
+    "runs": [
+      "Claude Code / Codex"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:0",
+    "text": "What Has Changed",
+    "runs": [
+      "What Has Changed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:4",
+    "text": "Efficiency ",
+    "runs": [
+      "Efficiency "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:5",
+    "text": "Consistency\t",
+    "runs": [
+      "Consistency\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:6",
+    "text": "Knowledge sharing\t",
+    "runs": [
+      "Knowledge sharing\t"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:7",
+    "text": "Reduced cognitive load",
+    "runs": [
+      "Reduced cognitive load"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:8",
+    "text": "Continuous improvement",
+    "runs": [
+      "Continuous improvement"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:9",
+    "text": "Holistic understanding of your code",
+    "runs": [
+      "Holistic understanding of your code"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:2",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:3",
+    "text": "Source: Greptile",
+    "runs": [
+      "Source: ",
+      "Greptile"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:2",
+    "text": "Source: Graphite",
+    "runs": [
+      "Source: ",
+      "Graphite"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:0",
+    "text": "Let’s See AI Code Review in Action",
+    "runs": [
+      "Let’s See AI Code Review in Action"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:0",
+    "text": "Limitations",
+    "runs": [
+      "Limitations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:4",
+    "text": "More configuration/setup",
+    "runs": [
+      "More configuration/setup"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:5",
+    "text": "False positives",
+    "runs": [
+      "False positives"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:6",
+    "text": "Have to train the system → continuous learning",
+    "runs": [
+      "Have to train the system → continuous learning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:7",
+    "text": "Can’t yet catch the idioms and repo best practices",
+    "runs": [
+      "Can’t yet catch the idioms and repo best practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:8",
+    "text": "Can’t handle complex business logic and architecture decisions",
+    "runs": [
+      "Can’t handle complex business logic and architecture decisions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:9",
+    "text": "But that’s where humans are still needed",
+    "runs": [
+      "But that’s where humans are still needed"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:10",
+    "text": "Must be extra cautious with security changes",
+    "runs": [
+      "Must be extra cautious with security changes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:11",
+    "text": "Often misses edge cases",
+    "runs": [
+      "Often misses edge cases"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:12",
+    "text": "Code review is more important now than ever with AI coding systems",
+    "runs": [
+      "Code review is more important now than ever with AI coding systems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:13",
+    "text": "You own the code that is merged and shipped, no blaming of the AI",
+    "runs": [
+      "You own the code that is merged and shipped, no blaming of the AI"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:2",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

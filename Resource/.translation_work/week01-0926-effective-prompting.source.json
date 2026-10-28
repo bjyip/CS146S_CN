@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide1.xml:0",
+    "text": "Any GSB students still left?",
+    "runs": [
+      "Any GSB students still left?"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide3.xml:0",
+    "text": "In the evolution of programming languages, prompting is the next phase in the progression",
+    "runs": [
+      "In the evolution of programming languages, prompting is the next phase in the progression"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:0",
+    "text": "Consider how google search queries have changed from explicit boolean algebra to more naturalistic english language",
+    "runs": [
+      "Consider how google search queries have changed from explicit boolean algebra to more naturalistic english language"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide4.xml:1",
+    "text": "Prompting has evolved (and will continue to evolve) to be more naturalistic ",
+    "runs": [
+      "Prompting has evolved (and will continue to evolve) to be more naturalistic "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:0",
+    "text": "Prompting is important both for you prompting AI software systems more effectively but also for understanding what’s going on under the hood with existing systems like Claude Code/Cursor (they have a lot of extra prompting added). ",
+    "runs": [
+      "Prompting is important both for you prompting AI software systems more effectively but also for understanding what’s going on under the hood with existing ",
+      "systems",
+      " like Claude Code/Cursor (they have a lot of extra prompting added). "
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide5.xml:1",
+    "text": "Let’s discuss some of the most important techniques",
+    "runs": [
+      "Let’s discuss some of the most important techniques"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:0",
+    "text": "“Make me a heap allocator in C”.",
+    "runs": [
+      "“Make me a heap allocator in C”."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide6.xml:1",
+    "text": "Example in green",
+    "runs": [
+      "Example in green"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:0",
+    "text": "Best for domain-specific APIs (languages LLM hasn’t seen, typically in enterprise use-cases)",
+    "runs": [
+      "Best for domain-specific APIs (languages LLM hasn’t seen, typically in enterprise use-cases)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:1",
+    "text": "Generate code in specific style, format, or with consistent naming conventions",
+    "runs": [
+      "Generate code in specific style, format, or with consistent naming conventions"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:2",
+    "text": "Avoid",
+    "runs": [
+      "Avoid"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:3",
+    "text": "Applying for well-known libraries/general coding tasks",
+    "runs": [
+      "Applying for well-known libraries/general coding tasks"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide7.xml:4",
+    "text": "Over-constraining the LLM (too many examples)",
+    "runs": [
+      "Over-constraining the LLM (too many examples)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:0",
+    "text": "Red is the before (naive way to prompt)",
+    "runs": [
+      "Red is the before (naive way to prompt)"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide8.xml:1",
+    "text": "Green is the converted prompt using the new technique",
+    "runs": [
+      "Green is the converted prompt using the new technique"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide9.xml:0",
+    "text": "This is the workhorse for a lot of reasoning models!",
+    "runs": [
+      "This is the workhorse for a lot of reasoning models!"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide10.xml:0",
+    "text": "Multi-shot CoT",
+    "runs": [
+      "Multi-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide11.xml:0",
+    "text": "Zero-shot CoT",
+    "runs": [
+      "Zero-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide16.xml:0",
+    "text": "When you @context in Cursor/Windsurf/etc this is utilizing RAG.",
+    "runs": [
+      "When you @context in Cursor/Windsurf/etc this is utilizing RAG."
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:0",
+    "text": "Workhorse of autonomous coding agents",
+    "runs": [
+      "Workhorse of autonomous coding agents"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:1",
+    "text": "Reflexion is how we get fully agentic behaviors in modern coding IDEs",
+    "runs": [
+      "Reflexion is how we get fully agentic behaviors in modern coding IDEs"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide18.xml:2",
+    "text": "Also sometimes called “self-critique”",
+    "runs": [
+      "Also sometimes called “self-critique”"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide20.xml:0",
+    "text": "Let’s look at a sample system prompt for a state-of-the-art LLM",
+    "runs": [
+      "Let’s look at a sample system prompt for a state-of-the-art LLM"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:0",
+    "text": "Claude 4.1 opus system prompt",
+    "runs": [
+      "Claude 4.1 opus system prompt"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide21.xml:1",
+    "text": "Almost like a loosely followed Isaac Asimov’s 3 laws of robotics",
+    "runs": [
+      "Almost like a loosely followed Isaac Asimov’s 3 laws of robotics"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide22.xml:0",
+    "text": "Claude 4.1 opus system prompt",
+    "runs": [
+      "Claude 4.1 opus system prompt"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide22.xml:1",
+    "text": "Almost like a loosely followed Isaac Asimov’s 3 laws of robotics",
+    "runs": [
+      "Almost like a loosely followed Isaac Asimov’s 3 laws of robotics"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide23.xml:0",
+    "text": "User prompts are basically all of the examples we’ve seen so far in the previous slides",
+    "runs": [
+      "U",
+      "ser prompts are basically all of the examples we’ve seen so far in the previous slides"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:0",
+    "text": "How these prompts all stack together",
+    "runs": [
+      "How these prompts all stack together"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:1",
+    "text": "Sys prompt usually not seen",
+    "runs": [
+      "Sys prompt usually not seen"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:2",
+    "text": "User prompt usually where you provide your ask",
+    "runs": [
+      "User prompt usually where you provide your ask"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide24.xml:3",
+    "text": "Assistant prompt where the LLM respo",
+    "runs": [
+      "Assistant prompt where the LLM respo"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide30.xml:0",
+    "text": "We’ll talk a lot more about task decomposition in the next lessons.",
+    "runs": [
+      "We’ll talk a lot more about task decomposition in the next lessons."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "The Modern Software Developer",
+    "runs": [
+      "The Modern Software Developer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "CS146S ",
+    "runs": [
+      "CS146S "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "Stanford University, Fall 2025",
+    "runs": [
+      "Stanford University, Fall 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:3",
+    "text": "Mihail Eric",
+    "runs": [
+      "Mihail Eric"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:6",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "LLM Power Prompting",
+    "runs": [
+      "LLM Power Prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:3",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "Prompting background",
+    "runs": [
+      "Prompting background"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:1",
+    "text": "Prompts are the lingua franca for getting LLMs to do what we want and also effectively programming them",
+    "runs": [
+      "Prompts are the ",
+      "lingua franca",
+      " for getting LLMs to do what we want and also effectively programming them"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:7",
+    "text": "Courtesy of Andrej Karpathy",
+    "runs": [
+      "Courtesy of ",
+      "Andrej Karpathy"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:10",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:0",
+    "text": "An analogy",
+    "runs": [
+      "An analogy"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:1",
+    "text": "Look to how we’ve changed our search engine interactions",
+    "runs": [
+      "Look to how we’ve ",
+      "changed our search engine interactions"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:0",
+    "text": "Prompting Background",
+    "runs": [
+      "Prompting Background"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:1",
+    "text": "Prompting is both an art and a science ",
+    "runs": [
+      "Prompting is both an art and a science "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:2",
+    "text": "Black-box nature of LLMs means there’s some magic to LLM-whispering effectively",
+    "runs": [
+      "Black-box nature of LLMs means there’s some magic to ",
+      "LLM-whispering",
+      " effectively"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "…but there are established techniques that have empirically improved LLM performance",
+    "runs": [
+      "…but there are established techniques that have empirically improved LLM performance"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Zero-shot prompting",
+    "runs": [
+      "Zero-shot prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:1",
+    "text": "Ask the LLM to do a thing",
+    "runs": [
+      "Ask the LLM to do a thing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "no support",
+    "runs": [
+      "no support"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:3",
+    "text": "no examples",
+    "runs": [
+      "no examples"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:7",
+    "text": "Write me a Rust for-loop that iterates over a list of strings for every, printing every value in an even index",
+    "runs": [
+      "Write me a Rust for-loop that iterates over a list of strings for every, printing every value in an even index"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "K-shot prompting",
+    "runs": [
+      "K-shot prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:1",
+    "text": "Ask the LLM to do the thing but give it some examples of how to do it",
+    "runs": [
+      "Ask the LLM to do the thing but give it some examples of how to do it"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "Sometimes called in-context learning",
+    "runs": [
+      "Sometimes called ",
+      "in-context learning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:3",
+    "text": "k-shot",
+    "runs": [
+      "k",
+      "-shot"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "1, 3, 5 (some empirical results justify these numbers)",
+    "runs": [
+      "1, 3, 5 (some ",
+      "empirical results justify these numbers)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:5",
+    "text": "Ideal for tasks that don’t have too many reasoning steps",
+    "runs": [
+      "Ideal for tasks that don’t have too many reasoning steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:2",
+    "text": "Write a for-loop iterating over a list of strings using the naming convention in our repo.",
+    "runs": [
+      "Write a for-loop iterating over a list of strings using the naming convention in our repo."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:3",
+    "text": "Write a for-loop iterating over a list of strings using the naming convention in our repo. Here are some examples of how we typically format variable names.",
+    "runs": [
+      "Write a for-loop iterating over a list of strings using the naming convention in our repo. ",
+      "Here are some examples of how we typically format variable names."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "<example>",
+    "runs": [
+      "<example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "var StRaRrAy = [‘cat’, ‘dog’, ‘wombat’]",
+    "runs": [
+      "var StRaRrAy = [‘cat’, ‘dog’, ‘wombat’]"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "</example>",
+    "runs": [
+      "</example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:9",
+    "text": "<example>",
+    "runs": [
+      "<example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:10",
+    "text": "def func CaPiTaLiZeStR = () => {}",
+    "runs": [
+      "def",
+      " func CaPiTaLiZeStR = () => {}"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:11",
+    "text": "</example>",
+    "runs": [
+      "</example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:14",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:0",
+    "text": "Chain-of-Thought Prompting",
+    "runs": [
+      "Chain-of-Thought Prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:1",
+    "text": "Show reasoning steps for a given task",
+    "runs": [
+      "Show reasoning steps for a given task"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:2",
+    "text": "Multi-shot CoT",
+    "runs": [
+      "Multi-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:3",
+    "text": "Work out reasoning traces",
+    "runs": [
+      "Work out reasoning traces"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "Zero-shot CoT",
+    "runs": [
+      "Zero-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "“Let’s think step-by-step”",
+    "runs": [
+      "“Let’s think step-by-step”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Prompt for reasoning in explicit <reasoning> tags",
+    "runs": [
+      "Prompt for reasoning in explicit <reasoning> tags"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "Best for steps with multiple logical steps",
+    "runs": [
+      "Best for steps with multiple logical steps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:8",
+    "text": "Programming",
+    "runs": [
+      "Programming"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:9",
+    "text": "Math",
+    "runs": [
+      "Math"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:11",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:2",
+    "text": "Write a function to check if a number is a perfect cube and a perfect square.",
+    "runs": [
+      "Write a function to check if a number is a perfect cube and a perfect square."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:3",
+    "text": "I want to write a function to check if a number is a perfect cube and a perfect square. Make sure to provide your reasoning first. Here are some examples of how to  provide reasoning for a coding task.",
+    "runs": [
+      "I want to write a function to check if a ",
+      "number",
+      " is a perfect cube and a perfect square. Make sure to provide your reasoning first.",
+      " Here are some examples of how to  provide reasoning for a coding task."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "<example>",
+    "runs": [
+      "<example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:6",
+    "text": "Write a function that finds the maximum element in a list.",
+    "runs": [
+      "Write a function that finds the maximum element in a list."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "Steps: Initialize a variable with the first element. Traverse the list, comparing…",
+    "runs": [
+      "Steps: Initialize a variable with the first element. Traverse the list, comparing…"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:8",
+    "text": "</example>",
+    "runs": [
+      "</example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:10",
+    "text": "<example>",
+    "runs": [
+      "<example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:11",
+    "text": "Write a function that checks is a number is a palindrome",
+    "runs": [
+      "Write a function that checks is a number is a palindrome"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:12",
+    "text": "Steps: Take the number. Reverse the elements in the numbers. Check if …",
+    "runs": [
+      "Steps: Take the number. Reverse the elements in the numbers. Check if …"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:13",
+    "text": "</example>",
+    "runs": [
+      "</example>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:15",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:16",
+    "text": "Multi-shot CoT",
+    "runs": [
+      "Multi-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:2",
+    "text": "Write a function to find the longest increasing subsequence in an array.",
+    "runs": [
+      "Write a function to find the longest increasing subsequence in an array."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:3",
+    "text": "Write a function to find the longest increasing subsequence in an array.",
+    "runs": [
+      "Write a function to find the longest increasing subsequence in an array."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Think step by step about the subproblems before coding. Include worked out examples of subarrays you are considering as you answer this question.",
+    "runs": [
+      "Think step by step about the subproblems before coding. ",
+      "Include worked out examples of subarrays you are considering as you answer this question."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:8",
+    "text": "Zero-shot CoT",
+    "runs": [
+      "Zero-shot CoT"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:0",
+    "text": "Self-consistency Prompting",
+    "runs": [
+      "Self-consistency Prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:1",
+    "text": "Sample multiple times from output (typically with CoT) and aggregate most common results",
+    "runs": [
+      "Sample multiple times from output (typically with CoT) and aggregate most common results"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:2",
+    "text": "Reduces hallucinations/incorrect answers via a form of model ensembling by sampling diverse reasoning paths",
+    "runs": [
+      "Reduces hallucinations/incorrect answers via a form of model ensembling by sampling diverse reasoning paths"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:2",
+    "text": "What’s the root cause for this error: ",
+    "runs": [
+      "What’s the root cause for this error: "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:3",
+    "text": "Traceback (most recent call last):",
+    "runs": [
+      "Traceback (most recent call last):"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:4",
+    "text": "  File \"example.py\", line 3, in <module>",
+    "runs": [
+      "  File \"example.py\", line 3, in <module>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:5",
+    "text": "    print(nums[i])",
+    "runs": [
+      "    print(nums[i])"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:6",
+    "text": "IndexError: list index out of range",
+    "runs": [
+      "IndexError: list index out of range"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:8",
+    "text": "What’s the root cause for this error: ",
+    "runs": [
+      "What’s the root cause for this error: "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:9",
+    "text": "Traceback (most recent call last):",
+    "runs": [
+      "Traceback (most recent call last):"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:10",
+    "text": "  File \"example.py\", line 3, in <module>",
+    "runs": [
+      "  File \"example.py\", line 3, in <module>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:11",
+    "text": "    print(nums[i])",
+    "runs": [
+      "    print(nums[i])"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:12",
+    "text": "IndexError: list index out of range",
+    "runs": [
+      "IndexError: list index out of range"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:13",
+    "text": "Prompt 5x",
+    "runs": [
+      "Prompt 5x"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:14",
+    "text": "Take majority result",
+    "runs": [
+      "Take majority result"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:16",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "Tool Use",
+    "runs": [
+      "Tool Use"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "Allow LLM to defer to an external system that it needs to interact with",
+    "runs": [
+      "Allow LLM to defer to an external system that it needs to interact with"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:2",
+    "text": "One of the most important techniques for reducing hallucinations and enabling the autonomy of LLMs",
+    "runs": [
+      "One of the most important techniques for reducing hallucinations and enabling the autonomy of LLMs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:2",
+    "text": "After you have fixed this IndexError can you ensure that the CI tests still pass?",
+    "runs": [
+      "After you have fixed this IndexError can you ensure that the CI tests still pass?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:4",
+    "text": "Fix the IndexError. Ensure the CI tests still pass once you have made the fix. Here are the available tools. ",
+    "runs": [
+      "Fix the IndexError. Ensure the CI tests still pass once you have made the fix.",
+      " Here are the available tools. "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:6",
+    "text": "<tools>",
+    "runs": [
+      "<tools>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:7",
+    "text": "pytest -s /path/to/unit_tests",
+    "runs": [
+      "pytest -s /path/to/unit_tests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:9",
+    "text": "pytest -v /path/to/integration_tests",
+    "runs": [
+      "pytest",
+      " -v /path/to/integration_tests"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:10",
+    "text": "</tools>",
+    "runs": [
+      "</tools>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:17",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:0",
+    "text": "Retrieval Augmented Generation",
+    "runs": [
+      "Retrieval Augmented Generation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:1",
+    "text": "Infuse the LLM with contextual data",
+    "runs": [
+      "Infuse the LLM with contextual data"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:2",
+    "text": "Keeps LLMs up-to-date (without retraining)",
+    "runs": [
+      "Keeps LLMs up-to-date (without retraining)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "Faster iteration",
+    "runs": [
+      "Faster iteration"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "You get interpretability and citations for free",
+    "runs": [
+      "You get interpretability and citations for free"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:5",
+    "text": "Reduces hallucinations",
+    "runs": [
+      "Reduces hallucinations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "Extend the UserAuthService class to check that the client provides a valid OAuth token.",
+    "runs": [
+      "Extend the UserAuthService class to check that the client provides a valid OAuth token."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:3",
+    "text": "I want to extend the UserAuthService class to check that the client provides a valid OAuth token. ",
+    "runs": [
+      "I want to extend the UserAuthService class to check that the client provides a valid OAuth token. "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:5",
+    "text": "Here is how the UserAuthService works now:<code_snippet>",
+    "runs": [
+      "Here is how the UserAuthService works now:",
+      "<code_snippet>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:6",
+    "text": "def issue_oauth_token():",
+    "runs": [
+      "def issue_oauth_token():"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:7",
+    "text": "\t….",
+    "runs": [
+      "\t…."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:8",
+    "text": "</code_snippet>",
+    "runs": [
+      "</code_snippet>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:10",
+    "text": "Here is the path to the requests-oauthlib documentation:<url>",
+    "runs": [
+      "Here is the path to the requests-oauthlib documentation:",
+      "<url>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:11",
+    "text": "https://requests-oauthlib.readthedocs.io/en/latest/",
+    "runs": [
+      "https://requests-oauthlib.readthedocs.io/en/latest/"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:12",
+    "text": "</url>",
+    "runs": [
+      "</url>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:19",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:0",
+    "text": "Reflexion",
+    "runs": [
+      "Reflexion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:1",
+    "text": "Make the LLM reflect on its output",
+    "runs": [
+      "Make the LLM ",
+      "reflect",
+      " on its output"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:2",
+    "text": "Verbal feedback from environment signals are reincorporated into the LLM by augmenting the context",
+    "runs": [
+      "Verbal feedback from environment signals are reincorporated into the LLM by augmenting the context"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "After an action is taken in an environment and an observation made, add a prompt suffix:",
+    "runs": [
+      "After an action is taken in an environment and an observation made, add a prompt suffix:"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "“Now critique your answer. Was it correct? If not, explain why and try again.”",
+    "runs": [
+      "“Now critique your answer. Was it correct? If not, explain why and try again.”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "Multi-turn prompting",
+    "runs": [
+      "Multi-turn prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:6",
+    "text": "Turn 1: Model gives a first try.",
+    "runs": [
+      "Turn 1: Model gives a first try."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:7",
+    "text": "Turn 2: You ask “Was that correct? Reflect and revise if needed.”",
+    "runs": [
+      "Turn 2: You ask “",
+      "Was that correct? Reflect and revise if needed.",
+      "”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:9",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:2",
+    "text": "Ensure that the company_location column can handle string and json representations.",
+    "runs": [
+      "Ensure that the company_location column can handle string and json representations."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:3",
+    "text": "Extend the logic for company_location to be able to handle string and json representations",
+    "runs": [
+      "Extend the logic for company_location to be able to handle string and json representations"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:4",
+    "text": "The unit tests for the company_location type aren’t passing.",
+    "runs": [
+      "The unit tests for the company_location type aren’t passing."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:5",
+    "text": "It appears that the unit tests for company_location are throwing a JSONDecodeError. ",
+    "runs": [
+      "It appears that the unit tests for company_location are throwing a JSONDecodeError. "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:6",
+    "text": "I am extending the company_location column.",
+    "runs": [
+      "I am extending the company_location column."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:8",
+    "text": "I must ensure that when a string is provided as input it doesn’t throw a JSONDecodeError.",
+    "runs": [
+      "I must ensure that when a string is provided as input it doesn’t throw a JSONDecodeError."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:10",
+    "text": "observe",
+    "runs": [
+      "observe"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:11",
+    "text": "reflect",
+    "runs": [
+      "reflect"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:12",
+    "text": "Extend prompt ",
+    "runs": [
+      "Extend prompt "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:14",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:0",
+    "text": "Additional Terminology",
+    "runs": [
+      "Additional Terminology"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:1",
+    "text": "System prompt",
+    "runs": [
+      "System prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:2",
+    "text": "First message provided to LLM (usually not seen by end user)",
+    "runs": [
+      "First message provided to LLM (usually not seen by end user)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:3",
+    "text": "Provides persona, rules about LLM output, style",
+    "runs": [
+      "Provides persona, rules about LLM output, style"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:7",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:2",
+    "text": "…",
+    "runs": [
+      "…"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:2",
+    "text": "…",
+    "runs": [
+      "…"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:0",
+    "text": "Additional Terminology",
+    "runs": [
+      "Additional Terminology"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:1",
+    "text": "User prompt",
+    "runs": [
+      "User prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:2",
+    "text": "The actual ask or instruction from a human",
+    "runs": [
+      "The actual ask or instruction from a human"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:3",
+    "text": "Basically all of our examples so far",
+    "runs": [
+      "Basically all of our examples so far"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:4",
+    "text": "Assistant ",
+    "runs": [
+      "Assistant "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:5",
+    "text": "What the LLM actually generates",
+    "runs": [
+      "What the LLM actually generates"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:5",
+    "text": "System prompt",
+    "runs": [
+      "System prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:6",
+    "text": "User prompt",
+    "runs": [
+      "User",
+      " prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:7",
+    "text": "Assistant prompt",
+    "runs": [
+      "Assistant",
+      " prompt"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:0",
+    "text": "Best Practices",
+    "runs": [
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:1",
+    "text": "Prompt improvement",
+    "runs": [
+      "Prompt improvement"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:2",
+    "text": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-improver",
+    "runs": [
+      "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-improver"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:3",
+    "text": "Clear prompting",
+    "runs": [
+      "Clear prompting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:4",
+    "text": "Give prompt to someone with minimal context and if they’re confused an LLM will be too",
+    "runs": [
+      "Give prompt to someone with minimal context and if they’re confused an LLM will be too"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:5",
+    "text": "Use role prompting aggressively to make system prompts more powerful",
+    "runs": [
+      "Use role prompting aggressively to make system prompts more powerful"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:8",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:2",
+    "text": "You are a helpful assistant that loves programming at the level of a senior software developer and is very detailed and pedantic in your answers.",
+    "runs": [
+      "You are a helpful assistant that loves programming at the level of a senior software developer and is ",
+      "very",
+      " ",
+      "detailed",
+      " and pedantic in your answers."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide27.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:2",
+    "text": "You are a Gen Z digital bestie. Always sound like you’re texting on Snapchat at 2am.",
+    "runs": [
+      "You are a Gen Z digital bestie. Always sound like you’re texting on Snapchat at 2am."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:0",
+    "text": "Prompts should be formatted with structure",
+    "runs": [
+      "Prompts should be formatted with structure"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:3",
+    "text": "Best Practices",
+    "runs": [
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:6",
+    "text": "Here are the logs:<log>LOG MESSAGE",
+    "runs": [
+      "Here are the logs:",
+      "<log>",
+      "LOG MESSAGE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:7",
+    "text": "<log> and the stack trace:<error>STACK TRACE<error>",
+    "runs": [
+      "<log> and the stack trace:",
+      "<error>",
+      "STACK TRACE",
+      "<error>"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide30.xml:0",
+    "text": "Best Practices",
+    "runs": [
+      "Best Practices"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide30.xml:1",
+    "text": "Be explicit about what you want (languages, tech stacks, libraries, constraints)",
+    "runs": [
+      "Be explicit about what you want (languages, tech stacks, libraries, constraints)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide30.xml:2",
+    "text": "Decompose tasks",
+    "runs": [
+      "Decompose tasks"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide30.xml:5",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide31.xml:1",
+    "text": "themodernsoftware.dev",
+    "runs": [
+      "themodernsoftware.dev"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide31.xml:2",
+    "text": "Questions?",
+    "runs": [
+      "Questions?"
+    ]
+  }
+]

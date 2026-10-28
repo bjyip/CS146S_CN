@@ -1,0 +1,1225 @@
+[
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:0",
+    "text": "How Devin delivers workflow autonomy",
+    "runs": [
+      "How Devin delivers workflow autonomy"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:1",
+    "text": "Plan — engineer in the loop • Ask Devin questions in Search / Wiki to surface the right files, APIs, tests • Clarify scope → Devin writes a step-by-step plan • Time cost ≈ minutes",
+    "runs": [
+      "Plan — engineer in the loop",
+      " • Ask Devin questions in ",
+      "Search / Wiki",
+      " to surface the right files, APIs, tests",
+      " • Clarify scope → Devin writes a step-by-step plan",
+      " • Time cost ≈ minutes"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:2",
+    "text": "Build — Devin in the loop • Devin spins up its isolated workspace (shell + editor + browser) • Plans → executes → tests → iterates until the task is green • Runs fully async; you move on to other work",
+    "runs": [
+      "Build — Devin in the loop",
+      " • Devin spins up its ",
+      "isolated workspace",
+      " (shell + editor + browser)",
+      " • ",
+      "Plans → executes → tests → iterates",
+      " until the task is green",
+      " • Runs fully async; you move on to other work"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:3",
+    "text": "Review — engineer back in the loop • Devin opens a clean PR with passing tests and a change summary • You review, comment, or merge — Devin can revise on request • Human effort ≲ 15 % of the original task",
+    "runs": [
+      "Review — engineer back in the loop",
+      " • Devin opens a clean PR with passing tests and a change summary",
+      " • You review, comment, or merge — Devin can revise on request",
+      " • Human effort ≲ 15 % of the original task"
+    ]
+  },
+  {
+    "id": "ppt/notesSlides/notesSlide12.xml:4",
+    "text": "Result: one clear hand-off, 6-12× engineer leverage, zero IDE disruption.",
+    "runs": [
+      "Result:",
+      " one clear hand-off, 6-12× engineer leverage, zero IDE disruption."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:0",
+    "text": "IDE ❤️ Agents",
+    "runs": [
+      "IDE ",
+      "❤️",
+      " Agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:1",
+    "text": "An opinionated guide to AI coding in 2025",
+    "runs": [
+      "An opinionated guide to AI coding in 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide1.xml:2",
+    "text": "CS146S: The Modern Software Developer – Oct 10, 2025",
+    "runs": [
+      "CS146S: The Modern Software Developer – Oct 10, 2025"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:0",
+    "text": "Silas Alberti",
+    "runs": [
+      "Silas Alberti"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide2.xml:1",
+    "text": "Founding Team @ CognitionPrev: Stanford PhD Student",
+    "runs": [
+      "Founding Team @ Cognition",
+      "Prev: Stanford PhD Student"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:0",
+    "text": "Agenda",
+    "runs": [
+      "Agenda"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:1",
+    "text": "Overview of the AI tooling landscape",
+    "runs": [
+      "Overview of the AI tooling landscape"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:2",
+    "text": "Synchronous vs. asynchronous tools",
+    "runs": [
+      "Synchronous vs. asynchronous tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:3",
+    "text": "The 2025 coding workflow ",
+    "runs": [
+      "The",
+      " 2025 ",
+      "coding workflow "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:4",
+    "text": "When to hand-off from sync to async?",
+    "runs": [
+      "When to hand-off from sync to async?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:5",
+    "text": "How to combine tools like Devin & Windsurf",
+    "runs": [
+      "How to combine tools like Devin & Windsurf"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide3.xml:6",
+    "text": "Where are we headed?",
+    "runs": [
+      "Where are we headed?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:3",
+    "text": "Three Eras of AI Coding Tools",
+    "runs": [
+      "Three Eras of AI Coding Tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:4",
+    "text": "Local Development ⇒ Collaborative Cloud Agents",
+    "runs": [
+      "Local ",
+      "Development",
+      " ⇒ ",
+      "Collaborative Cloud Agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:5",
+    "text": "GitHub Copilot: speed up coding",
+    "runs": [
+      "GitHub Copilot: speed up coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:6",
+    "text": "Code Completion",
+    "runs": [
+      "Code Completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:8",
+    "text": "1",
+    "runs": [
+      "1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:9",
+    "text": "AI IDEs: single-player task completion",
+    "runs": [
+      "AI IDEs: single-",
+      "player",
+      " task completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:10",
+    "text": "IDE Automation",
+    "runs": [
+      "IDE Automation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:12",
+    "text": "2",
+    "runs": [
+      "2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:13",
+    "text": "Image 2",
+    "runs": [
+      "Image 2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:14",
+    "text": "AI agents: scale workflows in parallel",
+    "runs": [
+      "AI agents: scale workflows in parallel"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:15",
+    "text": "AI Software Engineer",
+    "runs": [
+      "AI Software Engineer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:17",
+    "text": "3",
+    "runs": [
+      "3"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide4.xml:19",
+    "text": "Overview",
+    "runs": [
+      "Overview"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:3",
+    "text": "Three Eras of AI Coding Tools",
+    "runs": [
+      "Three Eras of AI Coding Tools"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:5",
+    "text": "Local Development ⇒ Collaborative Cloud Agents",
+    "runs": [
+      "Local ",
+      "Development",
+      " ⇒ ",
+      "Collaborative Cloud Agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:6",
+    "text": "GitHub Copilot: speed up coding",
+    "runs": [
+      "GitHub Copilot: speed up coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:7",
+    "text": "Code Completion",
+    "runs": [
+      "Code Completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:9",
+    "text": "1",
+    "runs": [
+      "1"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:10",
+    "text": "AI IDEs: single-player task completion",
+    "runs": [
+      "AI IDEs: single-",
+      "player",
+      " task completion"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:11",
+    "text": "IDE Automation",
+    "runs": [
+      "IDE Automation"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:13",
+    "text": "2",
+    "runs": [
+      "2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:14",
+    "text": "Image 2",
+    "runs": [
+      "Image 2"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:15",
+    "text": "AI agents: scale workflows in parallel",
+    "runs": [
+      "AI agents: scale workflows in parallel"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:16",
+    "text": "AI Software Engineer",
+    "runs": [
+      "AI Software Engineer"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:18",
+    "text": "3",
+    "runs": [
+      "3"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:20",
+    "text": "Overview",
+    "runs": [
+      "Overview"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:23",
+    "text": "~10% efficiency gain",
+    "runs": [
+      "~10% efficiency gain"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:24",
+    "text": "~20% efficiency gain",
+    "runs": [
+      "~",
+      "20%",
+      " efficiency gain"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:25",
+    "text": "6-12x efficiency gain",
+    "runs": [
+      "6-12x efficiency gain"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:26",
+    "text": "Local, Synchronous",
+    "runs": [
+      "Local, Synchronous"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide5.xml:27",
+    "text": "Cloud, Asynchronous",
+    "runs": [
+      "Cloud, Asynchronous"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:0",
+    "text": "Synchronous vs. Asynchronous",
+    "runs": [
+      "Synchronous vs. Asynchronous"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide6.xml:2",
+    "text": "sync: single-threaded, human-in-the-loop, your attention is focused on one task=> AI agent works for 20 seconds - 1.5 minutes",
+    "runs": [
+      "sync:",
+      " ",
+      "single-threaded, human-in-the-loop, your attention is focused on one task",
+      "=> AI agent works for 20 seconds - 1.5 minutes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:0",
+    "text": "Synchronous vs. Asynchronous",
+    "runs": [
+      "Synchronous vs. Asynchronous"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:2",
+    "text": "sync: single-threaded, human-in-the-loop, your attention is focused on one task=> AI agent works for 20 seconds - 1.5 minutes",
+    "runs": [
+      "sync:",
+      " ",
+      "single-threaded, human-in-the-loop, your attention is focused on one task",
+      "=> AI agent works for 20 seconds - 1.5 minutes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide7.xml:4",
+    "text": "async: multi-threaded, human delegates to AI, switches attention between multiple tasks=> AI agent works for 10 minutes - multiple hours",
+    "runs": [
+      "async: ",
+      "multi-threaded, human delegates to AI, switches attention between multiple tasks",
+      "=> AI agent works for 10 minutes - multiple hours"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:4",
+    "text": "Local",
+    "runs": [
+      "Local"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:5",
+    "text": "Cloud",
+    "runs": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:6",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide8.xml:7",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:4",
+    "text": "Local",
+    "runs": [
+      "Local"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:5",
+    "text": "Cloud",
+    "runs": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:6",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide9.xml:7",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:4",
+    "text": "Local",
+    "runs": [
+      "Local"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:5",
+    "text": "Cloud",
+    "runs": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:6",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide10.xml:7",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:4",
+    "text": "Local",
+    "runs": [
+      "Local"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:5",
+    "text": "Cloud",
+    "runs": [
+      "Cloud"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:6",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:7",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide11.xml:8",
+    "text": "DeepWiki",
+    "runs": [
+      "DeepWiki"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:7",
+    "text": "Overview",
+    "runs": [
+      "Overview"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:8",
+    "text": "Cloud + Async enables 10x parallelism ",
+    "runs": [
+      "Cloud + Async ",
+      "enables ",
+      "10x parallelism "
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:9",
+    "text": "Boost individual speed.",
+    "runs": [
+      "Boost individual speed."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:10",
+    "text": "Local IDE",
+    "runs": [
+      "Local IDE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:11",
+    "text": "Local IDE",
+    "runs": [
+      "Local IDE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:12",
+    "text": "Local IDE",
+    "runs": [
+      "Local IDE"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:13",
+    "text": "Users",
+    "runs": [
+      "Users"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:14",
+    "text": "Laptops",
+    "runs": [
+      "Laptops"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:15",
+    "text": "Env",
+    "runs": [
+      "Env"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:16",
+    "text": "Users",
+    "runs": [
+      "Users"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:17",
+    "text": "Devins",
+    "runs": [
+      "Devins"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:18",
+    "text": "Env",
+    "runs": [
+      "Env"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:19",
+    "text": "In VPC",
+    "runs": [
+      "In VPC"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:20",
+    "text": "Local AI IDEs",
+    "runs": [
+      "Local AI IDEs"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:21",
+    "text": "Unlimited Devins for parallel capacity.",
+    "runs": [
+      "Unlimited Devins for parallel ",
+      "capacity",
+      "."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:22",
+    "text": "Cloud AI Agents",
+    "runs": [
+      "Cloud AI Agents"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:23",
+    "text": "Local • Synchronous • 1-to-1 • Isolated Knowledge",
+    "runs": [
+      "Local ",
+      "• Synchronous • 1-to-1 • Isolated Knowledge"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide12.xml:24",
+    "text": "Cloud • Asynchronous • 1-to-Many • Organizational Knowledge",
+    "runs": [
+      "Cloud ",
+      "• Asynchronous • 1-to-Many • Organizational Knowledge"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:0",
+    "text": "Using async agents is a hard but learnable skill",
+    "runs": [
+      "Using async agents is a hard but learnable skill"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide13.xml:1",
+    "text": "Managing async agents can unlock 10x gains……but most people use sync agents.",
+    "runs": [
+      "Managing async agents can unlock 10x gains…",
+      "…but most people use sync agents."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:0",
+    "text": "Using async agents is a hard but learnable skill",
+    "runs": [
+      "Using async agents is a hard but learnable skill"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:1",
+    "text": "Managing async agents can unlock 10x gains……but most people use sync agents.",
+    "runs": [
+      "Managing async agents can unlock 10x gains…",
+      "…but most people use sync agents."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:2",
+    "text": "Why?",
+    "runs": [
+      "Why?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:3",
+    "text": "Turns out management & delegation is a difficult skill to master – whether it’s humans or agents.",
+    "runs": [
+      "Turns out management & delegation is a difficult skill to master – whether it’s humans or agents."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide14.xml:4",
+    "text": "Requires ability to cycle between multiple tasks and quickly understanding new context",
+    "runs": [
+      "Requires ability to cycle between multiple tasks and quickly understanding new context"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:0",
+    "text": "Semi-Async: The awkward middle",
+    "runs": [
+      "Semi-Async: The awkward middle"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:1",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:2",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:3",
+    "text": "“Semi-Async”",
+    "runs": [
+      "“Semi-Async”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:4",
+    "text": "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h",
+    "runs": [
+      "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide15.xml:5",
+    "text": "Flow Barrier",
+    "runs": [
+      "Flow Barrier"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:0",
+    "text": "Semi-Async: The awkward middle",
+    "runs": [
+      "Semi-Async: The awkward middle"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:1",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:2",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:3",
+    "text": "“Semi-Async”",
+    "runs": [
+      "“Semi-Async”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:4",
+    "text": "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h",
+    "runs": [
+      "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:5",
+    "text": "Avoid!Too slow for staying in flow.Too short for multi-tasking.",
+    "runs": [
+      "Avoid!",
+      "Too slow for staying in flow.",
+      "Too short for multi-tasking."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide16.xml:7",
+    "text": "Flow Barrier",
+    "runs": [
+      "Flow Barrier"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:0",
+    "text": "Semi-Async: The awkward middle",
+    "runs": [
+      "Semi-Async: The awkward middle"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:1",
+    "text": "Sync",
+    "runs": [
+      "Sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:2",
+    "text": "Async",
+    "runs": [
+      "Async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:3",
+    "text": "“Semi-Async”",
+    "runs": [
+      "“Semi-Async”"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:4",
+    "text": "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h",
+    "runs": [
+      "5s\t\t10s\t\t30s\t\t1m\t\t3m\t\t5m\t\t10m\t\t1h\t\t3h"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:5",
+    "text": "Avoid!Too slow for staying in flow.Too short for multi-tasking.",
+    "runs": [
+      "Avoid!",
+      "Too slow for staying in flow.",
+      "Too short for multi-tasking."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:7",
+    "text": "Make fasterto preserve flow",
+    "runs": [
+      "Make faster",
+      "to preserve flow"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:8",
+    "text": "Trade time for higher intelligence",
+    "runs": [
+      "Trade time for ",
+      "higher intelligence"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide17.xml:9",
+    "text": "Flow Barrier",
+    "runs": [
+      "Flow Barrier"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:3",
+    "text": "Planning",
+    "runs": [
+      "Planning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:4",
+    "text": "Coding",
+    "runs": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide18.xml:5",
+    "text": "Testing",
+    "runs": [
+      "Testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:3",
+    "text": "Planning",
+    "runs": [
+      "Planning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:4",
+    "text": "Coding",
+    "runs": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:5",
+    "text": "Testing",
+    "runs": [
+      "Testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:6",
+    "text": "sync",
+    "runs": [
+      "sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:7",
+    "text": "async",
+    "runs": [
+      "async"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide19.xml:8",
+    "text": "sync",
+    "runs": [
+      "sync"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:0",
+    "text": "Planning with Windsurf & Devin",
+    "runs": [
+      "Planning ",
+      "with Windsurf & Devin"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:1",
+    "text": "DeepWiki",
+    "runs": [
+      "DeepWiki"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:2",
+    "text": "Ask Devin",
+    "runs": [
+      "Ask Devin"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:3",
+    "text": "Codemaps",
+    "runs": [
+      "Codemaps"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide20.xml:4",
+    "text": "DeepWiki in Windsurf",
+    "runs": [
+      "DeepWiki in Windsurf"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide21.xml:0",
+    "text": "Delegate the coding to the agent",
+    "runs": [
+      "Delegate the ",
+      "coding",
+      " to the agent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide22.xml:0",
+    "text": "Delegate the coding to the agent",
+    "runs": [
+      "Delegate the ",
+      "coding",
+      " to the agent"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:0",
+    "text": "Testing the agent’s changes",
+    "runs": [
+      "Testing ",
+      "the agent’s changes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide23.xml:1",
+    "text": "Common workflow:1. Delegate task to Devin (async)2. Test & refine changes in Windsurf (sync)",
+    "runs": [
+      "Common workflow:",
+      "1. Delegate task to Devin (async)",
+      "2. Test & refine changes in Windsurf (sync)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:0",
+    "text": "Testing the agent’s changes",
+    "runs": [
+      "Testing ",
+      "the agent’s changes"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:1",
+    "text": "Common workflow:1. Delegate task to Devin (async)2. Test & refine changes in Windsurf (sync)",
+    "runs": [
+      "Common workflow:",
+      "1. Delegate task to Devin (async)",
+      "2. Test & refine changes in Windsurf (sync)"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide24.xml:3",
+    "text": "Future outlook:If async agents could test autonomously, the leverage increases.This is slowly starting to become a reality.",
+    "runs": [
+      "Future outlook:",
+      "If async agents could test autonomously, the leverage increases.",
+      "This is slowly starting to become a reality."
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:3",
+    "text": "Planning",
+    "runs": [
+      "Planning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:4",
+    "text": "Coding",
+    "runs": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:5",
+    "text": "Testing",
+    "runs": [
+      "Testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:6",
+    "text": "Where are we headed?",
+    "runs": [
+      "Where are we headed?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide25.xml:7",
+    "text": "Today:",
+    "runs": [
+      "Today:"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:3",
+    "text": "Planning",
+    "runs": [
+      "Planning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:4",
+    "text": "Coding",
+    "runs": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:5",
+    "text": "Testing",
+    "runs": [
+      "Testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:6",
+    "text": "Where are we headed?",
+    "runs": [
+      "Where are we headed?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:10",
+    "text": "Planning",
+    "runs": [
+      "Planning"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:11",
+    "text": "Coding",
+    "runs": [
+      "Coding"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:12",
+    "text": "Testing",
+    "runs": [
+      "Testing"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:13",
+    "text": "Today:",
+    "runs": [
+      "Today:"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide26.xml:14",
+    "text": "Future:",
+    "runs": [
+      "Future:"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide27.xml:0",
+    "text": "Where are we headed?",
+    "runs": [
+      "Where are we headed?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide27.xml:1",
+    "text": "The human engineer as the agent manager",
+    "runs": [
+      "The human engineer as the agent manager"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide27.xml:2",
+    "text": "Leveraging sync tools to solve the most difficult problems",
+    "runs": [
+      "Leveraging sync tools to solve the most difficult problems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide27.xml:3",
+    "text": "Leveraging async tools to achieve 10x leverage",
+    "runs": [
+      "Leveraging async tools to achieve 10x leverage"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:0",
+    "text": "Where are we headed?",
+    "runs": [
+      "Where are we headed?"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:1",
+    "text": "The human engineer as the agent manager",
+    "runs": [
+      "The human engineer as the agent manager"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:2",
+    "text": "Leveraging sync tools to solve the most difficult problems",
+    "runs": [
+      "Leveraging sync tools to solve the most difficult problems"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:3",
+    "text": "Leveraging async tools to achieve 10x leverage",
+    "runs": [
+      "Leveraging async tools to achieve 10x leverage"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:4",
+    "text": "Valuable skills for the future:",
+    "runs": [
+      "Valuable skills for the future:"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:5",
+    "text": "Delegation & multi-threading",
+    "runs": [
+      "Delegation & multi-threading"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:6",
+    "text": "Code reading",
+    "runs": [
+      "Code reading"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide28.xml:7",
+    "text": "Planning, scoping, architecting",
+    "runs": [
+      "Planning, scoping, architecting"
+    ]
+  },
+  {
+    "id": "ppt/slides/slide29.xml:0",
+    "text": "Thank you!",
+    "runs": [
+      "Thank you!"
+    ]
+  }
+]
