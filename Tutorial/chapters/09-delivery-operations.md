@@ -1,6 +1,8 @@
 # 09 全栈交付、可观测性与事故响应
 
-[上一章](08-security.md) | [目录](README.md) | [下一章：团队与综合项目](10-capstone.md)
+[上一章](08-security.md) | [目录](../README.md) | [下一章：团队与综合项目](10-capstone.md)
+
+配套中文课件：[端到端应用](../Fall2025_cn/week08-1110-end-to-end-app.pptx)、[事故响应与 DevOps](../Fall2025_cn/week09-1117-incident-response-devops.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，课件演示不能替代持久化、降级和回滚验收。
 
 ## 1. 原型成功与产品交付之间
 
@@ -25,7 +27,7 @@
 
 ## 3. 多技术栈实验
 
-[2025 第 8 周作业](../_assignments/2025%20fall/week8/assignment.md) 要求三个同功能应用，至少一个用 Bolt，至少一个含非 JavaScript 语言，保留导出的源码和可复现 README。
+[2025 第 8 周作业](../../_assignments/2025%20fall/week8/assignment.md) 要求三个同功能应用，至少一个用 Bolt，至少一个含非 JavaScript 语言，保留导出的源码和可复现 README。
 
 如果没有平台额度，可先用 FastAPI + 静态页面和另一技术栈做对照，这是自学改编，不满足原作业三版本与 Bolt 要求。不要承诺学生优惠对所有读者仍有效。
 
@@ -83,6 +85,14 @@ Agent 可以帮助归纳证据与提出假设。高风险生产操作仍需批�
 
 验收：CRUD 与重启持久化通过，有请求关联信息、有回退观测、有一次恢复证据，没有将学习演练描述为真实生产事故。
 
+### 部署后保护 Agent 本身
+
+监控模型端点还不够：后台任务重试、工具权限和流水线触发也会扩大故障。记录队列年龄、每任务尝试数、取消确认时间、拒绝写入、审批绑定版本和部署版本。模型请求网关的日志不能独自证明工具执行，工具端审计应关联同一任务 ID。
+
+在隔离副本中用 30 分钟、零云调用模拟三个假任务：依赖持续失败、撤销凭据、重复事故告警。先写预期，再检查是否有限重试、停止新副作用、保留部分成果，并将同根因告警归到已有事故；恢复只允许一次受控探测。验收保留事件表、止损决定、复测与回滚条件。纯事件演练不代表真实熔断或权限撤销有效，需要实现后故障注入验证。这个学习环属于第 10 周主题的教程扩展，不是未取得讲座的摘要。
+
+关联：[后台任务状态](06-repo-parallel.md)、[工厂门禁与预算](10-capstone.md)、[企业 MCP 的工具与模型网关区别](../reading-notes/fall2026/week02/04-enterprise-mcp.md)。
+
 ## 10. 自测与答案
 
 **问：HTTP 200 为什么也可能是业务失败？** 内容可能错误、缺失或被静默降级，不符合用户的实际目标。
@@ -91,4 +101,4 @@ Agent 可以帮助归纳证据与提出假设。高风险生产操作仍需批�
 
 **问：事故 Agent 自动发现问题就可自动重启所有服务吗？** 不能。动作需符合授权、影响范围和恢复策略，重启也可能加剧事故。
 
-来源：[全栈应用讲义](../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[2025 第 8 周作业](../_assignments/2025%20fall/week8/assignment.md)、[事故响应与 DevOps 讲义](../Resource/Fall2025/week09-1117-incident-response-devops.pptx)。SLO 示例与故障演练为教程扩展。
+来源：[全栈应用讲义](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[2025 第 8 周作业](../../_assignments/2025%20fall/week8/assignment.md)、[事故响应与 DevOps 讲义](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx)。SLO 示例与故障演练为教程扩展。

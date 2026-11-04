@@ -1,6 +1,8 @@
 # 02 Coding Agent 的内部原理
 
-[上一章](01-llm-prompting.md) | [目录](README.md) | [下一章：上下文与规格](03-context-spec.md)
+[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与规格](03-context-spec.md)
+
+配套中文课件：[构建 Coding Agent](../Fall2025_cn/week02-0929-building-a-coding-agent.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，课件不替代课堂代码分析和真实 trace 证据。
 
 ## 1. Agent 不是一个更长的提示词
 
@@ -50,7 +52,7 @@ LLM 根据上下文生成回答；Coding Agent 在模型之外增加工具执行
 
 ## 5. 课堂原型与生产边界
 
-本地 [完成的 Agent 练习](../Resource/Fall2025/week02-0929-completed-exercise.py) 用文本中的 `tool: NAME(JSON)` 表示调用，是适合解释机制的教学原型。它不等价于生产级结构化工具协议。
+本地 [完成的 Agent 练习](../../Resource/Fall2025/week02-0929-completed-exercise.py) 用文本中的 `tool: NAME(JSON)` 表示调用，是适合解释机制的教学原型。它不等价于生产级结构化工具协议。
 
 阅读时检查四件事：字符串解析能否误识别普通文本、文件路径是否受限、工具结果用什么消息角色返回、循环是否有预算。不能把原型中不受限的读写能力直接用于真实仓库。
 
@@ -68,7 +70,7 @@ LLM 根据上下文生成回答；Coding Agent 在模型之外增加工具执行
 
 ## 7. 动手 B：2026 会话追踪进阶
 
-原 [2026 第 1 周作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md) 要求抓取真实 Claude Code HTTP 请求。这需要相应客户端与合法访问权限；没有访问条件时，完成实验 A 是自学替代，不是原作业完成。
+原 [2026 第 1 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md) 要求抓取真实 Claude Code HTTP 请求。这需要相应客户端与合法访问权限；没有访问条件时，完成实验 A 是自学替代，不是原作业完成。
 
 开始前完成第 00 章的安装与访问验收：记录 Claude Code 和 mitmproxy 版本、认证渠道、预算与临时仓库位置，不记录凭据值。Poetry 基础依赖安装不意味着抓包工具已经安装。使用官方或组织授权渠道，不需要为了本实验把账号会话交给第三方；其他客户端的工具日志可以帮助学习循环，但不能替代原作业指定的 HTTP trace。
 
@@ -101,6 +103,8 @@ mitmweb --listen-host 127.0.0.1 --listen-port 58888 --web-open-browser --mode re
 
 验收记录应包括：三个检查点的实际结果、跨两文件的任务与计划、一次失败恢复时间线、脱敏片段的位置，以及代理设置恢复证据。未观察到的消息、系统指令或动态工具发现只能标为推断或未验证，不用别人的截图补齐自己的实验结果。
 
+中文材料：[第 1 周追踪作业导读](../reading-notes/fall2026/week01/assignment-guide.md)、[system prompt 课堂解读](../reading-notes/fall2026/week01/lecture-system-prompt.md)、[Claude Code 架构论文笔记](../reading-notes/fall2026/week01/03-claude-code-design.md)。论文版本与自己抓取的版本可能不同，不能拿论文描述填充未观察到的 trace。
+
 ## 8. 自测与答案
 
 **问：为什么不让模型直接执行任意 shell？** 模型决策可能错误或被注入影响，任意 shell 会把文本错误升级为系统级副作用。
@@ -109,4 +113,4 @@ mitmweb --listen-host 127.0.0.1 --listen-port 58888 --web-open-browser --mode re
 
 **问：工具返回“成功”为什么还需验证？** 工具可能成功执行了错误参数，或只完成部分操作；业务完成需要独立后置条件。
 
-来源：[Agent 讲义](../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[课堂代码](../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 追踪作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md)。受控循环与安全分析是教程扩展。
+来源：[Agent 讲义](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[课堂代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 追踪作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md)。受控循环与安全分析是教程扩展。

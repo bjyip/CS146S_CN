@@ -1,6 +1,8 @@
 # 08 安全与威胁建模
 
-[上一章](07-testing-review.md) | [目录](README.md) | [下一章：交付与运维](09-delivery-operations.md)
+[上一章](07-testing-review.md) | [目录](../README.md) | [下一章：交付与运维](09-delivery-operations.md)
+
+配套中文课件：[AI QA、SAST 与 DAST](../Fall2025_cn/week06-1027-ai-qa-sast-dast.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，安全练习仍只在隔离环境使用假数据。
 
 ## 1. 从资产与权限开始
 
@@ -17,7 +19,7 @@
 | SCA | 依赖版本与已知漏洞 | 未公布漏洞、实际可达性 |
 | Secret scanning | 凭据形态与暴露 | 自定义秘密、历史与日志遗漏 |
 
-一次命令不一定覆盖全部能力。原 [第 6 周作业](../_assignments/2025%20fall/week6/assignment.md) 提供 `semgrep ci --subdir week6`，其可用规则、认证、平台能力和版本需要核对，不能假定执行后同时获得完整依赖与秘密扫描。
+一次命令不一定覆盖全部能力。原 [第 6 周作业](../../_assignments/2025%20fall/week6/assignment.md) 提供 `semgrep ci --subdir week6`，其可用规则、认证、平台能力和版本需要核对，不能假定执行后同时获得完整依赖与秘密扫描。
 
 自学时可先在受控环境针对练习目录运行 SAST，例如在 `_assignments/2025 fall/` 中：
 
@@ -61,7 +63,7 @@ semgrep scan --config p/default week6/backend week6/frontend
 
 ### 第三方开通与登录会话案例
 
-本次上游新增[非官方商业开通说明](../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md)，其中有将完整登录会话内容提交给第三方页面的步骤。本教程不推荐或复述操作路径，也不把宣传价格、售后承诺和用户评价当安全证据。风险在于把授权材料交给账户提供商与用户之外的主体，而不是是否称它为“密码”。
+仓库的[非官方商业开通说明](../../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md)包含将完整登录会话内容提交给第三方页面的步骤。本教程不推荐或复述操作路径，也不把宣传价格、售后承诺和用户评价当安全证据。风险在于把授权材料交给账户提供商与用户之外的主体，而不是是否称它为“密码”。
 
 | 数据 | 安全含义 | 处理边界 |
 | --- | --- | --- |
@@ -111,6 +113,8 @@ semgrep scan --config p/default week6/backend week6/frontend
 
 **问：登录会话不是密码，是否可以给第三方代开会员？** 不能据此判断安全。会话可能代表账号访问能力，应作为敏感授权材料保护，不交给代办者。
 
-来源：[测试与安全讲义](../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[2025 第 6 周作业](../_assignments/2025%20fall/week6/assignment.md)。威胁模型、路径和注入演练为教程扩展。
+来源：[测试与安全讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[2025 第 6 周作业](../../_assignments/2025%20fall/week6/assignment.md)。威胁模型、路径和注入演练为教程扩展。
 
-案例来源：[上游非官方商业补充页](../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md)，仅用于识别凭据披露风险，不为其中价格、资格或服务背书。
+案例来源：[上游非官方商业补充页](../../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md)，仅用于识别凭据披露风险，不为其中价格、资格或服务背书。
+
+Agent 机制关联：[非官方架构论文的权限与隔离](../reading-notes/fall2026/week01/03-claude-code-design.md)、[Claude Code 定制说明](../reading-notes/fall2026/week04/03-steering-claude-code.md)、[Web Skill 的状态副作用](../reading-notes/fall2026/week03/03-browse.md)。来源文本和模型判断都不能代替执行端拒绝证据。

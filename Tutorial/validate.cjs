@@ -3,13 +3,26 @@ const path = require('path')
 const vm = require('vm')
 
 const root = __dirname
-const files = fs.readdirSync(root).filter(file => file.endsWith('.md'))
+const files = []
+const directories = [root]
+while (directories.length) {
+  const directory = directories.pop()
+  for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+    const location = path.join(directory, entry.name)
+    if (entry.isDirectory()) directories.push(location)
+    else if (entry.isFile() && entry.name.endsWith('.md')) {
+      files.push(path.relative(root, location))
+    }
+  }
+}
+files.sort()
 const errors = []
 let links = 0
 let blocks = 0
 
 for (const file of files) {
-  const source = fs.readFileSync(path.join(root, file), 'utf8')
+  const location = path.join(root, file)
+  const source = fs.readFileSync(location, 'utf8')
   if (/[^\S\r\n]+$/m.test(source)) {
     errors.push(`${file}: trailing whitespace`)
   }
@@ -20,11 +33,15 @@ for (const file of files) {
     const target = match[1]
     if (/^(https?:|mailto:|#)/.test(target)) continue
     links++
-    const resolved = path.resolve(
-      root,
-      decodeURIComponent(target.split('#')[0])
-    )
-    if (!fs.existsSync(resolved)) errors.push(`${file}: missing ${target}`)
+    try {
+      const resolved = path.resolve(
+        path.dirname(location),
+        decodeURIComponent(target.split('#')[0])
+      )
+      if (!fs.existsSync(resolved)) errors.push(`${file}: missing ${target}`)
+    } catch (error) {
+      errors.push(`${file}: invalid link ${target}: ${error.message}`)
+    }
   }
 
   const codePattern = /^```([^\r\n]*)\r?\n([\s\S]*?)^```/gm

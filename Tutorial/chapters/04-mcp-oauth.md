@@ -1,6 +1,8 @@
 # 04 MCP、工具设计与 OAuth
 
-[上一章](03-context-spec.md) | [目录](README.md) | [下一章：Skills 与自动化](05-skills-automation.md)
+[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills 与自动化](05-skills-automation.md)
+
+配套中文课件：[自定义 MCP Server](../Fall2025_cn/week02-1003-custom-mcp-server.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，旧课件不替代当前 SDK、协议和 OAuth 文档核对。
 
 ## 1. MCP 连接的是什么
 
@@ -59,7 +61,7 @@ MCP 是用于连接 AI 应用与外部能力的协议。Host 是承载用户会�
 
 ## 5. stdio 的一个隐蔽陷阱
 
-stdout 是协议通道，调试日志应发往 stderr。课堂 [完成的 MCP 练习](../Resource/Fall2025/week02-1003-completed-exercise.py) 中工具有 `print(full_path)`，这样的输出可能破坏 stdio 协议。阅读代码时还应检查文件路径是否受限，不能照搬不受限文件访问到真实工作目录。
+stdout 是协议通道，调试日志应发往 stderr。课堂 [完成的 MCP 练习](../../Resource/Fall2025/week02-1003-completed-exercise.py) 中工具有 `print(full_path)`，这样的输出可能破坏 stdio 协议。阅读代码时还应检查文件路径是否受限，不能照搬不受限文件访问到真实工作目录。
 
 启动命令应确定解释器、入口和工作目录。不要依赖“从某个终端正好启动能跑”，而让 Agent 启动时落入另一个目录。真实 token 配置与缓存应位于受限位置并被 Git 忽略，提交的是无秘密的示例配置。
 
@@ -89,13 +91,13 @@ token 缓存需要文件权限或安全存储；并发刷新需要协调，避�
 
 ## 8. 动手 A：基础 MCP
 
-依据 [2025 第 3 周作业](../_assignments/2025%20fall/week3/assignment.md)，选择一个合法外部 API，实现至少两个工具，满足类型约束、超时、错误处理和组合调用。选择测试数据，先手动调用，再连接客户端。
+依据 [2025 第 3 周作业](../../_assignments/2025%20fall/week3/assignment.md)，选择一个合法外部 API，实现至少两个工具，满足类型约束、超时、错误处理和组合调用。选择测试数据，先手动调用，再连接客户端。
 
 如果暂时没有外部 API 条件，可先用隔离笔记文件练习协议和路径约束；这只是前置改编，不满足原作业的外部 API 要求。连接时使用客户端支持的配置格式，不把一个产品的配置直接拷到另一个产品。
 
 ## 9. 动手 B：2026 OAuth MCP
 
-按 [2026 第 2 周作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md) 扩展为至少三个可组合工具，包含一个真正写工具，stdio 启动、OAuth 授权码交换、缓存与刷新，以及工具写入刹车。
+按 [2026 第 2 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md) 扩展为至少三个可组合工具，包含一个真正写工具，stdio 启动、OAuth 授权码交换、缓存与刷新，以及工具写入刹车。
 
 建议顺序：先验证供应商授权能力，再实现只读列表与读取；然后设计预览和写入；最后接入 Agent。写入只使用测试账号或专用测试资源，先人工确认范围。
 
@@ -103,7 +105,17 @@ token 缓存需要文件权限或安全存储；并发刷新需要协调，避�
 
 验收报告包含客户端/SDK/协议版本、单一启动命令、脱敏 `.mcp.json.example`、真实组合 transcript、一次失败恢复和协议测试结果。未经真正授权、写入或协议验证的项目，不标记为原作业完成。
 
-## 10. 自测与答案
+## 10. 渐进发现与代码执行的边界
+
+[企业级 MCP 笔记](../reading-notes/fall2026/week02/04-enterprise-mcp.md)和[课堂转写解读](../reading-notes/fall2026/week02/lecture-mcp.md)讨论先搜索能力、再执行组合调用，而不是每轮提供全部工具 schema。发现接口减少初始上下文，但执行时仍需正确版本、参数约束和权限；目录不等于安全执行层。
+
+Code Mode 可让生成代码组合多个调用。减少模型往返不意味着任意代码可信：执行层仍应限制工具、主体和资源、网络、时间、结果大小及写入审批。例如“查笔记再创建任务”，若创建成功但后续查询超时，整段代码重跑可能重复创建。需要逐步结果、幂等键和部分失败说明，不能把一次函数执行当原子事务。
+
+离线练习：30 分钟、零云预算，用临时文件准备四个假工具的完整目录与搜索结果，为同一目标比较信息量和必要调用。走查未授权写入、写成功响应丢失、结果过大三种失败。验收给出权限矩阵、调用序列、拒绝位置和恢复方案；这只是契约演练，未运行沙箱或真实门户。目录裁剪不能隐藏身份与错误字段，厂商 token 节省例不证明完整任务必然更便宜。
+
+作业入口：[第 2 周 OAuth MCP 导读](../reading-notes/fall2026/week02/assignment-guide.md)。接口与流程的另一视角见[为什么作者更偏好 MCP](../reading-notes/fall2026/week04/01-mcp-over-skills.md)，个人偏好不是普遍替代规则。
+
+## 11. 自测与答案
 
 **问：工具说明能否代替 schema 校验？** 不能。说明帮助选择工具，schema 和实现才负责实际输入约束。
 
@@ -111,4 +123,4 @@ token 缓存需要文件权限或安全存储；并发刷新需要协调，避�
 
 **问：写请求超时后为何不能立即重试？** 服务端可能已经写入。应先利用幂等机制或读取后置状态判断。
 
-来源：[MCP 讲义](../Resource/Fall2025/week02-1003-custom-mcp-server.pptx)、[课堂代码](../Resource/Fall2025/week02-1003-completed-exercise.py)、[2025 第 3 周作业](../_assignments/2025%20fall/week3/assignment.md)、[2026 第 2 周作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md)。OAuth 防护细化及预览设计为教程扩展；实际实现应核对供应商与当前 MCP SDK 文档。
+来源：[MCP 讲义](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx)、[课堂代码](../../Resource/Fall2025/week02-1003-completed-exercise.py)、[2025 第 3 周作业](../../_assignments/2025%20fall/week3/assignment.md)、[2026 第 2 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md)。OAuth 防护细化及预览设计为教程扩展；实际实现应核对供应商与当前 MCP SDK 文档。

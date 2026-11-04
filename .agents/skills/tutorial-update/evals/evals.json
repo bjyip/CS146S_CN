@@ -5,9 +5,9 @@
     {
       "id": 1,
       "prompt": "更新Tutorial",
-      "fixture": "README adds a topic with a readable local source; Tutorial does not cover it.",
-      "expected_output": "Load the skill, inspect current coverage, update the appropriate chapter and sources, then report document validation.",
-      "assertions": ["Read current README and Tutorial", "Add explanation, example, exercise and acceptance criteria", "Do not change files outside Tutorial"],
+      "fixture": "Tutorial uses chapters/, reading-notes/ and reference/. README adds a topic with a readable local source; neither a chapter nor a per-source note covers it.",
+      "expected_output": "Inspect current coverage, update the appropriate chapter, write the source note and indexes, update reference/sources.md, then report recursive document validation.",
+      "assertions": ["Read current README and Tutorial", "Add explanation, example, exercise and acceptance criteria", "Maintain per-source notes and bidirectional chapter links", "Resolve nested links relative to each document", "Do not change files outside Tutorial"],
       "files": []
     },
     {

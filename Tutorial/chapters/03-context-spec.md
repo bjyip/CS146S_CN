@@ -1,6 +1,8 @@
 # 03 上下文工程与规格驱动开发
 
-[上一章](02-agent-loop.md) | [目录](README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)
+[上一章](02-agent-loop.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)
+
+配套中文课件：[AI IDE 配置](../Fall2025_cn/week03-1006-ai-ide-setup.pptx)、[Silas Alberti 同期嘉宾课件](../Fall2025_cn/week03-1010-silas-alberti.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)；嘉宾课件仅接入导航，不据此声称已完整解读讲座。
 
 ## 1. 为什么“帮我优化项目”经常失败
 
@@ -60,7 +62,7 @@ README 提到 Research、Propose、Plan、Implement、Test。可以将它理解�
 | 安全 | 不执行笔记中的命令；不记录原始秘密 |
 | 非目标 | 不自动把结果同步到第三方项目管理工具 |
 
-当前 [提取实现](../_assignments/2025%20fall/week2/app/services/extract.py) 已有 LLM 与规则回退。其函数返回列表，不带引擎与错误状态。改变返回类型可能影响路由和测试，所以应先调查消费者，再决定新增包装层还是调整契约，不能只改一个函数就宣布完成。
+当前 [提取实现](../../_assignments/2025%20fall/week2/app/services/extract.py) 已有 LLM 与规则回退。其函数返回列表，不带引擎与错误状态。改变返回类型可能影响路由和测试，所以应先调查消费者，再决定新增包装层还是调整契约，不能只改一个函数就宣布完成。
 
 ## 7. 验收案例应先于实现
 
@@ -82,7 +84,7 @@ README 提到 Research、Propose、Plan、Implement、Test。可以将它理解�
 
 ## 8. 动手：用 AI 完成一个受控变更
 
-1. 在练习副本中选择列表分页或提取降级状态，阅读相关代码与 [原设计文档模板](../Resource/Fall2025/week03-1006-design-document-template.md)。
+1. 在练习副本中选择列表分页或提取降级状态，阅读相关代码与 [原设计文档模板](../../Resource/Fall2025/week03-1006-design-document-template.md)。
 2. 写一页规格：当前行为、目标、非目标、输入输出、失败路径、受影响文件、验收和回滚。
 3. 给 Agent 第一阶段请求：“只研究，不改文件；列出来源、方案与待澄清项。”检查它有没有将猜测当事实。
 4. 确认方案后请求小步实现，明确允许范围；每步都要求实际测试证据。
@@ -91,7 +93,27 @@ README 提到 Research、Propose、Plan、Implement、Test。可以将它理解�
 
 验收：规格可以在没有原作者帮助时转成测试；修改范围合理；有一个失败路径和一个未参与实现调参的验证样例。
 
-## 9. 自测与答案
+## 9. 压缩不是越早越好
+
+[上下文税笔记](../reading-notes/fall2026/week02/01-context-tax.md)讨论长会话反复读入历史的成本。粗略估算输入工作量时，把每次调用的输入 token 相加，而不是只看最后一轮；子 Agent 继承大上下文也要计入。缓存会改变计费，不能把累计 token 直接当账单金额。
+
+压缩会节省后续输入，却可能丢失目标、决定理由和失败证据，导致重新搜索甚至做错。比如分页方案已选择稳定排序，交接只写“实现分页”，新会话可能重新改变 API。保留契约、决定理由、已改文件、测试定位和未验证项，比照搬全部日志更重要。文章是作者个人记录与模型评审的观察，不支持把其压缩阈值变成所有项目的规定。
+
+离线练习：在独立副本用 30 分钟、零模型预算制作两份分页交接，一份只写目标，一份保留上述证据。请另一位读者只凭交接列出实施与验收步骤，核对是否遗漏排序、兼容性和失败路径；没有读者时自己用预先写好的检查表核对，注明不是独立实验。验收保留交接版本、遗漏清单和文件定位；这验证交接完整性，不证明真实模型成本或质量改善。
+
+## 10. 将规格作为跨会话的权威交接
+
+[OpenSpec 笔记](../reading-notes/fall2026/week02/02-openspec.md)的入门流程把探索、提案、人工复核、实现和归档连接起来。关键是可复核产物：提案解释为什么改，规格定义行为，设计记录必要架构决定，任务表约束范围。新会话先读这些文件并核对代码；归档前将最终行为同步回维护中的规格，不能只保存聊天。
+
+例如分页提案最初写“每页 50 条”，人工发现旧客户端依赖字段名，应先补规格，再实现。任务打勾不能替代退出码、断言和需求核对。已读 quickstart 是工具的一种流程，不是通用目录或自动安全保证；[Superpowers 材料](../reading-notes/fall2026/week02/03-superpowers.md)需按实际读取文件比较，不因名称相似假定机制一致。
+
+离线练习：用 45 分钟在练习副本写一页分页提案、行为规格和任务表；先引入同时间戳排序歧义，人工修正规格后交给下一会话或读者。预算为零云调用，最多一个受控变更，不安装框架。验收将每条规格映射到预先定义的检查，并保留归档前后差异；没有运行实现就标为规格演练，不能标记功能通过。过期规格与过度细化同样会误导，需要维护责任。
+
+课堂关联：[RePPIT 转写解读](../reading-notes/fall2026/week02/lecture-reppit.md)。阶段名称不是审批权限，外部文档不能授权安装、提交或写入。
+
+延伸定位：[架构论文的上下文分层](../reading-notes/fall2026/week01/03-claude-code-design.md)、[Matt Pocock 的规格与测试 seam](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[第 3 周 Skill 导读](../reading-notes/fall2026/week03/assignment-guide.md)。精选材料用来对照来源差异，不追加未确认的业务字段到本教程主线。
+
+## 11. 自测与答案
 
 **问：规格是否应该包含每行实现？** 不需要。规格应约束可观察行为和必要架构决定；过度规定细节会妨碍合理实现。
 
@@ -99,4 +121,4 @@ README 提到 Research、Propose、Plan、Implement、Test。可以将它理解�
 
 **问：发现需要改计划外文件怎么办？** 先说明调用关系和必要性，再调整范围；涉及未授权行为或并发冲突时寻求确认。
 
-来源：[AI IDE 与上下文讲义](../Resource/Fall2025/week03-1006-ai-ide-setup.pptx)、[设计文档模板](../Resource/Fall2025/week03-1006-design-document-template.md)、[2025 第 2 周作业](../_assignments/2025%20fall/week2/assignment.md)。RePPIT 主题来自 README；示例规格与实验为教程扩展。
+来源：[AI IDE 与上下文讲义](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx)、[设计文档模板](../../Resource/Fall2025/week03-1006-design-document-template.md)、[2025 第 2 周作业](../../_assignments/2025%20fall/week2/assignment.md)。RePPIT 主题来自 README；示例规格与实验为教程扩展。

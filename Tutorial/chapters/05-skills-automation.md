@@ -1,6 +1,8 @@
 # 05 Skills、规则与自动化
 
-[上一章](04-mcp-oauth.md) | [目录](README.md) | [下一章：仓库与并行](06-repo-parallel.md)
+[上一章](04-mcp-oauth.md) | [目录](../README.md) | [下一章：仓库与并行](06-repo-parallel.md)
+
+配套中文课件：[Agent 管理](../Fall2025_cn/week04-1013-agent-manager.pptx)、[Boris Cherny 嘉宾课件](../Fall2025_cn/week04-1017-boris-cherny.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，2025 产品说明不作为当前加载机制的保证。
 
 ## 1. 不同机制，不同职责
 
@@ -61,7 +63,7 @@ MCP 是客户端访问能力的协议接口；CLI 是命令行操作接口；Ski
 
 **流程 B：API 文档一致性检查。** 输入是端点变更；从当前应用的 OpenAPI 和路由读取契约，对照文档，输出差异。更新文档后核验参数、响应和错误案例。无法启动时可检查静态定义，但必须标记未验证运行时 schema。
 
-这两个流程来自 [2025 第 4 周作业](../_assignments/2025%20fall/week4/assignment.md) 的自动化方向。可以用原产品机制实现，也可以先用通用提示和脚本做自学改编；后者不等价于原作业要求的 Claude Code 功能交付。
+这两个流程来自 [2025 第 4 周作业](../../_assignments/2025%20fall/week4/assignment.md) 的自动化方向。可以用原产品机制实现，也可以先用通用提示和脚本做自学改编；后者不等价于原作业要求的 Claude Code 功能交付。
 
 ## 6. Hook 是门禁，不是口号
 
@@ -85,7 +87,7 @@ pre-commit 属于本地便利门禁，可能被绕过或未安装；CI 与分支
 
 1. 在练习应用中手动完成测试诊断或文档同步，记录所有目录和命令。
 2. 实现两个自动化工作流，每个写清目标、输入、输出、判断分支、安全边界和回滚。
-3. 按 [2026 第 3 周作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week3/assignment.md)，选择其中一个有真实判断点的流程编码成 Skill。
+3. 按 [2026 第 3 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week3/assignment.md)，选择其中一个有真实判断点的流程编码成 Skill。
 4. 设计三个应该触发的请求，以及一个词汇近似但不该触发的请求。例如“复现这个 500 报错”应触发，“解释什么是 HTTP 500”不应触发复现流程。
 5. 在新会话中实际测试触发，记录触发与未触发，不根据事后愿望填写结果。
 6. 端到端运行一次，再故意让测试失败，验证它没有绕过门禁。比较手动与自动化耗时，同时记录人工纠错次数。
@@ -103,6 +105,12 @@ pre-commit 属于本地便利门禁，可能被绕过或未安装；CI 与分支
 
 **问：使用远程 MCP 是否就不需要权限控制？** 不需要本机安装某个 CLI，不代表服务安全。服务仍需身份、资源授权、网络边界、写入审批和审计。
 
-来源：[Agent 管理讲义](../Resource/Fall2025/week04-1013-agent-manager.pptx)、[Claude Code 嘉宾讲义](../Resource/Fall2025/week04-1017-boris-cherny.pptx)、[2025 第 4 周作业](../_assignments/2025%20fall/week4/assignment.md)、[2026 第 3 周作业](../_assignments/2026%20fall/modern-software-dev-assignments-master/week3/assignment.md)。机制边界与测试设计为教程扩展。
+来源：[Agent 管理讲义](../../Resource/Fall2025/week04-1013-agent-manager.pptx)、[Claude Code 嘉宾讲义](../../Resource/Fall2025/week04-1017-boris-cherny.pptx)、[2025 第 4 周作业](../../_assignments/2025%20fall/week4/assignment.md)、[2026 第 3 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week3/assignment.md)。机制边界与测试设计为教程扩展。
 
-新增外部阅读：[MCP 与 Skills 的经验比较](https://david.coffee/i-still-prefer-mcp-over-skills)、[Factory AGENTS.md](https://docs.factory.com/harness/agents-md)、[Claude Code 定制机制](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)、[CLAUDE.md 写作经验](https://hlyr.dev/blog/writing-a-good-claude-md)。已阅读正文，产品规则与经验建议均有适用边界，详见[资料索引](sources.md)。
+新增外部阅读：[MCP 与 Skills 的经验比较](https://david.coffee/i-still-prefer-mcp-over-skills)、[Factory AGENTS.md](https://docs.factory.com/harness/agents-md)、[Claude Code 定制机制](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more)、[CLAUDE.md 写作经验](https://hlyr.dev/blog/writing-a-good-claude-md)。已阅读正文，产品规则与经验建议均有适用边界，详见[资料索引](../reference/sources.md)。
+
+逐份中文笔记：[MCP 与 Skills 的职责划分](../reading-notes/fall2026/week04/01-mcp-over-skills.md)、[Factory AGENTS.md](../reading-notes/fall2026/week04/02-factory-agents-md.md)、[引导 Claude Code](../reading-notes/fall2026/week04/03-steering-claude-code.md)、[编写高质量 CLAUDE.md](../reading-notes/fall2026/week04/04-writing-a-good-claude-md.md)。
+
+第 3 周入口：[Skill 作业导读](../reading-notes/fall2026/week03/assignment-guide.md)、[pstack 精选材料](../reading-notes/fall2026/week03/01-pstack.md)、[Matt Pocock 技能集精选](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[browse.sh 限定范围解读](../reading-notes/fall2026/week03/03-browse.md)。[Superpowers 笔记](../reading-notes/fall2026/week02/03-superpowers.md)用于比较工作流；读取正文不代表已安装、触发或验证脚本。
+
+课堂机制定位：[system prompt 与定制](../reading-notes/fall2026/week01/lecture-system-prompt.md)、[RePPIT 的阶段交接](../reading-notes/fall2026/week02/lecture-reppit.md)、[MCP 能力与过程职责](../reading-notes/fall2026/week02/lecture-mcp.md)。转写里的演示不是当前客户端加载行为测试。

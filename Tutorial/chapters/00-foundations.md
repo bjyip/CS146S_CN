@@ -1,10 +1,12 @@
 # 00 准备环境与科学学习方法
 
-[目录](README.md) | [下一章：LLM 与提示](01-llm-prompting.md)
+[目录](../README.md) | [下一章：LLM 与提示](01-llm-prompting.md)
 
 ## 1. 学习目标
 
 本章结束时，你能定位正确的依赖根目录，建立不依赖 AI 的运行基线，并设计一个不会因为答案泄漏或挑选成功样本而失真的实验。
+
+配套资料：[Fall 2025 中文课件对照表](../reference/sources.md#fall-2025-中文课件)按第 01–09 章组织，供后续按需阅读。本章先完成环境和方法诊断，不需要先看完课件；课件文件存在不代表翻译已逐页核验或实验已通过。
 
 ## 2. 先诊断，再安装
 
@@ -93,7 +95,7 @@ Claude Code 安装按[官方说明](https://code.claude.com/docs/en/setup)选择
 
 网页会员订阅、开发者 API 额度和组织授权是不同的访问与计费渠道。不能从“网页能聊天”推断“CLI 已授权”，也不能从“已买会员”推断所有 API 请求已包含在订阅中。Claude Code 官方说明提供账户与 API 提供商等路线；具体资格、地区、额度和价格会变化，实际使用前核对官方说明与账户状态，不把第三方套餐宣传当作长期事实。Codex 的当前认证页面本次未成功读取，本教程不据此写入套餐资格或安装命令。
 
-用[环境验收模板](templates.md)分别记录安装、认证、最小模型请求、计费来源和恢复措施。一个安全的例子是：版本检查通过，离线测试通过，模型调用未运行，则前两项通过，云端能力仍为未验证。获得授权后，在不含秘密的临时仓库进行一个最小请求，记录成功或完整错误类别、用量和退出状态，不在日志中保存凭据。
+用[环境验收模板](../reference/templates.md)分别记录安装、认证、最小模型请求、计费来源和恢复措施。一个安全的例子是：版本检查通过，离线测试通过，模型调用未运行，则前两项通过，云端能力仍为未验证。获得授权后，在不含秘密的临时仓库进行一个最小请求，记录成功或完整错误类别、用量和退出状态，不在日志中保存凭据。
 
 验收：能指出当前作业根目录与客户端版本，区分未安装、未授权、额度不足和业务测试失败；所有未执行检查明确标记。无合法访问条件时使用离线或本地改编路线，不宣称完成了指定真实客户端的原作业。
 
@@ -141,4 +143,4 @@ Claude Code 安装按[官方说明](https://code.claude.com/docs/en/setup)选择
 
 **问：CLI 能显示版本为何仍可能无法调用模型？** 安装与认证、访问权限、网络和额度是独立条件，要按失败类别定位，而不是重复安装或盲目购买会员。
 
-来源：[2025 环境说明](../_assignments/2025%20fall/README.md)、[依赖配置](../_assignments/2025%20fall/pyproject.toml)、[2026 环境说明](../_assignments/2026%20fall/modern-software-dev-assignments-master/README.md)、[2026 依赖配置](../_assignments/2026%20fall/modern-software-dev-assignments-master/pyproject.toml)、[第 2 周测试](../_assignments/2025%20fall/week2/tests/test_extract.py)、[第 4 周 Makefile](../_assignments/2025%20fall/week4/Makefile)、[Claude Code 官方安装说明](https://code.claude.com/docs/en/setup)。算法诊断、环境验收与评测方法是教程扩展。
+来源：[2025 环境说明](../../_assignments/2025%20fall/README.md)、[依赖配置](../../_assignments/2025%20fall/pyproject.toml)、[2026 环境说明](../../_assignments/2026%20fall/modern-software-dev-assignments-master/README.md)、[2026 依赖配置](../../_assignments/2026%20fall/modern-software-dev-assignments-master/pyproject.toml)、[第 2 周测试](../../_assignments/2025%20fall/week2/tests/test_extract.py)、[第 4 周 Makefile](../../_assignments/2025%20fall/week4/Makefile)、[Claude Code 官方安装说明](https://code.claude.com/docs/en/setup)。算法诊断、环境验收与评测方法是教程扩展。

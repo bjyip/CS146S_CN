@@ -1,6 +1,8 @@
 # 07 测试、评测与代码审查
 
-[上一章](06-repo-parallel.md) | [目录](README.md) | [下一章：安全](08-security.md)
+[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全](08-security.md)
+
+配套中文课件：[AI QA、SAST 与 DAST](../Fall2025_cn/week06-1027-ai-qa-sast-dast.pptx)、[AI 代码审查](../Fall2025_cn/week07-1103-ai-code-review.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，阅读课件不等于测试或审查实验通过。
 
 ## 1. 两种正确性必须分开
 
@@ -23,7 +25,7 @@ pytest 输出一片绿色不等于所有层次都覆盖。报告每种测试的�
 
 ## 3. 解剖现有测试
 
-[第 2 周测试](../_assignments/2025%20fall/week2/tests/test_extract.py) mock 了模型返回，覆盖空输入、格式解析、重复项和不可用回退。这些是有价值的单元测试。
+[第 2 周测试](../../_assignments/2025%20fall/week2/tests/test_extract.py) mock 了模型返回，覆盖空输入、格式解析、重复项和不可用回退。这些是有价值的单元测试。
 
 但 mock 指定了正确 JSON，不能证明真实模型会生成它；测试断言有 schema 也不能证明内容真实；异常回退得到规则结果，不能说明 LLM 服务健康。当前实现广泛捕获异常后回退，若缺少指标，成功响应还可能掩盖长时间模型不可用。
 
@@ -113,7 +115,7 @@ diff 是定位起点，不是完整需求。[Greptile 的经验文章](https://w
 
 ## 9. 动手 B：人工与 AI 审查对照
 
-[2025 第 7 周作业](../_assignments/2025%20fall/week7/assignment.md) 要求四项任务各自独立 PR、一次性 AI 实现、逐行人工审查及 Graphite AI 审查。任务见 [任务清单](../_assignments/2025%20fall/week7/docs/TASKS.md)。
+[2025 第 7 周作业](../../_assignments/2025%20fall/week7/assignment.md) 要求四项任务各自独立 PR、一次性 AI 实现、逐行人工审查及 Graphite AI 审查。任务见 [任务清单](../../_assignments/2025%20fall/week7/docs/TASKS.md)。
 
 按原作业执行时先保留 one-shot 产物，不让模型反复自修后再作为“首次生成”审查样本。记录人工和 AI 各自的发现，验证是否是真缺陷，再讨论遗漏。
 
@@ -131,6 +133,8 @@ diff 是定位起点，不是完整需求。[Greptile 的经验文章](https://w
 
 **问：十个 Agent 都没发现问题能自动上线吗？** 不能。角色可能共享盲区，批准取决于风险、独立验证与团队门禁，而不是同意票数。
 
-来源：[测试讲义](../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[2025 第 7 周作业](../_assignments/2025%20fall/week7/assignment.md)、[现有提取测试](../_assignments/2025%20fall/week2/tests/test_extract.py)。变异练习与评测报告方法为教程扩展。
+来源：[测试讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[2025 第 7 周作业](../../_assignments/2025%20fall/week7/assignment.md)、[现有提取测试](../../_assignments/2025%20fall/week2/tests/test_extract.py)。变异练习与评测报告方法为教程扩展。
 
-新增阅读：[Cloudflare 专业审查编排](https://blog.cloudflare.com/ai-code-review)、[Greptile 超越 diff 的审查](https://www.greptile.com/blog/how-to-build-a-code-review-agent)。风险表、隔离实验和验收为教程改编；README 新增的 X 分层审查链接未成功读取，不作为正文依据。
+相关阅读：[Cloudflare 专业审查编排笔记](../reading-notes/fall2026/week06/02-specialist-review.md)、[Greptile 超越 diff 的审查笔记](../reading-notes/fall2026/week06/03-beyond-diff.md)。风险表、隔离实验和验收为教程改编；README 的 X 分层审查链接未成功读取，不作为正文依据。
+
+工作流对照：[OpenSpec 的任务与行为验证区别](../reading-notes/fall2026/week02/02-openspec.md)、[Superpowers 的完成证据](../reading-notes/fall2026/week02/03-superpowers.md)、[pstack 的关键安全事实](../reading-notes/fall2026/week03/01-pstack.md)、[Matt Pocock 的测试边界](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[browse 的网络与结构失败](../reading-notes/fall2026/week03/03-browse.md)。各来源有自己的流程与版本，不能拼成未经验证的一致产品行为。

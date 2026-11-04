@@ -7,6 +7,7 @@ from xml.etree import ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parent
+RESOURCE = ROOT.parent / 'Resource'
 NS = {'a': 'http://schemas.openxmlformats.org/drawingml/2006/main'}
 
 
@@ -19,9 +20,9 @@ def parts(archive):
 
 
 def extract():
-    work = ROOT / '.translation_work'
+    work = RESOURCE / '.translation_work'
     work.mkdir(exist_ok=True)
-    for source in sorted((ROOT / 'Fall2025').glob('*.pptx')):
+    for source in sorted((RESOURCE / 'Fall2025').glob('*.pptx')):
         records = []
         with zipfile.ZipFile(source) as archive:
             for name in parts(archive):
@@ -39,8 +40,8 @@ def extract():
 def generate():
     output = ROOT / 'Fall2025_cn'
     output.mkdir(exist_ok=True)
-    for source in sorted((ROOT / 'Fall2025').glob('*.pptx')):
-        translation = ROOT / '.translation_work' / (source.stem + '.zh.json')
+    for source in sorted((RESOURCE / 'Fall2025').glob('*.pptx')):
+        translation = RESOURCE / '.translation_work' / (source.stem + '.zh.json')
         mapping = json.loads(translation.read_text(encoding='utf-8'))
         used = set()
         with zipfile.ZipFile(source) as archive, zipfile.ZipFile(output / source.name, 'w') as result:
@@ -74,9 +75,9 @@ def generate():
 
 
 def check():
-    for source in sorted((ROOT / 'Fall2025').glob('*.pptx')):
-        records = json.loads((ROOT / '.translation_work' / (source.stem + '.source.json')).read_text(encoding='utf-8'))
-        translation = ROOT / '.translation_work' / (source.stem + '.zh.json')
+    for source in sorted((RESOURCE / 'Fall2025').glob('*.pptx')):
+        records = json.loads((RESOURCE / '.translation_work' / (source.stem + '.source.json')).read_text(encoding='utf-8'))
+        translation = RESOURCE / '.translation_work' / (source.stem + '.zh.json')
         if not translation.exists():
             print(f'PENDING {source.name}')
             continue
@@ -117,7 +118,7 @@ def check():
 
 
 def audit():
-    for source in sorted((ROOT / 'Fall2025').glob('*.pptx')):
+    for source in sorted((RESOURCE / 'Fall2025').glob('*.pptx')):
         with zipfile.ZipFile(source) as archive:
             selected = set(parts(archive))
             slides = [name for name in selected if name.startswith('ppt/slides/')]

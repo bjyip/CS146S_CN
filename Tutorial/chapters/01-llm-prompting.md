@@ -1,6 +1,8 @@
 # 01 LLM 与六种提示技术
 
-[上一章](00-foundations.md) | [目录](README.md) | [下一章：Agent](02-agent-loop.md)
+[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Agent](02-agent-loop.md)
+
+配套中文课件：[LLM 导论](../Fall2025_cn/week01-0922-intro-to-llms.pptx)、[高效提示](../Fall2025_cn/week01-0926-effective-prompting.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，按需阅读，不替代本章实验。
 
 ## 1. 从概率模型开始理解
 
@@ -91,7 +93,7 @@ Transformer 的注意力机制让表示能够利用上下文中的其他位置�
 
 ## 6. 动手：复现与改进分开做
 
-1. 阅读 [第 1 周作业](../_assignments/2025%20fall/week1/assignment.md) 及六个源文件，标记输入、模型、采样参数与通过判定。当前代码可能已有实现，不要假定每个文件都有 TODO。
+1. 阅读 [第 1 周作业](../../_assignments/2025%20fall/week1/assignment.md) 及六个源文件，标记输入、模型、采样参数与通过判定。当前代码可能已有实现，不要假定每个文件都有 TODO。
 2. 如按原作业完成，遵守其只修改提示位置与指定模型的限制；记录每一种技术的输入、输出与尝试次数。
 3. 在独立练习中用第 00 章数据，比较普通提示与少样本提示。固定模型与参数，每条输入至少重复三次。
 4. 增加第三个方案：提供独立测试反馈后允许一次修正。分别报告首次和修正后成绩。
@@ -107,4 +109,4 @@ Transformer 的注意力机制让表示能够利用上下文中的其他位置�
 
 **问：多数投票为什么可能更糟？** 候选并不独立，共享错误会被放大；规范化与投票规则也可能丢失关键区别。
 
-来源：[LLM 讲义](../Resource/Fall2025/week01-0922-intro-to-llms.pptx)、[提示讲义](../Resource/Fall2025/week01-0926-effective-prompting.pptx)、[第 1 周脚本](../_assignments/2025%20fall/week1/)。指标解释与对照实验为教程扩展。
+来源：[LLM 讲义](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx)、[提示讲义](../../Resource/Fall2025/week01-0926-effective-prompting.pptx)、[第 1 周脚本](../../_assignments/2025%20fall/week1/)。指标解释与对照实验为教程扩展。
