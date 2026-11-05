@@ -65,6 +65,8 @@ MCP 是客户端访问能力的协议接口；CLI 是命令行操作接口；Ski
 
 这两个流程来自 [2025 第 4 周作业](../../_assignments/2025%20fall/week4/assignment.md) 的自动化方向。可以用原产品机制实现，也可以先用通用提示和脚本做自学改编；后者不等价于原作业要求的 Claude Code 功能交付。
 
+[第 4 周逐文件导读](../reading-notes/fall2025/week04/assignment-guide.md)补充当前三个命令、规则、应用与 11 个测试的静态边界：覆盖率插件未直接声明，临时请求数据库不替换原 startup engine，聚合测试与行动项后缀规则存在预期冲突。命令写“只读”不能替代副作用分析，OpenAPI 一致不能替代业务验收。先完成导读中 50 分钟零调用合同与状态练习；真实客户端发现、隔离、两阶段退出码及应用增强仍需获准后独立验证，本批未运行。
+
 ## 6. Hook 是门禁，不是口号
 
 一个有效检查必须能在失败时阻止对应流程，而不是只打印“发现问题”。测试 Hook 时应人为引入一个无害 lint 失败，确认失败状态传递给调用方。
@@ -136,3 +138,7 @@ Boris 的原待办 UI 案例依次尝试上方列表、内联标题、交互 pil
 第 3 周入口：[Skill 作业导读](../reading-notes/fall2026/week03/assignment-guide.md)、[pstack 精选材料](../reading-notes/fall2026/week03/01-pstack.md)、[Matt Pocock 技能集精选](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[browse.sh 限定范围解读](../reading-notes/fall2026/week03/03-browse.md)。[Superpowers 笔记](../reading-notes/fall2026/week02/03-superpowers.md)用于比较工作流；读取正文不代表已安装、触发或验证脚本。
 
 课堂机制定位：[system prompt 与定制](../reading-notes/fall2026/week01/lecture-system-prompt.md)、[RePPIT 的阶段交接](../reading-notes/fall2026/week02/lecture-reppit.md)、[MCP 能力与过程职责](../reading-notes/fall2026/week02/lecture-mcp.md)。转写里的演示不是当前客户端加载行为测试。
+
+2025 工作流对照：[Anthropic 团队经验](../reading-notes/fall2025/week04/01-how-anthropic-teams-use-claude-code.md)依据官方文字替代与指定中文译述，区分导航、风险适配和专业子任务；指定 PDF 未读，访谈比例不是正确率或提速保证。[最佳实践译述](../reading-notes/fall2025/week04/02-claude-code-best-practices.md)把探索、测试驱动和视觉反馈对应不同不确定性，历史英文全文未取得，当前文档只读部分。两份笔记的零执行练习用于核对职责、组合一致性与失败原因，不证明产品机制或工作流已运行。
+
+[Warp 当前迁移指南](../reading-notes/fall2025/week05/02-warp-claude-code-current-migration.md)作为额外补充说明：规则改名或技能目录被发现，不证明旧命令、Hook、工具、认证与执行环境兼容；终端中的 Claude Code 与 Warp 内建 Agent 也不是同一执行者。笔记的零执行迁移审计保留需重新配置、执行层限制和未运行项，不执行改名或配置，不冒充历史指定对比课程。

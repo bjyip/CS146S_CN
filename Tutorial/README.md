@@ -27,7 +27,7 @@
 
 ## 适用范围与资料版本
 
-资料核对日期：2026-11-04。以当前根 README、真实来源和本地作业核对覆盖，不以某次历史合并作为唯一依据；本地 2026 作业目前为第 1 至 3 周。
+资料增量核对日期：2026-11-05。以当前根 README、真实来源和本地作业核对覆盖，不以某次历史合并作为唯一依据；本地 2026 作业目前为第 1 至 3 周，各来源实际核对范围见笔记。
 
 [Fall 2026 学习入口](reading-notes/fall2026/README.md)将周主题、阅读、课堂解读和作业导读串起来；2025 基础与工程练习继续由下方章节统一使用，不另建一套重复教程。
 
@@ -67,7 +67,11 @@
 
 辅助材料：[实验与规格模板](reference/templates.md)、[资料索引](reference/sources.md)、[Fall 2025 中文课件对照表](reference/sources.md#fall-2025-中文课件)。13 份中文 PPTX 位于 [reference/slides/fall2025/](reference/slides/fall2025/)，Python 工具统一位于 [scripts/](scripts/)，包括[翻译脚本](scripts/translate_fall2025.py)和[课件文字核对工具](scripts/pptx_text.py)；英文原版仍在 Resource 中。课件是可选配套阅读，不替代正文、练习或验收，也不要求先完整学习 2025。
 
-[Fall 2025 文字解读](reading-notes/fall2025/README.md)已覆盖 13 份本地 PPTX 共 275 页的可提取文字与关联备注：保留页码、原案例与来源局限，补充中文机制解释、受控练习和自测；按知识融入第 01–09 章或关联已有覆盖。PPTX 图片与版式尚未视觉核验。另已完成 [Resolve 嘉宾 PDF 的独立中文解读](reading-notes/fall2025/week09/lecture-resolve-guest.md)及第 09 章融合：35 页解析文字与所附 34 张页面图已读，第 33 页仅文字，细小截图与底层证据有缺口，未生成中文版 PDF。Tomas Reimers PDF、视频和在线讲义仍未完成，实际范围见[文字化与融合状态](reference/sources.md#课件文字化与融合状态)。
+[Fall 2025 文字解读](reading-notes/fall2025/README.md)已覆盖 13 份本地 PPTX 共 275 页的可提取文字与关联备注：保留页码、原案例与来源局限，补充中文机制解释、受控练习和自测；按知识融入第 01–09 章或关联已有覆盖。PPTX 图片与版式尚未视觉核验。2026-11-05 经授权安装本地 PDF 依赖后，读取 [Tomas 30 页](reading-notes/fall2025/week07/lecture-tomas-reimers.md)与 [Resolve 35 页](reading-notes/fall2025/week09/lecture-resolve-guest.md)的可提取文字，完成文字范围内的解读并最小关联第 07、09 章。页面图已渲染，但未取得可检查的图像内容，全部视觉核验仍待完成；未经核验的截图细节已撤回。产品/演示未验证，PDF 与 PPTX 独立统计。视频与在线讲义仍未完成，见[分阶段状态](reference/sources.md#课件文字化与融合状态)。
+
+指定阅读已有 32 份声明范围内的中文笔记：2026 年 14 份、2025 年十八份，64 项总清单仍有 32 项待补。本批新增[提示指南六个双语技术子页](reading-notes/fall2025/week01/03-prompt-engineering-guide.md)、[Semgrep 漏洞评测](reading-notes/fall2025/week06/03-ai-vulnerability-evaluation.md)与[Graphite 审查落地指南](reading-notes/fall2025/week07/04-ai-review-implementation.md)，关联第 01、07、08 章的示例核验、评测分母、反馈与修复证据。六个子页仍算一份指南，不代表全站；英文规格完整版、在线课件与指定视频文字仍有缺口。Google 概览重试传输错误，Codex 报告超过读取工具 5MB 限制，中文版返回 403，没有据此补造正文。既有[第 2 周](reading-notes/fall2025/week02/README.md#指定阅读)、[第 3 周](reading-notes/fall2025/week03/README.md#已有指定阅读解读)、[第 7 周](reading-notes/fall2025/week07/README.md#已有指定阅读)及[第 9 周](reading-notes/fall2025/week09/README.md#已有指定阅读)关联保留。当前指南不是历史快照，精选网站/仓库不代表全部实现，图像、产品、模型、SDK 与实验未验证，笔记完成不代表实验通过。
+
+作业另行维护：当前本地 11 份作业均已有中文导读，2025 第 1–8 周见[年份入口](reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](reading-notes/fall2026/README.md)。本批补齐[第 7 周人工与 AI 审查](reading-notes/fall2025/week07/assignment-guide.md)及[第 8 周三技术栈交付](reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章；解释未定义 li、标签跨层契约、AND 测试反例、Graphite/Bolt 来源证据、JSON/CSRF 差异和数据库初始化副作用。第 1 周有 45 分钟、2025 其余各有 50 分钟零调用替代。导读完成不是原作业或实验完成，不改变 32/64 指定阅读数量；本批未运行客户端、Agent、模型、测试、Hook、扫描、攻击、服务、构建、迁移或数据库，也未创建 PR、登录或推送。
 
 ## 2026 大纲对应
 

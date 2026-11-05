@@ -4,9 +4,11 @@
 
 本教程根据本地资料重新组织，正文中的解释与实验不是逐页翻译，也不声称复现了完整嘉宾讲座。以下链接可以溯源；完成学习不需要打开视频。
 
-系统教程位于 `chapters/`，共用资料位于 `reference/`。[逐份阅读笔记索引](../reading-notes/README.md)记录指定阅读的范围与进度；本文件记录教程依据与课堂材料状态，两者不等同。保留已有第 4 周四份笔记，补入十份限定范围阅读笔记、三份课堂转写解读和三周作业导读，未执行模型、OAuth、客户端或安全实验。
+系统教程位于 `chapters/`，共用资料位于 `reference/`。[逐份阅读笔记索引](../reading-notes/README.md)记录指定阅读的范围与进度；本文件记录教程依据与课堂材料状态，两者不等同。已有 2026 年 14 份和 2025 年十八份声明范围内的阅读笔记，共 32/64 份，32 份待补；规格文章按英文预览与删减中文版完成，提示指南按六个双语技术子页完成，不代表英文全文或全站已读。另有三份课堂转写解读及三周 2026 作业导读，未执行模型、OAuth、客户端或安全实验。
 
-本次核对日期为 2026-11-04，以当前根 README、真实资料和本地文件为依据，不以历史 merge 代表覆盖。已核对真实 2026 第 1–3 周 assignment 与 writeup，未发现本地后续周作业；没有修改原作业。
+增量核对日期为 2026-11-05，以当前根 README、真实资料和本地文件为依据，不以历史 merge 代表覆盖。此前已核对真实 2026 第 1–3 周 assignment 与 writeup，未发现本地后续周作业；没有修改原作业。本批取得提示指南六个双语技术子页、Semgrep 漏洞评测和 Graphite 落地指南完整文字，新增三份笔记并关联第 01、07、08 章。Google 概览重试传输错误；Codex PDF 超过读取工具 5MB 限制，中文版返回 403，未取得正文。GitHub CLI 不在当前 PATH，固定仓库文档版本尚未取得，未安装或绕用其他入口编写。Vercel、指定视频、SRE、Splunk 及英文规格全文仍保留前批缺口，本批未重读；没有登录、绕过限制、下载完整视频或复现产品实验。
+
+当前本地全部 11 份作业已有导读：2025 第 1–8 周见[年份入口](../reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](../reading-notes/fall2026/README.md)。本批盘点所有 assignment、核对既有九份导读并重读 2026 三份说明，补齐[第 7 周](../reading-notes/fall2025/week07/assignment-guide.md)与[第 8 周](../reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章。第 7 周实际读说明/报告/配置、八份应用 Python、六份测试（含 fixture）、三个前端与种子；第 8 周读三栈说明、主体源码、配置、迁移与模板，Flask 单行 CSS 仅取得前 2000 字符，尾部不计已读，包初始化仅盘点。各导读列精确范围与限制：源码缺陷是静态推导，Graphite 未运行，Bolt 使用及耗时只有报告自述；功能、数据库和原提交要求未验证。作业不增加 32/64 指定阅读完成数，外部阅读、视频、在线课件与视觉核验缺口保留。本批未安装、导入/执行 Python、测试、应用、构建、迁移、登录、调用 AI、创建数据库、远程 PR 或推送；报告外链未读。
 
 ## 1. 课程定位
 
@@ -27,9 +29,9 @@
 | 04 MCP/OAuth | [MCP](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx)、[代码](../../Resource/Fall2025/week02-1003-completed-exercise.py)、[2025 作业](../../_assignments/2025%20fall/week3/assignment.md)、[2026 作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md) | 信任边界、幂等和 OAuth 细化 |
 | 05 自动化 | [Agent 管理](../../Resource/Fall2025/week04-1013-agent-manager.pptx)、[Claude Code](../../Resource/Fall2025/week04-1017-boris-cherny.pptx)、[2025 作业](../../_assignments/2025%20fall/week4/assignment.md)、[2026 Skill](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week3/assignment.md) | MCP/Skill/CLI 组合、作用域、渐进披露与门禁 |
 | 06 仓库与并行 | [产品讲义](../../Resource/Fall2025/week05-1020-ai-developer-product.pptx)、[Warp 作业](../../_assignments/2025%20fall/week5/assignment.md) | 就绪度自评、独立任务、指令漂移、隔离与后台状态 |
-| 07 测试与审查 | [测试讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[审查作业](../../_assignments/2025%20fall/week7/assignment.md) | 测试层次、风险分层、专业审查、沙箱与评测 |
+| 07 测试与审查 | [测试讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[Tomas PDF](../../Resource/Fall2025/week07-1107-tomas-reimers-slides.pdf)、[审查作业](../../_assignments/2025%20fall/week7/assignment.md) | 测试层次、风险分层、专业审查；Tomas 三项职责与内外循环关联，验收练习为教程扩展 |
 | 08 安全 | [安全讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[Semgrep 作业](../../_assignments/2025%20fall/week6/assignment.md)、[非官方商业页](../../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md) | 威胁模型、注入防护、凭据披露辨析和回归 |
-| 09 交付与运维 | [全栈](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[三栈作业](../../_assignments/2025%20fall/week8/assignment.md)、[事故响应](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx)、[Resolve 嘉宾 PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 验收、SLI/SLO、图导航、知识更新、并行调查与失败评测 |
+| 09 交付与运维 | [全栈](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[三栈作业](../../_assignments/2025%20fall/week8/assignment.md)、[事故响应](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx)、[Resolve PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 验收、SLI/SLO；关联 Resolve 系统关系、团队知识与并行调查观点，权限/预算/失败评测练习为教程扩展 |
 | 10 团队与工厂 | [README 2026 大纲](../../README.md)、[自动化作业](../../_assignments/2025%20fall/week4/assignment.md)、[交付作业](../../_assignments/2025%20fall/week8/assignment.md) | 网关、受控流水线、开源贡献闭环与独立自学评分 |
 
 ## 3. 阅读源代码时的四个提醒
@@ -77,7 +79,7 @@
 
 2026-11-04 在两份样板基础上继续处理剩余 11 份，本地 13 份 PPTX 共 275 页的可提取文字与关联备注已中英文对照，并有逐份中文解读。文字提取不等于视觉核验或官方逐字译文；章节只吸收有教学价值的概念，已覆盖的内容补来源关联。指定阅读的完成数不因课堂课件增加而改变。
 
-另外，Resolve 嘉宾 PDF 的 35 页解析文字及所附 34 张页面图已读，独立中文解读和第 09 章融合完成；第 33 页仅解析文字。PDF 单独统计，不加入 PPTX 的 275 页或 13 份中文版数量，未生成中文版 PDF。所附页面图用于核对可辨认内容，不表示细小截图全部文字或图中引用的底层证据已取得。
+2026-11-05 经用户授权安装 PyMuPDF 2.1 及自动依赖，实际读取 Tomas 30 页、Resolve 35 页可提取文字，渲染 8/9 张四页核对图。图像读取仅返回成功提示，没有可检查的内容，因此撤回“页面图已查看、关键截图已核对”的声明及未经核验的细节。页数、署名和能力文字已核对，两份解读仅在文字范围内完成；全部视觉核验仍待完成。产品/原始事故证据未验证；PDF 独立统计，不加入 PPTX 页数，未生成中文版 PDF。
 
 | 原材料 | 文字提取与核对 | 图像与版式 | 中文解读 | 章节融合 |
 | --- | --- | --- | --- | --- |
@@ -94,13 +96,13 @@
 | AI Code Review | 25 页及关联备注，中英文文字已对照 | 未视觉核验，代码截图案例未复原 | [中文解读](../reading-notes/fall2025/week07/lecture-ai-code-review.md) | [07](../chapters/07-testing-review.md)：可复核评论、噪声与责任 |
 | 端到端应用 | 17 页及关联备注，中英文文字已对照 | 未视觉核验，架构图与执行结果有缺口 | [中文解读](../reading-notes/fall2025/week08/lecture-end-to-end-app.md) | [09](../chapters/09-delivery-operations.md)：原型与全链路验收 |
 | 事故响应与 DevOps | 19 页及关联备注，中英文文字已对照 | 未视觉核验，产品截图不作执行证据 | [中文解读](../reading-notes/fall2025/week09/lecture-incident-response-devops.md) | [09](../chapters/09-delivery-operations.md)：证据驱动的分诊与受控缓解 |
-| [Resolve 嘉宾 PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 35 页解析文字已读并与所附图核对；无中文版 PDF | 所附 34 张页面图已查看；第 33 页仅文字，密集节点/细小截图与底层证据有缺口 | [独立中文解读](../reading-notes/fall2025/week09/lecture-resolve-guest.md) | [09](../chapters/09-delivery-operations.md)：依赖图与有限查询、知识来源/失效、并行假设及失败评测 |
-| [Tomas Reimers 嘉宾 PDF](../../Resource/Fall2025/week07-1107-tomas-reimers-slides.pdf) | 待读取 | 未核验 | 待编写，不建空笔记 | 未完成来源特定融合 |
-| Fall 2025 在线嘉宾课件（根 README 的 Warp / Vercel 入口） | 未取得正文 | 未核验 | 待获取，不以主讲 PPTX 替代 | 未完成来源特定融合 |
+| [Resolve 嘉宾 PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 35 页可提取文字已读，页数与署名已核对 | 9 张核对图已渲染；内容未完成可检查的视觉核验，全部页面待核验 | [文字范围内完成，截图细节已撤回](../reading-notes/fall2025/week09/lecture-resolve-guest.md) | [09](../chapters/09-delivery-operations.md)：系统关系、知识与并行调查的文字观点；权限/预算和验收为教程扩展 |
+| [Tomas Reimers 嘉宾 PDF](../../Resource/Fall2025/week07-1107-tomas-reimers-slides.pdf) | 30 页可提取文字已读，页数与归属已核对 | 8 张核对图已渲染；坐标、节点与截图未视觉核验，全部页面待核验 | [文字范围内完成，图像缺口明确](../reading-notes/fall2025/week07/lecture-tomas-reimers.md) | [07](../chapters/07-testing-review.md)：三项职责、平台/参与者和内外循环文字；端到端算例为教程扩展 |
+| Fall 2025 在线嘉宾课件（根 README 的 Warp / Vercel 入口） | Warp 返回 Figma 标题；Vercel 文字导出传输错误，均无正文 | 未核验 | 待获取，不以主讲 PPTX 替代 | 未完成来源特定融合 |
 
 这些笔记没有视频时间戳，不是相应视频的替代转写。LLM 导论第 13 页的历史评分、18–19 页的闭源模型规模与价格不写成当前课程事实；Agent 第 7 页的产品机制与推测不写成通用保证。其余课件的效率、检测率、误报率与产品宣传也不能泛化。本地授课课件中的嘉宾预告不证明嘉宾是本讲作者；运维第 16 页的代码审查文案保留疑似模板残留状态，不转述为运维效果实证。原件、中文版、翻译中间数据均未更改或重新生成。
 
-Resolve 讲者署名依据 PDF 第 1–2 页，35 页解析文字与页面图来自本次本地 PDF 读取结果附送的内容，未安装解析/OCR 依赖。第 5、12 页的劳动占比、人数及入职耗时是讲者叙述；第 29 页 Redis 工作假设与第 30 页数据库时间线分别解读，截图置信度不是根因验证；第 33 页是 2025 年的未来预测。无现场演示、问答转写或产品运行证据，不公开整套截图与完整原文。
+Resolve 第 1–2 页署名与 Tomas 的课程归属已对照；两份的页数和能力文字有实际原件提取依据。页面渲染与读取成功提示不构成视觉证据，不由既有稿反证来源；未经核验的截图指标、代码和根因输出不纳入原文解读。无现场演示、问答转写或产品运行证据，不公开整套截图与完整原文。
 
 本轮复用工作区已有的只读核对工具 [pptx_text.py](../scripts/pptx_text.py)，仅调整存放目录，未修改工具内容。它按演示关系取页序并关联备注，打印页面位置和图片/表格数量，适合维护时核对文字，不执行 OCR、不恢复图示、不生成正式笔记。仓库根目录示例：
 
@@ -110,12 +112,43 @@ python Tutorial/scripts/pptx_text.py "Resource/Fall2025/week01-0922-intro-to-llm
 
 不另公开归档完整逐页原文底稿；正式产物是可追溯的中文解读及章节增量。后续材料遵循同一三层流程：按页码或真实时间戳读取，编写逐份解读，按概念最小融合并更新各阶段状态。视频优先公开转写和字幕；下载完整音视频、安装 OCR/ASR 或付费转写仍需独立授权。
 
+### 本地 PDF 核对工具
+
+[pdf_review.py](../scripts/pdf_review.py)输出原件 SHA256、总页数与按页提取的文字，并把最多四页组成带页码的临时 PNG 核对图。默认处理全部页面，`--pages` 使用从 1 开始的页码；无效页码会在创建临时输出前拒绝。工具不做 OCR、不运行 PDF 中的链接或代码，也不修改原 PDF；终端文字顺序可能受多栏布局影响，截图内文字不保证可提取，渲染成功仍须实际检查图像。
+
+```powershell
+python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week07-1107-tomas-reimers-slides.pdf"
+python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf" --pages 29 30 32
+```
+
+2026-11-05 经独立授权，以 `python -m pip install --user PyMuPDF` 安装到本机当前用户 Python 3.14 环境，实际版本为 PyMuPDF 2.1；安装自动带入 pymupdf-layout/pymupdf4llm、numpy、onnxruntime 等依赖，不等于仅安装一个包，也未单独执行 OCR/ASR。未改 PATH 或升级 pip，不是隔离虚拟环境。日常文档校验不需要这些依赖；其他机器使用本工具前须独立确认依赖与安装授权，不能把本次版本当永久固定要求。页面图写入系统临时目录，工具不会自动删除；不要将整套图片或逐页原文作为公开教程产物。
+
 ## 5. 已读来源与使用边界
 
 “已阅读”指本次增量工作期间取得正文，不表示已验证产品运行或复现作者实验。外部页面可能持续更新，下表记录本轮读取状态，不保证永久可访问。
 
 | 来源 | 类别与状态 | 用于何处及限制 |
 | --- | --- | --- |
+| [Prompt Engineering Guide](https://www.promptingguide.ai/techniques)及[中文入口](https://www.promptingguide.ai/zh/techniques) | DAIR.AI，fewshot/cot/consistency/rag/react/reflexion 六页双语正文；其余技术页未读 | [六页精选解读](../reading-notes/fall2025/week01/03-prompt-engineering-guide.md)，01；双语用词/删减差异已说明，图片、论文、notebook、旧 SDK 未验证 |
+| [Semgrep 漏洞发现研究](https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/) | Romain Gaucher、Vasilii Ermilov、Clint Gibler，2025-09-02，完整文字、表格与提示模板已取得；同日交付前复核传输错误 | [分母与生命周期](../reading-notes/fall2025/week06/03-ai-vulnerability-evaluation.md)，07、08；依据此前取得正文，原文 TPR/FPR 分母校准，原始数据、图像、应用、成本与实验未复现 |
+| [Graphite AI 审查落地指南](https://graphite.dev/guides/ai-code-review-implementation-best-practices) | Greg Foster，完整正文、表格与 FAQ，无可核验绝对发布日期 | [试点与反馈校准](../reading-notes/fall2025/week07/04-ai-review-implementation.md)，07；类型不能代替全部运行时验证，接受率/准确率/收益周期宣传未核验，产品未运行 |
+| [OpenAI 如何使用 Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)及[中文版](https://tools.wingzero.tw/article/sn/3533) | PDF 响应超过工具 5MB 限制；中文入口 403，未取得报告正文 | 仅登记缺口，不据二进制响应或标题建立报告解读 |
+| [Traces & Spans](https://last9.io/blog/traces-spans-observability-basics/) | Anjali Udasi，2025-04-23，完整正文及 FAQ | [操作关系、传播与采样](../reading-notes/fall2025/week09/02-traces-spans.md)，09；图片/规范/SDK 未验证，开销与产品主张不泛化 |
+| [SAST vs. DAST vs. RASP](https://www.splunk.com/en_us/blog/learn/sast-vs-dast.html) | 历史取得过正文，2026-11-05 再次读取返回 403 | 仅记录复核缺口，尚无完成笔记，不根据历史摘要补造来源解读 |
+| [Code Reviews: Just Do It](https://blog.codinghorror.com/code-reviews-just-do-it/) | Jeff Atwood，2006-01-21，完整正文 | [同行审查与历史收益](../reading-notes/fall2025/week07/01-code-reviews-just-do-it.md)，07；转引书籍/研究未读，检出率和十倍回报不泛化 |
+| [Code Review Essentials](https://blakesmith.me/2015/02/09/code-review-essentials-for-software-teams.html) | Blake Smith，2015-02-09，完整正文 | [团队理解、说明与反馈](../reading-notes/fall2025/week07/05-code-review-essentials.md)，07；层次图未视觉核验、原例代码/测试未验证 |
+| [How to review code effectively](https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/) | Sarah Vessels，2024-07-23，完整正文 | [清晰及时的审查](../reading-notes/fall2025/week07/02-how-to-review-code-effectively.md)，07；图片、团队自动化、门禁与通知未验证 |
+| [Kubernetes Troubleshooting in Resolve AI](https://resolve.ai/blog/kubernetes-troubleshooting-in-resolve-ai) | Resolve 产品文章完整正文，页面无可核验个人署名/发布日期 | [实例身份与证据保存](../reading-notes/fall2025/week09/03-kubernetes-troubleshooting.md)，09；图片、集群与产品未验证，自动修复时态差异已说明 |
+| [Your New Autonomous Teammate](https://resolve.ai/blog/product-deep-dive) | Seerut Sidhu，完整产品文章正文，未见可核验发布日期 | [调查到复盘的状态](../reading-notes/fall2025/week09/04-autonomous-teammate.md)，09；图像、执行、客户收益未验证，自动修复时态不与其他文章拼接 |
+| [Multi-agent systems and AI-native engineering](https://resolve.ai/blog/role-of-multi-agent-systems-AI-native-engineering) | Spiros Xanthos、Gabor Angeli、Bharat Khandelwal，完整正文及比较表，未见可核验发布日期 | [协调成本与专业分支](../reading-notes/fall2025/week09/05-multi-agent-ai-native.md)，09；链接视频/实现未读，多 Agent 必要性是作者主张，非同预算对照结论 |
+| [Top 5 Benefits of Agentic AI](https://resolve.ai/blog/Top-5-Benefits) | Mitch Wakefield，完整正文，未见可核验发布日期或可复现评测数据 | [收益假设与失败计入](../reading-notes/fall2025/week09/06-on-call-benefits.md)，09；供应商宣传不是实测，未验证主动预测、修复或疲劳改善 |
+| [The spec is dead, long live the spec!](https://blog.ravi-mehta.com/p/specs-are-the-new-source-code)及[中文版](https://bbs.sangfor.com.cn/forum.php?mod=viewthread&tid=322197) | Ravi Mehta、Danny Martinez，2025-07-31；英文仅公开引言，中文为 Costrict 2026-03-09 公开删减译述 | [意图、原型与实现证据](../reading-notes/fall2025/week03/01-specs-as-source-code.md)，03；英文全文/翻译忠实度/图片/演讲/案例未核验，推广不纳入原观点 |
+| [MCP 简介](https://stytch.com/blog/model-context-protocol-introduction/) | 2025 入门文章，全文 | [角色与伪代码边界](../reading-notes/fall2025/week02/01-mcp-introduction.md)，04；不是规范，链接中的 SDK/研究未读 |
+| [Cloudflare 远程 MCP 指南](https://developers.cloudflare.com/agents/model-context-protocol/guides/remote-mcp-server/) | 当前官方指南全文，更新于 2026-10-27 | [远程身份与版本](../reading-notes/fall2025/week02/03-remote-mcp-authentication.md)，04；非 2025 快照，完整 Authorization/迁移/模板未读 |
+| [MCP Registry 公告](https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/) | 2025 公告全文 | [目录与授权](../reading-notes/fall2025/week02/05-mcp-registry.md)，04；现行 API/政策未读，移除条目不保证撤销执行 |
+| [API 不等于好 MCP 工具](https://www.reillywood.com/blog/apis-dont-make-good-mcp-tools/) | 作者观点，全文 | [任务粒度与结果预算](../reading-notes/fall2025/week02/06-apis-and-mcp-tools.md)，04；条数不约束长度，格式效率未测 |
+| [长上下文如何失效](https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html) | 作者文章全文及脚注 | [错误传播与恢复](../reading-notes/fall2025/week03/02-how-contexts-fail.md)，03；底层研究/图像/修复续篇未读，不给通用阈值 |
+| [为 Agent 编写有效工具](https://www.anthropic.com/engineering/writing-tools-for-agents) | 英文及根 README 中文入口正文对照 | [任务级评测](../reading-notes/fall2025/week03/06-writing-tools-for-agents.md)，04、07；图片/cookbook/SDK 未读，评测未运行 |
 | [Claude Code 架构论文](https://arxiv.org/html/2604.14228v3) | 非官方研究，v3 精选章节 | [范围与方法局限](../reading-notes/fall2026/week01/03-claude-code-design.md)；分析 v2.1.88 不代表现行产品保证 |
 | [上下文税](https://langwatch.ai/blog/context-tax-when-to-compact) | 作者观察研究，全文 | [成本与压缩](../reading-notes/fall2026/week02/01-context-tax.md)；个人数据与模型判断不证明因果或通用阈值 |
 | [OpenSpec](https://openspec.dev/) | 首页及 [quickstart](https://openspec.dev/docs/quickstart) | [持久规格](../reading-notes/fall2026/week02/02-openspec.md)；非全部文档，流程复核不是测试通过 |
