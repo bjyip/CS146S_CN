@@ -25,6 +25,8 @@
 
 贡献与维护请先阅读 [教程整合与维护方案](reference/maintenance-plan.md)。该文件记录 Fall 2026 主线与 Fall 2025 基础的统一方案、目录分工、验收及修改边界；方案不代表实施已经完成。
 
+外网受限时使用[中文与本地学习路线](reference/offline-learning.md)：对剩余 22 项提供已有中文机制、课件解读与离线练习入口，不要求等待原网站恢复。本轮增加[中文提示入门四页补充](reading-notes/fall2025/week01/supplement-prompting-introduction.md)、第 01 章采样失败辨析及第 09 章错误预算计算；学习替代不等于原指定来源完成，指定阅读仍为 42/64，视频、原帖、仓库和视觉缺口分别保留。
+
 ## 适用范围与资料版本
 
 资料增量核对日期：2026-11-05。以当前根 README、真实来源和本地作业核对覆盖，不以某次历史合并作为唯一依据；本地 2026 作业目前为第 1 至 3 周，各来源实际核对范围见笔记。
@@ -69,9 +71,9 @@
 
 [Fall 2025 文字解读](reading-notes/fall2025/README.md)已覆盖 13 份本地 PPTX 共 275 页的可提取文字与关联备注：保留页码、原案例与来源局限，补充中文机制解释、受控练习和自测；按知识融入第 01–09 章或关联已有覆盖。PPTX 图片与版式尚未视觉核验。2026-11-05 经授权安装本地 PDF 依赖后，读取 [Tomas 30 页](reading-notes/fall2025/week07/lecture-tomas-reimers.md)与 [Resolve 35 页](reading-notes/fall2025/week09/lecture-resolve-guest.md)的可提取文字，完成文字范围内的解读并最小关联第 07、09 章。页面图已渲染，但未取得可检查的图像内容，全部视觉核验仍待完成；未经核验的截图细节已撤回。产品/演示未验证，PDF 与 PPTX 独立统计。视频与在线讲义仍未完成，见[分阶段状态](reference/sources.md#课件文字化与融合状态)。
 
-指定阅读已有 32 份声明范围内的中文笔记：2026 年 14 份、2025 年十八份，64 项总清单仍有 32 项待补。本批新增[提示指南六个双语技术子页](reading-notes/fall2025/week01/03-prompt-engineering-guide.md)、[Semgrep 漏洞评测](reading-notes/fall2025/week06/03-ai-vulnerability-evaluation.md)与[Graphite 审查落地指南](reading-notes/fall2025/week07/04-ai-review-implementation.md)，关联第 01、07、08 章的示例核验、评测分母、反馈与修复证据。六个子页仍算一份指南，不代表全站；英文规格完整版、在线课件与指定视频文字仍有缺口。Google 概览重试传输错误，Codex 报告超过读取工具 5MB 限制，中文版返回 403，没有据此补造正文。既有[第 2 周](reading-notes/fall2025/week02/README.md#指定阅读)、[第 3 周](reading-notes/fall2025/week03/README.md#已有指定阅读解读)、[第 7 周](reading-notes/fall2025/week07/README.md#已有指定阅读)及[第 9 周](reading-notes/fall2025/week09/README.md#已有指定阅读)关联保留。当前指南不是历史快照，精选网站/仓库不代表全部实现，图像、产品、模型、SDK 与实验未验证，笔记完成不代表实验通过。
+指定阅读已有 42 份声明范围内的中文笔记：2026 年 14 份、2025 年二十八份，64 项总清单仍有 22 项待补。上一轮补 Devin、Anthropic 团队/最佳实践、安全五项及 AutoCommenter 论文，本次用现有 PyMuPDF 在内存中取得[Codex 官方报告 13 页可提取文字](reading-notes/fall2025/week01/05-how-openai-uses-codex.md)，关联任务边界、环境、独立测试和候选筛选。另有[Warp 当前迁移](reading-notes/fall2025/week05/02-warp-claude-code-current-migration.md)与[Addy 官方文章](reading-notes/fall2026/week06/01-risk-tiered-review.md)两份补充，不能代替未读的历史课程或 X 原帖，不计指定阅读完成数。剩余五视频、四 X、六仓库/源文件、四网页与三 Warp 历史页面的逐项状态见[获取缺口](reading-notes/README.md#剩余获取缺口)。英文规格全文、部分指定中文、图片与在线课件仍有核验缺口；精选材料不代表全站、全仓库或实验通过。
 
-作业另行维护：当前本地 11 份作业均已有中文导读，2025 第 1–8 周见[年份入口](reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](reading-notes/fall2026/README.md)。本批补齐[第 7 周人工与 AI 审查](reading-notes/fall2025/week07/assignment-guide.md)及[第 8 周三技术栈交付](reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章；解释未定义 li、标签跨层契约、AND 测试反例、Graphite/Bolt 来源证据、JSON/CSRF 差异和数据库初始化副作用。第 1 周有 45 分钟、2025 其余各有 50 分钟零调用替代。导读完成不是原作业或实验完成，不改变 32/64 指定阅读数量；本批未运行客户端、Agent、模型、测试、Hook、扫描、攻击、服务、构建、迁移或数据库，也未创建 PR、登录或推送。
+作业另行维护：当前本地 11 份作业均已有中文导读，2025 第 1–8 周见[年份入口](reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](reading-notes/fall2026/README.md)。此前补齐[第 7 周人工与 AI 审查](reading-notes/fall2025/week07/assignment-guide.md)及[第 8 周三技术栈交付](reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章；解释未定义 li、标签跨层契约、AND 测试反例、Graphite/Bolt 来源证据、JSON/CSRF 差异和数据库初始化副作用。第 1 周有 45 分钟、2025 其余各有 50 分钟零调用替代。导读完成不是原作业或实验完成，不改变指定阅读数量；本批未运行客户端、Agent、模型、作业测试、Hook、扫描、攻击、服务、构建、迁移或数据库，也未创建 PR、登录或推送。
 
 ## 2026 大纲对应
 

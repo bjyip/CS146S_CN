@@ -4,11 +4,17 @@
 
 本教程根据本地资料重新组织，正文中的解释与实验不是逐页翻译，也不声称复现了完整嘉宾讲座。以下链接可以溯源；完成学习不需要打开视频。
 
-系统教程位于 `chapters/`，共用资料位于 `reference/`。[逐份阅读笔记索引](../reading-notes/README.md)记录指定阅读的范围与进度；本文件记录教程依据与课堂材料状态，两者不等同。已有 2026 年 14 份和 2025 年十八份声明范围内的阅读笔记，共 32/64 份，32 份待补；规格文章按英文预览与删减中文版完成，提示指南按六个双语技术子页完成，不代表英文全文或全站已读。另有三份课堂转写解读及三周 2026 作业导读，未执行模型、OAuth、客户端或安全实验。
+系统教程位于 `chapters/`，共用资料位于 `reference/`。[逐份阅读笔记索引](../reading-notes/README.md)记录指定阅读的范围与进度；本文件记录教程依据与课堂材料状态，两者不等同。已有 2026 年 14 份和 2025 年二十八份声明范围内的指定阅读笔记，共 42/64 份，22 份待补；另有 Warp 当前迁移与 Addy 官方文章两份补充，不计指定阅读完成数。规格按英文预览与删减中文版、提示指南按六个双语技术子页完成，不代表英文全文或全站。三份课堂转写解读和本地全部 11 份作业导读另行统计，未执行模型、OAuth、客户端或安全实验。
 
-增量核对日期为 2026-11-05，以当前根 README、真实资料和本地文件为依据，不以历史 merge 代表覆盖。此前已核对真实 2026 第 1–3 周 assignment 与 writeup，未发现本地后续周作业；没有修改原作业。本批取得提示指南六个双语技术子页、Semgrep 漏洞评测和 Graphite 落地指南完整文字，新增三份笔记并关联第 01、07、08 章。Google 概览重试传输错误；Codex PDF 超过读取工具 5MB 限制，中文版返回 403，未取得正文。GitHub CLI 不在当前 PATH，固定仓库文档版本尚未取得，未安装或绕用其他入口编写。Vercel、指定视频、SRE、Splunk 及英文规格全文仍保留前批缺口，本批未重读；没有登录、绕过限制、下载完整视频或复现产品实验。
+增量核对日期为 2026-11-05，以当前根 README、真实资料和本地文件为依据，不以历史 merge 代表覆盖。前一轮新增 Devin、Anthropic 团队与最佳实践、安全五项、AutoCommenter 共九份指定笔记后为 41/64；本次处理剩余 23 项，改用现有 PyMuPDF 在内存中取得 Codex 官方 PDF 8040907 字节、13 页可提取文字，新增一份并关联第 06、07 章。通用读取仍超 5MB，指定中文仍 403；图像及第 13 页无提取文字的视觉内容未核验。其余 22 项缺口见[分类与逐项表](../reading-notes/README.md#剩余获取缺口)：字幕列表传输错误，X 传输错误/超时，Google/stockapp/Medium/SRE 未取得正文，Notion HTML 无正文，Warp 历史两入口仍返回当前概览。SRE 直接 HTTP 请求也超时；本地盘点无所需原文副本，gh 仍不可用，未安装或绕 GitHub 入口。并非本次重新取得全部 64 项外链；旧已读材料按声明范围沿用。在线课件及英文规格全文缺口独立保留，本次未安装、保存 PDF、下载完整视频、登录、执行来源脚本或产品实验。
 
-当前本地全部 11 份作业已有导读：2025 第 1–8 周见[年份入口](../reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](../reading-notes/fall2026/README.md)。本批盘点所有 assignment、核对既有九份导读并重读 2026 三份说明，补齐[第 7 周](../reading-notes/fall2025/week07/assignment-guide.md)与[第 8 周](../reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章。第 7 周实际读说明/报告/配置、八份应用 Python、六份测试（含 fixture）、三个前端与种子；第 8 周读三栈说明、主体源码、配置、迁移与模板，Flask 单行 CSS 仅取得前 2000 字符，尾部不计已读，包初始化仅盘点。各导读列精确范围与限制：源码缺陷是静态推导，Graphite 未运行，Bolt 使用及耗时只有报告自述；功能、数据库和原提交要求未验证。作业不增加 32/64 指定阅读完成数，外部阅读、视频、在线课件与视觉核验缺口保留。本批未安装、导入/执行 Python、测试、应用、构建、迁移、登录、调用 AI、创建数据库、远程 PR 或推送；报告外链未读。
+当前本地全部 11 份作业已有导读：2025 第 1–8 周见[年份入口](../reading-notes/fall2025/README.md#已有作业导读)，2026 第 1–3 周见[学习路线](../reading-notes/fall2026/README.md)。此前盘点所有 assignment、核对既有九份导读并重读 2026 三份说明，补齐[第 7 周](../reading-notes/fall2025/week07/assignment-guide.md)与[第 8 周](../reading-notes/fall2025/week08/assignment-guide.md)，最小关联第 07、09 章。第 7 周实际读说明/报告/配置、八份应用 Python、六份测试（含 fixture）、三个前端与种子；第 8 周读三栈说明、主体源码、配置、迁移与模板，Flask 单行 CSS 仅取得前 2000 字符，尾部不计已读，包初始化仅盘点。各导读列精确范围与限制：源码缺陷是静态推导，Graphite 未运行，Bolt 使用及耗时只有报告自述；功能、数据库和原提交要求未验证。作业不增加指定阅读完成数，外部阅读、视频、在线课件与视觉核验缺口保留。未导入/执行作业 Python、测试、应用、构建、迁移、登录、调用 AI、创建数据库、远程 PR 或推送；本次 Python 仅用于内存 PDF 文字提取，报告外链未读。
+
+### 外网受限后的学习替代
+
+2026-11-05 用户确认采用可追溯中文补充与本地资料深化，详见[22 项学习替代入口](offline-learning.md)。本轮新增 DAIR.AI 中文入门四页的实际阅读与解读，章节最小补采样/截断辨析和 SLO 错误预算假例。补充不消除原文、视频、仓库或视觉缺口，指定阅读仍为 42/64；四页入门属于已有指南的额外范围，不重复计数。预算例和替代路线为教程扩展，不归属未读 SRE 导论。
+
+此前用户另获授权安装官方 gh，但 WinGet 不可用、官方 MSI 下载超时、curl 重试中止，未成功安装、验证或认证；上文“未安装”描述先前轮次。本轮暂停安装、网络配置及受限原入口重试，没有调整代理、下载完整视频、执行课程代码或产品实验。已读旧来源按原声明沿用，不声称本轮重新获取全部外链。
 
 ## 1. 课程定位
 
@@ -125,16 +131,27 @@ python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week09-1121-resolve-gue
 
 ## 5. 已读来源与使用边界
 
-“已阅读”指本次增量工作期间取得正文，不表示已验证产品运行或复现作者实验。外部页面可能持续更新，下表记录本轮读取状态，不保证永久可访问。
+“已阅读”指维护期间实际取得声明范围的正文，不表示本次重新读取所有来源、已验证产品运行或复现作者实验。外部页面可能持续更新，下表保留各批读取范围，不保证永久可访问。
 
 | 来源 | 类别与状态 | 用于何处及限制 |
 | --- | --- | --- |
 | [Prompt Engineering Guide](https://www.promptingguide.ai/techniques)及[中文入口](https://www.promptingguide.ai/zh/techniques) | DAIR.AI，fewshot/cot/consistency/rag/react/reflexion 六页双语正文；其余技术页未读 | [六页精选解读](../reading-notes/fall2025/week01/03-prompt-engineering-guide.md)，01；双语用词/删减差异已说明，图片、论文、notebook、旧 SDK 未验证 |
+| [中文提示入门](https://www.promptingguide.ai/zh/introduction)及 settings/elements/tips | DAIR.AI，2026-11-05 四页中文正文与文字示例；无可核验逐页日期/个人署名，英文对应未读 | [补充解读](../reading-notes/fall2025/week01/supplement-prompting-introduction.md)，01；扩大已有指南范围，不增加指定完成数，不替代 Google 原概览；温度措辞、实体与推荐契约疑点保留，API/效果未验证 |
 | [Semgrep 漏洞发现研究](https://semgrep.dev/blog/2025/finding-vulnerabilities-in-modern-web-apps-using-claude-code-and-openai-codex/) | Romain Gaucher、Vasilii Ermilov、Clint Gibler，2025-09-02，完整文字、表格与提示模板已取得；同日交付前复核传输错误 | [分母与生命周期](../reading-notes/fall2025/week06/03-ai-vulnerability-evaluation.md)，07、08；依据此前取得正文，原文 TPR/FPR 分母校准，原始数据、图像、应用、成本与实验未复现 |
 | [Graphite AI 审查落地指南](https://graphite.dev/guides/ai-code-review-implementation-best-practices) | Greg Foster，完整正文、表格与 FAQ，无可核验绝对发布日期 | [试点与反馈校准](../reading-notes/fall2025/week07/04-ai-review-implementation.md)，07；类型不能代替全部运行时验证，接受率/准确率/收益周期宣传未核验，产品未运行 |
-| [OpenAI 如何使用 Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)及[中文版](https://tools.wingzero.tw/article/sn/3533) | PDF 响应超过工具 5MB 限制；中文入口 403，未取得报告正文 | 仅登记缺口，不据二进制响应或标题建立报告解读 |
+| [OpenAI 如何使用 Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)及[中文版](https://tools.wingzero.tw/article/sn/3533) | 官方原件 13 页可提取文字，现有 PyMuPDF 内存解析成功；无个人署名/日期元数据，中文仍 403 | [任务、环境与验收](../reading-notes/fall2025/week01/05-how-openai-uses-codex.md)，06、07；第 13 页无提取文字，图像未核验，不把历史 Ask/Code Mode、research preview 或自述收益当现行保证 |
 | [Traces & Spans](https://last9.io/blog/traces-spans-observability-basics/) | Anjali Udasi，2025-04-23，完整正文及 FAQ | [操作关系、传播与采样](../reading-notes/fall2025/week09/02-traces-spans.md)，09；图片/规范/SDK 未验证，开销与产品主张不泛化 |
-| [SAST vs. DAST vs. RASP](https://www.splunk.com/en_us/blog/learn/sast-vs-dast.html) | 历史取得过正文，2026-11-05 再次读取返回 403 | 仅记录复核缺口，尚无完成笔记，不根据历史摘要补造来源解读 |
+| [SAST vs. DAST vs. RASP](https://www.splunk.com/en_us/blog/learn/sast-vs-dast.html) | Shanika Wickramasinghe，2024-12-18；本轮取得完整文字、比较表及结论，更新此前 403 | [检测时点与覆盖](../reading-notes/fall2025/week06/01-sast-dast.md)，08；RASP 防护不等于根因修复，未运行扫描或防护 |
+| [Coding Agents 101](https://devin.ai/agents101)及[指定中文](https://www.vibevibe.cn/Articles/01-core-concepts/coding-agents-101.html) | Cognition Team，June 2025，正文、表和四注释；指定中文对照 | [委派与检查点](../reading-notes/fall2025/week03/03-coding-agents-101.md)，03、06；初级伙伴风险和 MCP beta 注释的中文差异保留，收益经验不泛化 |
+| [Anthropic 团队使用报告](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf)及[指定中文](https://baoyu.io/translations/how-anthropic-teams-use-claude-code) | 十团队中文译述及官方 news 全文，官方页 2025-07-24；PDF 超 5MB，逐句/版本对应未核验 | [专业子任务与组合验收](../reading-notes/fall2025/week04/01-how-anthropic-teams-use-claude-code.md)，05、06；官方短版与中文详细版不混为 PDF 全文 |
+| [Claude Code best practices](https://www.anthropic.com/engineering/claude-code-best-practices)及[指定中文](https://claude.whaty.org/posts/Claude-code-official-best-practices.html) | 指定中文完整译述，标 2025 年 12 月；原入口返回当前文档，尾部截断，仅已见段落作差异校准 | [规划、权限与验证](../reading-notes/fall2025/week04/02-claude-code-best-practices.md)，05、06；历史英文全文未得，不照搬当前命令或推定运行兼容 |
+| [Warp 当前迁移指南](https://docs.warp.dev/getting-started/migrate-to-warp/migrate-to-warp-from-claude-code/) | 当前官方正文，2026-11-03；额外补充，非原 2025 对比课 | [终端、Agent 与恢复边界](../reading-notes/fall2025/week05/02-warp-claude-code-current-migration.md)，05、06；不计指定阅读，规则改名不保证工具/认证/执行兼容，产品未验证 |
+| [Copilot prompt injection](https://embracethered.com/blog/posts/2025/github-copilot-remote-code-execution-via-prompt-injection/)及[指定中文](https://cn-sec.com/archives/5301988.html) | 指定中文转载全文，admin，2026-06-28；英文两入口传输错误 | [数据面到策略写入](../reading-notes/fall2025/week06/02-copilot-rce.md)，08；英文作者日期与当前修复未核验，路径作用域冲突保留，不复制可执行攻击 |
+| [Unit42 Agentic threats](https://unit42.paloaltonetworks.com/agentic-ai-threats/) | Royce Lu、Jay Chen，2025-05-01，5 月 2 日文案更新；全文文字、九场景/五层防护 | [主体、对象与动作](../reading-notes/fall2025/week06/04-agentic-identity-threats.md)，08；特定应用设计非框架普遍漏洞，图像/仓库/数据未读 |
+| [OWASP Top Ten](https://owasp.org/www-project-top-ten/)及[2021 中文正文](https://owasp.org/Top10/2021/zh-Hant/) | 官方 2021 首页、介绍、作为标准、A01–A10 文字及英文方法核对；当前主页最新 2025 | [版本与分母](../reading-notes/fall2025/week06/05-owasp-top-ten-2021.md)，08；原 China/zh_CN 入口 404，导航标签/正文繁简差异保留，2025 类别正文与完整 ASVS 未读 |
+| [Context Rot](https://research.trychroma.com/context-rot)及[指定中文](https://research.chroma.org.cn/context-rot) | Hong、Troynikov、Huber，2025-07-14/7 月 16 日附注；双语正文、脚注、附录文字 | [长度、干扰与评测](../reading-notes/fall2025/week06/06-context-rot.md)，03、07；最差/最好翻译差异、人工 oracle 非检索器、输入输出共变保留，图像/代码/数据未验证 |
+| [AutoCommenter 论文](https://arxiv.org/html/2405.13565v1) | Vijayvergiya 等，2024-05-22 v1；摘要、1–6/8 节与 Go 例精选，7 节仅核对相关工作 | [标签与服务层校准](../reading-notes/fall2025/week07/03-ai-assisted-coding-practices.md)，07；图像/内部数据未核验，反馈有用率非真实正确率，A/B 未检测到显著审查耗时收益 |
+| [Addy Agentic Code Review](https://addyosmani.com/blog/agentic-code-review/) | Addy Osmani，2026-06-15，官方正文及例子精选；额外补充，指定 X 未得 | [风险与人工责任](../reading-notes/fall2026/week06/01-risk-tiered-review.md)，07；原 X 对应未证实，不计指定阅读，转引研究/产品/截图未独立验证 |
 | [Code Reviews: Just Do It](https://blog.codinghorror.com/code-reviews-just-do-it/) | Jeff Atwood，2006-01-21，完整正文 | [同行审查与历史收益](../reading-notes/fall2025/week07/01-code-reviews-just-do-it.md)，07；转引书籍/研究未读，检出率和十倍回报不泛化 |
 | [Code Review Essentials](https://blakesmith.me/2015/02/09/code-review-essentials-for-software-teams.html) | Blake Smith，2015-02-09，完整正文 | [团队理解、说明与反馈](../reading-notes/fall2025/week07/05-code-review-essentials.md)，07；层次图未视觉核验、原例代码/测试未验证 |
 | [How to review code effectively](https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/) | Sarah Vessels，2024-07-23，完整正文 | [清晰及时的审查](../reading-notes/fall2025/week07/02-how-to-review-code-effectively.md)，07；图片、团队自动化、门禁与通知未验证 |
@@ -169,7 +186,7 @@ python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week09-1121-resolve-gue
 
 ## 6. 2026 课堂资料与未读外链
 
-以下入口逐项来自当前根 README。2026-11-04 已取得三份文字转写，其他材料没有据此自动标记已读。Google Slides 尝试公开文字导出遇到传输错误，Drive 原入口请求超时；这些是本轮获取结果，不证明原链接不存在或永久失效，不绕过认证。视频页面及字幕入口未取得文字，X 请求遇到传输错误。未读资料不生成摘要。
+以下入口逐项来自当前根 README。2026-11-04 已取得三份文字转写，其他材料没有据此自动标记已读。Google Slides 公开文字导出传输错误、Drive 原入口超时的既有状态保留，本次未重新读取全部课堂外链。2026-11-05 指定视频页及英文字幕/列表未取得文字，X 请求传输错误或超时；作者其他文章不证明原帖已读。不证明链接永久失效，不绕认证，未读资料不生成摘要。
 
 | 课程位置 | 新链接 | 本轮状态 |
 | --- | --- | --- |
@@ -182,8 +199,8 @@ python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week09-1121-resolve-gue
 | 2026 第 3 周 Lee Robinson | [幻灯片](https://drive.google.com/file/d/1b8WiBk_lcB3ue-jZMLijSUMLj6SDiF6Z/view?usp=drive_link) | 仅登记，未读取正文 |
 | 2026 第 4 周定制环境 | [幻灯片](https://docs.google.com/presentation/d/152VaUifBKH4T6hxd6fCKKM9kJTSAuBmkF8zSYwuTYAo/edit?usp=sharing) | 读取发生传输错误，未取得正文 |
 | 2026 第 5 周仓库就绪 | [幻灯片](https://docs.google.com/presentation/d/1yCxocmUrGIN7IrC42WB6NW08PtYYFLe1ombDj3Ay6_8/edit?usp=drive_link) | 仅登记，未读取正文 |
-| 2026 第 5 周仓库就绪 | [视频](https://www.youtube.com/watch?v=ShuJ_CN6zr4)、[X 帖文](https://x.com/trybasis/status/2056881705269580023) | 仅登记，未观看或读取；不是无视频学习前提 |
-| 2026 第 6 周风险分层 | [X 帖文](https://x.com/addyosmani/status/2114604912520921136) | 读取发生传输错误，未取得正文 |
+| 2026 第 5 周仓库就绪 | [视频](https://www.youtube.com/watch?v=ShuJ_CN6zr4)、[X 帖文](https://x.com/trybasis/status/2056881705269580023) | 视频及字幕传输错误，X 此前传输错误、本次超时；未取得正文，不是无视频学习前提 |
+| 2026 第 6 周风险分层 | [X 帖文](https://x.com/addyosmani/status/2114604912520921136) | 此前传输错误、本次超时，原帖未读；[作者官方文章补充](../reading-notes/fall2026/week06/01-risk-tiered-review.md)不证明原帖对应或完成 |
 | 2026 第 6 周 Agentic Review | [幻灯片](https://docs.google.com/presentation/d/1u8WYtFj0O9yc4H4JX9D4URYKhDzvrAGKLzn38DXSrak/edit?usp=drive_link) | 仅登记，未读取正文 |
 
 第 4 周 Boris Cherny、第 5 周 Eno Reyes、第 6 周 Silas Alberti、第 7 周 Isaac Evans、第 8 周 Rajesh Bhatia、第 9 周 Elad Gil/Amjad Masad 的嘉宾安排按根 README 登记；尚无取得的对应讲座正文，不推断其主张。第 7–10 周系统学习环依据当前主题与保留工程资料编写，明确为教程扩展。原课程评分与自学评分分别维护，广告、二维码、访问统计不纳入知识材料。

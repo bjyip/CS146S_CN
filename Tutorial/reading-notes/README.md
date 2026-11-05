@@ -6,7 +6,7 @@
 
 本清单依据根 README 的“阅读材料”建立，增量核对日期为 2026-11-05。原版及其中文版算同一材料，不重复计数，但中文版对应与差异需另核对。课堂讲义、转写、代码和嘉宾主页是补充来源，不算指定阅读条目；它们的状态独立维护。广告和购买说明不纳入阅读笔记。
 
-当前登记 2025 阅读材料 45 份、2026 阅读材料 19 份，共 64 份；完成 32 份声明范围内的指定阅读中文笔记（2025 十八份、2026 十四份），32 份待补。其中“规格作为源代码”按英文公开预览与删减中文版完成解读，提示指南按六个双语技术子页完成，不是英文全文或全站已读。另有 3 份课堂转写解读、13 份 2025 PPTX 文字解读、两份嘉宾 PDF 文字范围内的解读及 2026 第 1–3 周作业导读；课堂 PDF 不计指定阅读数量，视觉核验未完成。网站、论文与仓库的精选范围见笔记，不能视为全站、全篇或所有技能已读。没有阅读材料的周次不建立空目录；笔记完成不表示运行案例、验证产品或复现论文结果。
+当前登记 2025 阅读材料 45 份、2026 阅读材料 19 份，共 64 份；完成 42 份声明范围内的指定阅读中文笔记（2025 二十八份、2026 十四份），22 份待补。此前新增九份指定阅读后为 41/64，本次取得 Codex 官方 PDF 文字再新增一份；Warp 当前迁移与 Addy 官方文章两份补充不计指定阅读完成数。其中“规格作为源代码”按英文公开预览与删减中文版完成解读，提示指南按六个双语技术子页完成，不是英文全文或全站已读。另有 3 份课堂转写解读、13 份 2025 PPTX 文字解读、两份嘉宾 PDF 文字范围内的解读和本地全部 11 份作业导读；课堂 PDF 不计指定阅读数量，视觉核验未完成。网站、论文与仓库的精选范围见笔记，不能视为全站、全篇或所有技能已读。没有阅读材料的周次不建立空目录；笔记完成不表示运行案例、验证产品或复现论文结果。
 
 | 状态 | 含义 |
 | --- | --- |
@@ -21,8 +21,8 @@
 
 | 周次 | 材料与原始入口 | 类型 | 状态与中文笔记 |
 | --- | --- | --- | --- |
-| 01 | [构建编程智能体](https://www.youtube.com/watch?v=s7ZzkdvCMDY) | 视频 | 待获取字幕或转写 |
-| 01 | [构建 Claude Code 的经验与启示](https://x.com/trq212/status/2027463795355095314?s=20) | 社交媒体帖文 | 待获取 |
+| 01 | [构建编程智能体](https://www.youtube.com/watch?v=s7ZzkdvCMDY) | 视频 | 待获取；视频页、英文字幕与字幕列表均传输错误 |
+| 01 | [构建 Claude Code 的经验与启示](https://x.com/trq212/status/2027463795355095314?s=20) | 社交媒体帖文 | 待获取；原帖及 profile 传输错误，按 ID 搜索未取得正文 |
 | 01 | [深入剖析 Claude Code](https://arxiv.org/pdf/2604.14228) | 论文 | [笔记完成：v3 精选章节](fall2026/week01/03-claude-code-design.md) |
 | 02 | [上下文税：何时压缩上下文](https://langwatch.ai/blog/context-tax-when-to-compact) | 文章 | [笔记完成：全文](fall2026/week02/01-context-tax.md) |
 | 02 | [OpenSpec](https://openspec.dev/) | 产品网站/文档入口 | [笔记完成：首页及 quickstart](fall2026/week02/02-openspec.md) |
@@ -35,9 +35,9 @@
 | 04 | [AGENTS.md](https://docs.factory.com/harness/agents-md) | Factory 产品文档 | [笔记完成](fall2026/week04/02-factory-agents-md.md) |
 | 04 | [引导 Claude Code](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more) | 官方产品文章 | [笔记完成](fall2026/week04/03-steering-claude-code.md) |
 | 04 | [编写高质量 CLAUDE.md](https://hlyr.dev/blog/writing-a-good-claude-md) | 行业经验文章 | [笔记完成](fall2026/week04/04-writing-a-good-claude-md.md) |
-| 05 | [让代码库为 Agent 做好准备](https://www.youtube.com/watch?v=ShuJ_CN6zr4) | 视频 | 待获取字幕或转写 |
-| 05 | [构建便于 Agent 使用的仓库](https://x.com/trybasis/status/2056881705269580023) | 社交媒体帖文 | 待获取 |
-| 06 | [分层代码审查与基于风险的人工监督](https://x.com/addyosmani/status/2114604912520921136) | 社交媒体帖文 | 待获取；读取遇到传输错误 |
+| 05 | [让代码库为 Agent 做好准备](https://www.youtube.com/watch?v=ShuJ_CN6zr4) | 视频 | 待获取；视频页、英文字幕与字幕列表均传输错误 |
+| 05 | [构建便于 Agent 使用的仓库](https://x.com/trybasis/status/2056881705269580023) | 社交媒体帖文 | 待获取；此前传输错误，本次超时，搜索/作者候选无原帖正文 |
+| 06 | [分层代码审查与基于风险的人工监督](https://x.com/addyosmani/status/2114604912520921136) | 社交媒体帖文 | 原帖待获取；此前传输错误，本次超时；另有[作者官方文章补充](fall2026/week06/01-risk-tiered-review.md)，对应关系未证实，不计本项完成 |
 | 06 | [大规模协调专业审查 Agent](https://blog.cloudflare.com/ai-code-review) | 工程文章 | [笔记完成：全文](fall2026/week06/02-specialist-review.md) |
 | 06 | [超越 Diff：上下文、测试与模型选择](https://www.greptile.com/blog/how-to-build-a-code-review-agent) | 行业经验文章 | [笔记完成：全文](fall2026/week06/03-beyond-diff.md) |
 
@@ -45,7 +45,7 @@
 
 ## Fall 2025
 
-下表已有十八份声明范围内的指定阅读解读，剩余 27 份尚无完成笔记；各项状态与实际范围分别记录，删减中文版不代表英文全文，提示指南精选六页不代表全站。系统教程引用本地讲义不代表已完整读过外部材料。[Fall 2025 课堂解读入口](fall2025/README.md)已有 13 份本地 PPTX 的文字解读，共 275 页可提取文字及关联备注，按概念融入第 01–09 章或关联已有覆盖；图片仍待视觉核验。[本地中文课件](../reference/sources.md#fall-2025-中文课件)的导航与[分阶段状态](../reference/sources.md#课件文字化与融合状态)独立维护，不把文字提取、视觉核验、解读和章节融合混为一项。
+下表已有二十八份声明范围内的指定阅读解读，剩余 17 份尚无完成笔记；各项状态与实际范围分别记录，删减中文版不代表英文全文，提示指南精选六页不代表全站。系统教程引用本地讲义不代表已完整读过外部材料。[Fall 2025 课堂解读入口](fall2025/README.md)已有 13 份本地 PPTX 的文字解读，共 275 页可提取文字及关联备注，按概念融入第 01–09 章或关联已有覆盖；图片仍待视觉核验。[本地中文课件](../reference/sources.md#fall-2025-中文课件)的导航与[分阶段状态](../reference/sources.md#课件文字化与融合状态)独立维护，不把文字提取、视觉核验、解读和章节融合混为一项。
 
 2026-11-05 经授权安装本地解析依赖后，读取 [Tomas 30 页](fall2025/week07/lecture-tomas-reimers.md)与 [Resolve 35 页](fall2025/week09/lecture-resolve-guest.md)的可提取文字，完成文字范围内的解读并关联第 07、09 章。页面图已生成，但读取仅返回成功提示，没有可检查的内容，全部视觉核验仍待完成；未经核验的坐标、代码、日志与事故截图细节已撤回。底层运行证据和产品效果未验证。在线嘉宾课件与视频仍未完成，下表 Resolve 指定文章独立登记。
 
@@ -55,7 +55,7 @@
 | 01 | [Prompt Engineering 概览](https://cloud.google.com/discover/what-is-prompt-engineering) | 文章 | 待获取；原入口及语言参数重试均传输错误，中文版仅标题 |
 | 01 | [Prompt Engineering 指南](https://www.promptingguide.ai/techniques) | 多页指南 | [笔记完成：六个技术子页双语正文，非全站](fall2025/week01/03-prompt-engineering-guide.md) |
 | 01 | [AI Prompt Engineering：深入解析](https://www.youtube.com/watch?v=T9aRN5JkmL8) | 视频 | 待获取；原视频、指定中文版及公开字幕入口均传输错误 |
-| 01 | [OpenAI 如何使用 Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf) | PDF 报告 | 待获取；PDF 超工具 5MB 限制，中文版 403，官方文字候选 404，无正文 |
+| 01 | [OpenAI 如何使用 Codex](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf) | PDF 报告 | [笔记完成：现有 PyMuPDF 取得原件 13 页可提取文字](fall2025/week01/05-how-openai-uses-codex.md)；第 13 页无提取文字，图像/指定中文未核验，产品与收益未验证 |
 | 02 | [MCP 简介](https://stytch.com/blog/model-context-protocol-introduction/) | 文章 | [笔记完成：全文，示例边界已校准](fall2025/week02/01-mcp-introduction.md) |
 | 02 | [MCP Server 示例实现](https://github.com/modelcontextprotocol/servers) | 代码仓库 | 待获取；当前 PATH 无 gh，未取得文件或版本，不安装或绕行 |
 | 02 | [MCP Server 身份验证](https://developers.cloudflare.com/agents/guides/remote-mcp-server/#add-authentication) | 产品文档 | [笔记完成：当前对应指南全文，非 2025 快照](fall2025/week02/03-remote-mcp-authentication.md) |
@@ -86,10 +86,10 @@
 | 06 | [使用 O3 进行漏洞 prompt 分析](https://github.com/SeanHeelan/o3_finds_cve-2025-37899/blob/master/system_prompt_uafs.prompt) | 提示词源文件 | 待获取；gh 调用失败，不安装或绕行；未复现漏洞 |
 | 07 | [Code Review：做就对了](https://blog.codinghorror.com/code-reviews-just-do-it/) | 文章 | [笔记完成：完整正文，转引原始研究未读](fall2025/week07/01-code-reviews-just-do-it.md) |
 | 07 | [如何有效进行 Code Review](https://github.blog/developer-skills/github/how-to-review-code-effectively-a-github-staff-engineers-philosophy/) | 工程经验文章 | [笔记完成：完整正文，产品门禁/通知未验证](fall2025/week07/02-how-to-review-code-effectively.md) |
-| 07 | [现代 Code Review 中 AI 辅助 Coding 实践评估](https://arxiv.org/pdf/2405.13565) | 论文 | 待获取 |
+| 07 | [现代 Code Review 中 AI 辅助 Coding 实践评估](https://arxiv.org/pdf/2405.13565) | 论文 | [笔记完成：v1 摘要、1–6/8 节及 Go 例精选文字](fall2025/week07/03-ai-assisted-coding-practices.md)；图像、内部数据与实验未验证 |
 | 07 | [AI Code Review 落地最佳实践](https://graphite.dev/guides/ai-code-review-implementation-best-practices) | 产品指南 | [笔记完成：全文、表格与 FAQ；产品与宣传数字未验证](fall2025/week07/04-ai-review-implementation.md) |
 | 07 | [软件团队的 Code Review 要点](https://blakesmith.me/2015/02/09/code-review-essentials-for-software-teams.html) | 文章 | [笔记完成：完整正文，图片未视觉核验](fall2025/week07/05-code-review-essentials.md) |
-| 07 | [来自数百万次 AI Code Review 的经验](https://www.youtube.com/watch?v=TswQeKftnaw) | 视频 | 待获取字幕或转写 |
+| 07 | [来自数百万次 AI Code Review 的经验](https://www.youtube.com/watch?v=TswQeKftnaw) | 视频 | 待获取；视频页、英文字幕与字幕列表均传输错误 |
 | 09 | [SRE 导论](https://sre.google/sre-book/introduction/) | 书籍章节 | 待获取；原入口及 index.html 重试均传输错误，其他官方章节也未取得，未用替代摘要编写 |
 | 09 | [需要了解的可观测性基础](https://last9.io/blog/traces-spans-observability-basics/) | 文章 | [笔记完成：完整正文与 FAQ，图片/SDK 未验证](fall2025/week09/02-traces-spans.md) |
 | 09 | [使用 AI 排查 Kubernetes 故障](https://resolve.ai/blog/kubernetes-troubleshooting-in-resolve-ai) | 产品文章 | [笔记完成：完整正文，图片/产品未验证](fall2025/week09/03-kubernetes-troubleshooting.md) |
@@ -99,9 +99,29 @@
 
 第 8、10 周阅读材料栏为空，未建立虚构材料条目。
 
+### 剩余获取缺口
+
+2026-11-05 续接核对上一轮 23 项：Codex PDF 改用现有解析依赖后完成，剩余 22 项。除本次直接重试外，沿用同日已记录的官方候选、指定中文和本地盘点证据，不声称本次重新读过全部 64 项外链。
+
+| 缺口类型 | 项数 | 对应材料与实际边界 |
+| --- | --- | --- |
+| 视频字幕/转写 | 5 | 2025 第 1 周两项、第 7 周一项，2026 第 1、5 周各一项；公开字幕列表本次均传输错误，指定 Bilibili 两页也失败，没有真实时间戳 |
+| X 原帖 | 4 | FAANG、trq212、trybasis、Addy；传输错误或超时，搜索/其他作者文章不证明原帖内容 |
+| GitHub 仓库/源文件 | 6 | MCP servers、TypeScript SDK、humanlayer ace-fca、awesome-claude-agents、SuperClaude、o3 prompt；当前 gh 不可用，未取得版本或文件，不安装或绕入口 |
+| 网页正文 | 4 | Google 概览、stockapp、Medium、SRE 导论；传输错误，语雀仅标题；SRE 本次直接 HTTP 请求也超时 |
+| 历史 Warp 页面 | 3 | University、Warp-vs-Claude、Notion；前两项仍返回 2026 产品概览，Notion HTML 无正文且 boot data 为空，不执行脚本或认证接口 |
+
+两份官方补充可用于学习，但不消除历史 Warp 对比或 Addy X 缺口。Codex 指定中文 403 是已完成英文原件笔记的核验限制，不再另算一项待补。未获得正文者不建空笔记；全部课程在线课件和视觉核验另行统计。
+
+### 中文与本地替代
+
+2026-11-05 用户确认外网受限时采用[可追溯补充与本地深化](../reference/offline-learning.md)，上表 22 项保持原来源缺口，不再反复直连阻塞入口。本轮取得 DAIR.AI 中文简介、要素、设置、技巧四页并新增[入门补充解读](fall2025/week01/supplement-prompting-introduction.md)，扩大已有指南的实际阅读范围，不新增指定条目，也不证明 Google 概览或两份视频已读。第 01 章补采样/截断反例，第 09 章补错误预算算例；假例与零执行练习为教程扩展，指定完成数仍为 42/64。
+
+用户曾独立授权安装官方 gh，但官方 MSI 下载超时、curl 重试中止，未成功安装或认证；“不安装”是此前获取轮次的行为记录，不是撤销该独立授权。本轮暂停安装与网络调整，不绕 GitHub 入口；后续如取得合法离线快照，再按版本和实际文件核对原条目。
+
 ## 作业材料
 
-作业与上述 64 项指定阅读独立统计。已盘点当前本地全部 11 份 assignment，并核对 11 份导读：2026 第 1–3 周见[2026 学习路线](fall2026/README.md)，2025 第 1–8 周见[2025 作业入口](fall2025/README.md#已有作业导读)。本批补齐[第 7 周审查证据](fall2025/week07/assignment-guide.md)与[第 8 周三栈交付](fall2025/week08/assignment-guide.md)，各含原 100 分评分、源码机制、证据缺口、50 分钟零执行替代与自测，关联第 07、09 章。第 7 周 15 项业务操作、14 个测试函数均属静态盘点，未定义 li、Unicode 标签和弱 AND 数据集不当作实测；第 8 周 Bolt 来源与耗时仅报告自述，三栈契约/CSRF/导入写库边界另列。未运行原作业、客户端、Agent、测试、Hook、扫描、攻击、数据库、构建、认证或外部写入；导读完成不代表作业完成，本地未取得的后续 2026 作业不补造。
+作业与上述 64 项指定阅读独立统计。此前已盘点当前本地全部 11 份 assignment，并核对 11 份导读：2026 第 1–3 周见[2026 学习路线](fall2026/README.md)，2025 第 1–8 周见[2025 作业入口](fall2025/README.md#已有作业导读)。此前补齐[第 7 周审查证据](fall2025/week07/assignment-guide.md)与[第 8 周三栈交付](fall2025/week08/assignment-guide.md)，各含原 100 分评分、源码机制、证据缺口、50 分钟零执行替代与自测，关联第 07、09 章。第 7 周 15 项业务操作、14 个测试函数均属静态盘点，未定义 li、Unicode 标签和弱 AND 数据集不当作实测；第 8 周 Bolt 来源与耗时仅报告自述，三栈契约/CSRF/导入写库边界另列。未运行原作业、客户端、Agent、测试、Hook、扫描、攻击、数据库、构建、认证或外部写入；导读完成不代表作业完成，本地未取得的后续 2026 作业不补造。
 
 ## 笔记编写约定
 

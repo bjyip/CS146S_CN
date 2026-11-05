@@ -77,4 +77,4 @@
 
 **问：A/B 证明审查过程更快了吗？** 文中没有检测到相关审查指标的显著变化，不能作该结论。
 
-关联[第 07 章](../../../chapters/07-testing-review.md)：标签不完整、评论校准、已改范围、有用率与解决率。关联[第 06 章](../../../chapters/06-repo-parallel.md)：规则版本及文档漂移；关联[第 09 章](../../../chapters/09-delivery-operations.md)：推广监测与及时抑制。当前只建立笔记侧关联，章节融合由维护者另行确认。本篇不替代 Tomas PDF 或指定 YouTube 视频，也不把图像/内部数据计为完整阅读。
+已最小融入[第 07 章](../../../chapters/07-testing-review.md)：标签不完整、评论校准、指标分母与规则抑制边界。延伸阅读[第 06 章](../../../chapters/06-repo-parallel.md)的规则漂移与[第 09 章](../../../chapters/09-delivery-operations.md)的推广监测，不宣称这两章新增论文特定融合。本篇不替代 Tomas PDF 或指定 YouTube 视频，也不把图像/内部数据计为完整阅读。

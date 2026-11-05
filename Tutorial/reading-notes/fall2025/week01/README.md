@@ -12,17 +12,22 @@
 | 材料 | 范围与状态 |
 | --- | --- |
 | [03 提示工程指南](03-prompt-engineering-guide.md) | 六个技术子页的中英文正文完成解读，关联第 01 章；其余技术页、图像、论文与 notebook 未读，不代表全站完成 |
+| [05 OpenAI 如何使用 Codex](05-how-openai-uses-codex.md) | 官方 PDF 13 页可提取文字已读，中文解读关联第 06、07 章；第 13 页无提取文字、图像未核验，指定中文仍 403；不证明现行产品或内部收益 |
 
-其余四项指定阅读仍待获取所需正文或字幕，按[总清单](../../README.md#fall-2025)独立维护；2026-11-05 本次逐项重试结果如下，没有据标题或二进制创建笔记。课堂解读不代表指定视频已经取得字幕。
+其余三项指定阅读仍待获取所需正文或字幕，按[总清单](../../README.md#fall-2025)独立维护；2026-11-05 本次逐项重试结果如下，没有据标题或二进制创建笔记。课堂解读不代表指定视频已经取得字幕。
 
 | 编号与获取入口 | 本次实际结果 |
 | --- | --- |
 | 01 [深入理解 LLM](https://www.youtube.com/watch?v=7xTGNNLPyMI)、[指定中文版](https://www.bilibili.com/video/BV16cNEeXEer) | 两个视频页均传输错误；YouTube 公开 `api/timedtext?v=7xTGNNLPyMI&lang=en` 也传输错误，未取得字幕/转写，不推定无字幕 |
 | 02 [Google 提示概览](https://cloud.google.com/discover/what-is-prompt-engineering)、[语雀中文版](https://www.yuque.com/wangjiandong/gwcyhv/uw3b7we9pmdubdig) | 原入口及 `?hl=en`、`?hl=zh-CN` 均传输错误；中文入口仅标题“2提示词工程概述中文版”，未取得正文 |
 | 04 [AI Prompt Engineering](https://www.youtube.com/watch?v=T9aRN5JkmL8)、[指定中文版](https://www.bilibili.com/video/BV18ukBYzEQG) | 视频页与 YouTube 公开 `api/timedtext?v=T9aRN5JkmL8&lang=en` 均传输错误，未取得字幕/转写 |
-| 05 [Codex 报告 PDF](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)、[指定中文版](https://tools.wingzero.tw/article/sn/3533) | PDF 响应超过读取工具 5MB 限制；中文入口 403；尝试官方文字候选 `https://openai.com/index/how-openai-uses-codex/` 返回 404，候选并非已确认替代正文 |
+| 05 [Codex 报告 PDF](https://cdn.openai.com/pdf/6a2631dc-783e-479b-b1a4-af0cfbd38630/how-openai-uses-codex.pdf)、[指定中文版](https://tools.wingzero.tw/article/sn/3533) | 通用读取仍超 5MB；现有 PyMuPDF 成功在内存中提取官方原件 13 页文字，笔记完成；中文 403 与图像缺口保留，未保存 PDF 或安装依赖 |
 
 失败结果仅描述本次可访问范围，不证明永久失效。本次未下载完整视频、安装依赖、调用模型或使用其他课堂转写代替指定视频。
+
+## 中文学习补充
+
+[提示要素、采样设置与失败契约](supplement-prompting-introduction.md)：2026-11-05 实际读取 DAIR.AI 中文简介、要素、设置、技巧四页，给出历史参数边界、温度措辞疑点、停止串/截断反例、原例契约冲突与 35 分钟零调用练习，关联第 01 章。它扩大已有指南的精选范围，不新增指定阅读条目，不冒充 Google 概览译文或视频字幕；本周三项缺口不变。其他主题的本地学习入口见[替代路线](../../../reference/offline-learning.md)。
 
 ## 作业导读
 
