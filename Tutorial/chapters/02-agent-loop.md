@@ -2,7 +2,9 @@
 
 [上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与规格](03-context-spec.md)
 
-配套中文课件：[构建 Coding Agent](../Fall2025_cn/week02-0929-building-a-coding-agent.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，课件不替代课堂代码分析和真实 trace 证据。
+配套中文课件：[构建 Coding Agent](../reference/slides/fall2025/week02-0929-building-a-coding-agent.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，课件不替代课堂代码分析和真实 trace 证据。
+
+按材料深入阅读：[构建 Coding Agent 中文解读](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md)，包含 7 页文字与备注、课堂代码定位，以及原型与生产运行时的差别。
 
 ## 1. Agent 不是一个更长的提示词
 
@@ -57,6 +59,22 @@ LLM 根据上下文生成回答；Coding Agent 在模型之外增加工具执行
 阅读时检查四件事：字符串解析能否误识别普通文本、文件路径是否受限、工具结果用什么消息角色返回、循环是否有预算。不能把原型中不受限的读写能力直接用于真实仓库。
 
 一条可靠原则是：提示词表达意图，运行时执行约束。即便模型被恶意文档诱导，路径沙箱、只读账号、写入审批和网络限制仍应有效。
+
+### 从课堂源码定位执行边界
+
+原课件第 3 页的备注将客户端、模型与模型外执行分开；第 5 页给出循环步骤。对应本地源码，`execute_llm_call` 请求模型，`extract_tool_invocations` 解析调用文本，`TOOL_REGISTRY` 选择 Python 函数，内层循环执行工具后将 `tool_result(...)` 加入历史。这份原型用 user 消息包装结果，没有完整保存每次 assistant 调用请求或显式调用 ID；不能把它当成生产协议范本。
+
+一个具体风险是缺参默认值：调用编辑工具时，缺少 `old_str` 会默认得到空字符串，而 `edit_file_tool` 把空字符串解释成直接创建或覆盖。这个行为来自[课堂代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)的 72–99、187–190 行静态核对，不是已执行的攻击测试。
+
+```text
+教学请求：edit_file(path="tasks.py", new_str="replacement")
+原型调用：缺少 old_str -> 默认空字符串 -> 直接写入分支
+改编契约：拒绝缺参 -> 区分创建/替换/覆盖 -> 校验授权与当前版本
+```
+
+将路径转为绝对路径也不等于限制路径：原型允许绝对路径，没有允许根目录检查。单次输出 token 上限不等于任务总预算，内层循环还需要最大轮次、耗时和成本边界。结构化工具协议能改善消息关联，但这些约束仍由运行时实现。
+
+离线练习只推演上述假请求，不导入原脚本，不实际编辑文件。限制 15 分钟、零模型调用，为“缺少参数、非法 JSON、未知工具、旧文本不存在”四种情况各写出原型行为与改编错误契约。验收提交四行失败表和一个不得进入覆盖分支的断言；真实安全效果仍需在独立沙箱测试。详细源码位置与答案见[课堂解读](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md)。
 
 ## 6. 动手 A：无需付费抓包的循环分析
 

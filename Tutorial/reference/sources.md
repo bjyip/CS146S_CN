@@ -12,7 +12,7 @@
 
 - [根 README](../../README.md)：课程目标、前置条件、时间投入及 2025/2026 大纲。
 - [Fall 2025 原始资料目录](../../Resource/Fall2025/)：PPTX、课堂代码、设计文档及嘉宾 PDF。
-- [Fall 2025 中文课件目录](../Fall2025_cn/)：13 份配套 PPTX，与原版共用下面的章节映射，不另维护一套教程。
+- [Fall 2025 中文课件目录](slides/fall2025/)：13 份配套 PPTX，与原版共用下面的章节映射，不另维护一套教程。
 - [2025 作业根目录](../../_assignments/2025%20fall/)：完整练习及依赖配置。
 - [2026 本地作业目录](../../_assignments/2026%20fall/modern-software-dev-assignments-master/)：已取得第 1 至 3 周作业。
 
@@ -29,7 +29,7 @@
 | 06 仓库与并行 | [产品讲义](../../Resource/Fall2025/week05-1020-ai-developer-product.pptx)、[Warp 作业](../../_assignments/2025%20fall/week5/assignment.md) | 就绪度自评、独立任务、指令漂移、隔离与后台状态 |
 | 07 测试与审查 | [测试讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[审查作业](../../_assignments/2025%20fall/week7/assignment.md) | 测试层次、风险分层、专业审查、沙箱与评测 |
 | 08 安全 | [安全讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[Semgrep 作业](../../_assignments/2025%20fall/week6/assignment.md)、[非官方商业页](../../Resource/Claude-Code%E5%85%85%E5%80%BC/README.md) | 威胁模型、注入防护、凭据披露辨析和回归 |
-| 09 交付与运维 | [全栈](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[三栈作业](../../_assignments/2025%20fall/week8/assignment.md)、[事故响应](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx) | 验收、SLI/SLO 与演练 |
+| 09 交付与运维 | [全栈](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx)、[三栈作业](../../_assignments/2025%20fall/week8/assignment.md)、[事故响应](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx)、[Resolve 嘉宾 PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 验收、SLI/SLO、图导航、知识更新、并行调查与失败评测 |
 | 10 团队与工厂 | [README 2026 大纲](../../README.md)、[自动化作业](../../_assignments/2025%20fall/week4/assignment.md)、[交付作业](../../_assignments/2025%20fall/week8/assignment.md) | 网关、受控流水线、开源贡献闭环与独立自学评分 |
 
 ## 3. 阅读源代码时的四个提醒
@@ -45,7 +45,7 @@
 
 补入新资料时先确认其版本和内容，再调整章节及来源表。不要把仅存在于网页链接中的内容写成已阅读的本地依据。命令、认证流程与 SDK 示例涉及外部实时行为时，核对当前官方文档和实际版本。
 
-经用户明确授权，中文课件目录与翻译脚本已移动到 Tutorial，课件内容不变；英文原件及 `Resource/.translation_work/` 中间数据保留原位。原版用于溯源，正式中文 PPTX 用于辅助阅读；阅读链接直接指向成品，不依赖中间文件。
+经用户明确授权，中文课件已归入 `Tutorial/reference/slides/fall2025/`，Python 工具统一放入 `Tutorial/scripts/`，课件内容不变；英文原件及 `Resource/.translation_work/` 中间数据保留原位。原版用于溯源，正式中文 PPTX 用于辅助阅读；阅读链接直接指向成品，不依赖中间文件。
 
 ## Fall 2025 中文课件
 
@@ -53,25 +53,62 @@
 
 | 课程位置与课件 | 中文版 | 原版 | 对应教程 |
 | --- | --- | --- | --- |
-| 第 1 周：LLM 导论 | [中文 PPTX](../Fall2025_cn/week01-0922-intro-to-llms.pptx) | [原版](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
-| 第 1 周：高效提示 | [中文 PPTX](../Fall2025_cn/week01-0926-effective-prompting.pptx) | [原版](../../Resource/Fall2025/week01-0926-effective-prompting.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
-| 第 2 周：构建 Coding Agent | [中文 PPTX](../Fall2025_cn/week02-0929-building-a-coding-agent.pptx) | [原版](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx) | [02 Agent](../chapters/02-agent-loop.md) |
-| 第 2 周：自定义 MCP Server | [中文 PPTX](../Fall2025_cn/week02-1003-custom-mcp-server.pptx) | [原版](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx) | [04 MCP/OAuth](../chapters/04-mcp-oauth.md) |
-| 第 3 周：AI IDE 配置 | [中文 PPTX](../Fall2025_cn/week03-1006-ai-ide-setup.pptx) | [原版](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx) | [03 上下文与规格](../chapters/03-context-spec.md) |
-| 第 3 周：Silas Alberti 嘉宾课件 | [中文 PPTX](../Fall2025_cn/week03-1010-silas-alberti.pptx) | [原版](../../Resource/Fall2025/week03-1010-silas-alberti.pptx) | [03 上下文与规格](../chapters/03-context-spec.md)，作为同期补充材料，不推断嘉宾主张 |
-| 第 4 周：Agent 管理 | [中文 PPTX](../Fall2025_cn/week04-1013-agent-manager.pptx) | [原版](../../Resource/Fall2025/week04-1013-agent-manager.pptx) | [05 Skills 与自动化](../chapters/05-skills-automation.md) |
-| 第 4 周：Boris Cherny 嘉宾课件 | [中文 PPTX](../Fall2025_cn/week04-1017-boris-cherny.pptx) | [原版](../../Resource/Fall2025/week04-1017-boris-cherny.pptx) | [05 Skills 与自动化](../chapters/05-skills-automation.md) |
-| 第 5 周：AI 开发者产品 | [中文 PPTX](../Fall2025_cn/week05-1020-ai-developer-product.pptx) | [原版](../../Resource/Fall2025/week05-1020-ai-developer-product.pptx) | [06 仓库与并行](../chapters/06-repo-parallel.md) |
-| 第 6 周：AI QA、SAST 与 DAST | [中文 PPTX](../Fall2025_cn/week06-1027-ai-qa-sast-dast.pptx) | [原版](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx) | [07 测试与审查](../chapters/07-testing-review.md)、[08 安全](../chapters/08-security.md) |
-| 第 7 周：AI 代码审查 | [中文 PPTX](../Fall2025_cn/week07-1103-ai-code-review.pptx) | [原版](../../Resource/Fall2025/week07-1103-ai-code-review.pptx) | [07 测试与审查](../chapters/07-testing-review.md) |
-| 第 8 周：端到端应用 | [中文 PPTX](../Fall2025_cn/week08-1110-end-to-end-app.pptx) | [原版](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx) | [09 交付与运维](../chapters/09-delivery-operations.md) |
-| 第 9 周：事故响应与 DevOps | [中文 PPTX](../Fall2025_cn/week09-1117-incident-response-devops.pptx) | [原版](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx) | [09 交付与运维](../chapters/09-delivery-operations.md) |
+| 第 1 周：LLM 导论 | [中文 PPTX](slides/fall2025/week01-0922-intro-to-llms.pptx) | [原版](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
+| 第 1 周：高效提示 | [中文 PPTX](slides/fall2025/week01-0926-effective-prompting.pptx) | [原版](../../Resource/Fall2025/week01-0926-effective-prompting.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
+| 第 2 周：构建 Coding Agent | [中文 PPTX](slides/fall2025/week02-0929-building-a-coding-agent.pptx) | [原版](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx) | [02 Agent](../chapters/02-agent-loop.md) |
+| 第 2 周：自定义 MCP Server | [中文 PPTX](slides/fall2025/week02-1003-custom-mcp-server.pptx) | [原版](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx) | [04 MCP/OAuth](../chapters/04-mcp-oauth.md) |
+| 第 3 周：AI IDE 配置 | [中文 PPTX](slides/fall2025/week03-1006-ai-ide-setup.pptx) | [原版](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx) | [03 上下文与规格](../chapters/03-context-spec.md) |
+| 第 3 周：Silas Alberti 嘉宾课件 | [中文 PPTX](slides/fall2025/week03-1010-silas-alberti.pptx) | [原版](../../Resource/Fall2025/week03-1010-silas-alberti.pptx) | [03 上下文与规格](../chapters/03-context-spec.md)、[06 仓库与并行](../chapters/06-repo-parallel.md)，已读讲义观点，不泛化效率数字 |
+| 第 4 周：Agent 管理 | [中文 PPTX](slides/fall2025/week04-1013-agent-manager.pptx) | [原版](../../Resource/Fall2025/week04-1013-agent-manager.pptx) | [05 Skills 与自动化](../chapters/05-skills-automation.md) |
+| 第 4 周：Boris Cherny 嘉宾课件 | [中文 PPTX](slides/fall2025/week04-1017-boris-cherny.pptx) | [原版](../../Resource/Fall2025/week04-1017-boris-cherny.pptx) | [05 Skills 与自动化](../chapters/05-skills-automation.md) |
+| 第 5 周：AI 开发者产品 | [中文 PPTX](slides/fall2025/week05-1020-ai-developer-product.pptx) | [原版](../../Resource/Fall2025/week05-1020-ai-developer-product.pptx) | [06 仓库与并行](../chapters/06-repo-parallel.md) |
+| 第 6 周：AI QA、SAST 与 DAST | [中文 PPTX](slides/fall2025/week06-1027-ai-qa-sast-dast.pptx) | [原版](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx) | [07 测试与审查](../chapters/07-testing-review.md)、[08 安全](../chapters/08-security.md) |
+| 第 7 周：AI 代码审查 | [中文 PPTX](slides/fall2025/week07-1103-ai-code-review.pptx) | [原版](../../Resource/Fall2025/week07-1103-ai-code-review.pptx) | [07 测试与审查](../chapters/07-testing-review.md) |
+| 第 8 周：端到端应用 | [中文 PPTX](slides/fall2025/week08-1110-end-to-end-app.pptx) | [原版](../../Resource/Fall2025/week08-1110-end-to-end-app.pptx) | [09 交付与运维](../chapters/09-delivery-operations.md) |
+| 第 9 周：事故响应与 DevOps | [中文 PPTX](slides/fall2025/week09-1117-incident-response-devops.pptx) | [原版](../../Resource/Fall2025/week09-1117-incident-response-devops.pptx) | [09 交付与运维](../chapters/09-delivery-operations.md) |
 
 使用方法：先学习对应章节，再按需打开中文课件查看图示与课堂结构；遇到术语或论断疑问，记录页码并对照原版，不把翻译当作独立权威来源。第 00 章仍以环境说明和依赖配置为依据，第 10 章仍使用统一综合项目，不为课件增加重复章节。
 
-根据[本地翻译脚本](../translate_fall2025.py)，生成过程替换幻灯片及备注中的文本，其他资源保持原样。这意味着图片内文字不一定已翻译；本次未逐页核验语义、图片文字或排版溢出。旧界面、安装命令、产品能力和价格不能作为当前操作保证，实际操作仍需核对当前官方资料。
+根据[本地翻译脚本](../scripts/translate_fall2025.py)，生成过程替换幻灯片及备注中的文本，其他资源保持原样。这意味着图片内文字不一定已翻译；已按页核对可提取文字与备注并编写解读，但图片文字、图示关系和排版溢出尚未视觉核验。旧界面、安装命令、产品能力和价格不能作为当前操作保证，实际操作仍需核对当前官方资料。
 
-脚本按自身位置定位路径，不依赖终端当前目录：读取 `Resource/Fall2025/` 原件和 `Resource/.translation_work/` 翻译数据，输出到 `Tutorial/Fall2025_cn/`。在仓库根目录可运行 `python Tutorial/translate_fall2025.py check` 检查已有成果；`extract` 会写入中间数据，`generate` 会覆盖中文课件，维护时应先确认已有修改并备份。
+脚本按自身位置定位路径，不依赖终端当前目录：读取 `Resource/Fall2025/` 原件和 `Resource/.translation_work/` 翻译数据，输出到 `Tutorial/reference/slides/fall2025/`。在仓库根目录可运行 `python Tutorial/scripts/translate_fall2025.py check` 检查已有成果；`extract` 会写入中间数据，`generate` 会覆盖中文课件，维护时应先确认已有修改并备份。
+
+### 课件文字化与融合状态
+
+2026-11-04 在两份样板基础上继续处理剩余 11 份，本地 13 份 PPTX 共 275 页的可提取文字与关联备注已中英文对照，并有逐份中文解读。文字提取不等于视觉核验或官方逐字译文；章节只吸收有教学价值的概念，已覆盖的内容补来源关联。指定阅读的完成数不因课堂课件增加而改变。
+
+另外，Resolve 嘉宾 PDF 的 35 页解析文字及所附 34 张页面图已读，独立中文解读和第 09 章融合完成；第 33 页仅解析文字。PDF 单独统计，不加入 PPTX 的 275 页或 13 份中文版数量，未生成中文版 PDF。所附页面图用于核对可辨认内容，不表示细小截图全部文字或图中引用的底层证据已取得。
+
+| 原材料 | 文字提取与核对 | 图像与版式 | 中文解读 | 章节融合 |
+| --- | --- | --- | --- | --- |
+| LLM 导论 | 20 页及关联备注，中英文可提取文字已对照 | 图片未视觉核验；第 16 页表格文字已读但布局未还原 | [已完成，声明缺口](../reading-notes/fall2025/week01/lecture-intro-to-llms.md) | [01](../chapters/01-llm-prompting.md)：训练/推理、数据量/参数、概率辨析离线练习 |
+| 构建 Coding Agent | 7 页及关联备注，中英文可提取文字已对照；198 行配套代码静态阅读 | 第 3 页六个图片对象未视觉核验 | [已完成，声明缺口](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md) | [02](../chapters/02-agent-loop.md)：代码定位、缺参覆盖风险、消息关联与总预算 |
+| 高效提示 | 31 页及关联备注，中英文文字已对照 | 未视觉核验，截图与角色效果有缺口 | [中文解读](../reading-notes/fall2025/week01/lecture-effective-prompting.md) | [01](../chapters/01-llm-prompting.md)：提示技术、独立证据与失败辨析 |
+| 自定义 MCP Server | 13 页及关联备注，中英文文字已对照；配套代码静态阅读 | 未视觉核验，不复原多接口图 | [中文解读](../reading-notes/fall2025/week02/lecture-custom-mcp-server.md) | [04](../chapters/04-mcp-oauth.md)：连接复用与服务端职责 |
+| AI IDE 配置 | 15 页及关联备注，中英文文字已对照 | 未视觉核验，索引图与配置截图有缺口 | [中文解读](../reading-notes/fall2025/week03/lecture-ai-ide-setup.md) | [03](../chapters/03-context-spec.md)：规格与上下文；[06](../chapters/06-repo-parallel.md)：仓库就绪 |
+| Silas Alberti | 29 页及关联备注，中英文文字已对照；第 8–11 页表格可提取标签已读 | 图片与表格布局未视觉核验，不推断矩阵产品位置 | [中文解读](../reading-notes/fall2025/week03/lecture-silas-alberti.md) | [03](../chapters/03-context-spec.md)：规格交接；[06](../chapters/06-repo-parallel.md)：同步/异步与交接，不泛化效率数字 |
+| Agent 管理 | 14 页及关联备注，中英文文字已对照 | 未视觉核验，不重建历史图片 | [中文解读](../reading-notes/fall2025/week04/lecture-agent-manager.md) | [05](../chapters/05-skills-automation.md)：委派、检查点与门禁 |
+| Boris Cherny | 49 页及关联备注，中英文文字已对照 | 未视觉核验，界面迭代截图与纯图片页有缺口 | [中文解读](../reading-notes/fall2025/week04/lecture-boris-cherny.md) | [05](../chapters/05-skills-automation.md)：任务适配流程，不照搬旧 CLI |
+| AI 开发者产品 | 14 页及关联备注，中英文文字已对照 | 未视觉核验，采用率图不作实证 | [中文解读](../reading-notes/fall2025/week05/lecture-ai-developer-product.md) | [06](../chapters/06-repo-parallel.md)：可见反馈、操作摩擦与控制 |
+| AI QA、SAST、DAST | 22 页及关联备注，中英文文字已对照 | 未视觉核验，不补造攻击截图细节 | [中文解读](../reading-notes/fall2025/week06/lecture-ai-qa-sast-dast.md) | [07](../chapters/07-testing-review.md)、[08](../chapters/08-security.md)：检测覆盖与分诊 |
+| AI Code Review | 25 页及关联备注，中英文文字已对照 | 未视觉核验，代码截图案例未复原 | [中文解读](../reading-notes/fall2025/week07/lecture-ai-code-review.md) | [07](../chapters/07-testing-review.md)：可复核评论、噪声与责任 |
+| 端到端应用 | 17 页及关联备注，中英文文字已对照 | 未视觉核验，架构图与执行结果有缺口 | [中文解读](../reading-notes/fall2025/week08/lecture-end-to-end-app.md) | [09](../chapters/09-delivery-operations.md)：原型与全链路验收 |
+| 事故响应与 DevOps | 19 页及关联备注，中英文文字已对照 | 未视觉核验，产品截图不作执行证据 | [中文解读](../reading-notes/fall2025/week09/lecture-incident-response-devops.md) | [09](../chapters/09-delivery-operations.md)：证据驱动的分诊与受控缓解 |
+| [Resolve 嘉宾 PDF](../../Resource/Fall2025/week09-1121-resolve-guest-lecture-slides.pdf) | 35 页解析文字已读并与所附图核对；无中文版 PDF | 所附 34 张页面图已查看；第 33 页仅文字，密集节点/细小截图与底层证据有缺口 | [独立中文解读](../reading-notes/fall2025/week09/lecture-resolve-guest.md) | [09](../chapters/09-delivery-operations.md)：依赖图与有限查询、知识来源/失效、并行假设及失败评测 |
+| [Tomas Reimers 嘉宾 PDF](../../Resource/Fall2025/week07-1107-tomas-reimers-slides.pdf) | 待读取 | 未核验 | 待编写，不建空笔记 | 未完成来源特定融合 |
+| Fall 2025 在线嘉宾课件（根 README 的 Warp / Vercel 入口） | 未取得正文 | 未核验 | 待获取，不以主讲 PPTX 替代 | 未完成来源特定融合 |
+
+这些笔记没有视频时间戳，不是相应视频的替代转写。LLM 导论第 13 页的历史评分、18–19 页的闭源模型规模与价格不写成当前课程事实；Agent 第 7 页的产品机制与推测不写成通用保证。其余课件的效率、检测率、误报率与产品宣传也不能泛化。本地授课课件中的嘉宾预告不证明嘉宾是本讲作者；运维第 16 页的代码审查文案保留疑似模板残留状态，不转述为运维效果实证。原件、中文版、翻译中间数据均未更改或重新生成。
+
+Resolve 讲者署名依据 PDF 第 1–2 页，35 页解析文字与页面图来自本次本地 PDF 读取结果附送的内容，未安装解析/OCR 依赖。第 5、12 页的劳动占比、人数及入职耗时是讲者叙述；第 29 页 Redis 工作假设与第 30 页数据库时间线分别解读，截图置信度不是根因验证；第 33 页是 2025 年的未来预测。无现场演示、问答转写或产品运行证据，不公开整套截图与完整原文。
+
+本轮复用工作区已有的只读核对工具 [pptx_text.py](../scripts/pptx_text.py)，仅调整存放目录，未修改工具内容。它按演示关系取页序并关联备注，打印页面位置和图片/表格数量，适合维护时核对文字，不执行 OCR、不恢复图示、不生成正式笔记。仓库根目录示例：
+
+```powershell
+python Tutorial/scripts/pptx_text.py "Resource/Fall2025/week01-0922-intro-to-llms.pptx" "Tutorial/reference/slides/fall2025/week01-0922-intro-to-llms.pptx"
+```
+
+不另公开归档完整逐页原文底稿；正式产物是可追溯的中文解读及章节增量。后续材料遵循同一三层流程：按页码或真实时间戳读取，编写逐份解读，按概念最小融合并更新各阶段状态。视频优先公开转写和字幕；下载完整音视频、安装 OCR/ASR 或付费转写仍需独立授权。
 
 ## 5. 已读来源与使用边界
 

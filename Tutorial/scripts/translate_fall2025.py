@@ -6,8 +6,9 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 RESOURCE = ROOT.parent / 'Resource'
+OUTPUT = ROOT / 'reference' / 'slides' / 'fall2025'
 NS = {'a': 'http://schemas.openxmlformats.org/drawingml/2006/main'}
 
 
@@ -38,13 +39,12 @@ def extract():
 
 
 def generate():
-    output = ROOT / 'Fall2025_cn'
-    output.mkdir(exist_ok=True)
+    OUTPUT.mkdir(parents=True, exist_ok=True)
     for source in sorted((RESOURCE / 'Fall2025').glob('*.pptx')):
         translation = RESOURCE / '.translation_work' / (source.stem + '.zh.json')
         mapping = json.loads(translation.read_text(encoding='utf-8'))
         used = set()
-        with zipfile.ZipFile(source) as archive, zipfile.ZipFile(output / source.name, 'w') as result:
+        with zipfile.ZipFile(source) as archive, zipfile.ZipFile(OUTPUT / source.name, 'w') as result:
             selected = set(parts(archive))
             for info in archive.infolist():
                 data = archive.read(info.filename)
@@ -94,7 +94,7 @@ def check():
             if ''.join(values) == record['text'] and re.search(r'[A-Za-z]{3,}', record['text']):
                 unchanged.append(record['text'])
         print(f'CHECKED {source.name}: {len(records)} paragraphs; retained English: {json.dumps(unchanged, ensure_ascii=False)}')
-        target = ROOT / 'Fall2025_cn' / source.name
+        target = OUTPUT / source.name
         if not target.exists():
             continue
         with zipfile.ZipFile(source) as original, zipfile.ZipFile(target) as result:

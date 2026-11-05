@@ -13,3 +13,10 @@
 ## 外部引用
 
 - Tutorial 正式维护方案见 Tutorial/reference/maintenance-plan.md；tutorial-update 执行前读取，方案不代表实施完成。
+
+## 工作方式反馈
+
+- 用户确认将 PPT/视频文字整理为逐份中文解读、章节增量融合和来源状态索引，避免全文堆入章节。
+- 用户确认按两份 PPT 样板起步，将材料转为详细中文解读、章节融合和独立来源状态，再逐步扩展。
+- 检查“全部课件”时须同时核对本地 PPTX、嘉宾 PDF 和在线讲义，分别报告中文化与章节融合状态，不能只用 PPTX 数量代表全部。
+- 用户确认将中文 PPTX 从 Tutorial/Fall2025_cn 移入 Tutorial/reference/slides/fall2025，并同步链接与翻译脚本输出路径。

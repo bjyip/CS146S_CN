@@ -65,7 +65,9 @@
 | 09 | [全栈交付、可观测性与事故响应](chapters/09-delivery-operations.md) | 持久化验证、降级指标、事故报告 |
 | 10 | [AI 原生团队与综合项目](chapters/10-capstone.md) | 有门禁、可回滚的软件交付闭环 |
 
-辅助材料：[实验与规格模板](reference/templates.md)、[资料索引](reference/sources.md)、[Fall 2025 中文课件对照表](reference/sources.md#fall-2025-中文课件)。13 份中文 PPTX 位于 [Fall2025_cn/](Fall2025_cn/)，[翻译脚本](translate_fall2025.py)同样位于 Tutorial；英文原版仍在 Resource 中。课件是可选配套阅读，不替代正文、练习或验收，也不要求先完整学习 2025。
+辅助材料：[实验与规格模板](reference/templates.md)、[资料索引](reference/sources.md)、[Fall 2025 中文课件对照表](reference/sources.md#fall-2025-中文课件)。13 份中文 PPTX 位于 [reference/slides/fall2025/](reference/slides/fall2025/)，Python 工具统一位于 [scripts/](scripts/)，包括[翻译脚本](scripts/translate_fall2025.py)和[课件文字核对工具](scripts/pptx_text.py)；英文原版仍在 Resource 中。课件是可选配套阅读，不替代正文、练习或验收，也不要求先完整学习 2025。
+
+[Fall 2025 文字解读](reading-notes/fall2025/README.md)已覆盖 13 份本地 PPTX 共 275 页的可提取文字与关联备注：保留页码、原案例与来源局限，补充中文机制解释、受控练习和自测；按知识融入第 01–09 章或关联已有覆盖。PPTX 图片与版式尚未视觉核验。另已完成 [Resolve 嘉宾 PDF 的独立中文解读](reading-notes/fall2025/week09/lecture-resolve-guest.md)及第 09 章融合：35 页解析文字与所附 34 张页面图已读，第 33 页仅文字，细小截图与底层证据有缺口，未生成中文版 PDF。Tomas Reimers PDF、视频和在线讲义仍未完成，实际范围见[文字化与融合状态](reference/sources.md#课件文字化与融合状态)。
 
 ## 2026 大纲对应
 

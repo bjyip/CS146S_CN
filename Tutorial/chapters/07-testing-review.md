@@ -2,8 +2,7 @@
 
 [上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全](08-security.md)
 
-配套中文课件：[AI QA、SAST 与 DAST](../Fall2025_cn/week06-1027-ai-qa-sast-dast.pptx)、[AI 代码审查](../Fall2025_cn/week07-1103-ai-code-review.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，阅读课件不等于测试或审查实验通过。
-
+配套中文课件：[AI QA、SAST 与 DAST](../reference/slides/fall2025/week06-1027-ai-qa-sast-dast.pptx)、[AI 代码审查](../reference/slides/fall2025/week07-1103-ai-code-review.pptx)。原版对照与翻译边界见[课件索引](../reference/sources.md#fall-2025-中文课件)，阅读课件不等于测试或审查实验通过。
 ## 1. 两种正确性必须分开
 
 普通软件测试关注明确契约：空输入如何处理、数据库如何更新、非法参数是否拒绝。模型评测关注语义质量：是否正确提取任务、是否编造、是否忠实引用。这两个层面相关但不能互相替代。
@@ -62,6 +61,14 @@ Agent 可能阅读实现后生成恰好复制实现的断言。如果函数把�
 有效发现是：“在多用户部署中，用户 B 提交用户 A 的 note_id 时，查询未绑定主体，可能修改 A 的记录；需要基于当前身份限制查询并增加跨用户测试。”如果应用目前明确是单用户本地练习，应说明风险成立的部署条件，不假定已经存在登录系统。
 
 这个例子说明审查需要同时阅读需求、代码和使用边界。单纯扫描是否用了 ORM 不能发现所有授权错误。
+
+### 审查评论与变更范围
+
+[2025 代码审查讲义第 16–18 页解读](../reading-notes/fall2025/week07/lecture-ai-code-review.md)补充两个机制：仓库惯用法可能编码了事务、授权与审计责任；设计讨论需要具体理由并控制本次变更范围。原讲义以参数过多为例，建议后续 PR 同时重构新旧方法，不把它直接定为当前阻断 bug。
+
+将评论分为有证据的阻断发现、设计讨论、风格建议和待确认项。例如绕过服务可能漏掉身份绑定，应先阅读该服务责任；仅参数较多不能独立证明行为错误。既有问题不等于本次回归，也不能成为新增同类风险的免责理由。
+
+离线练习用 20 分钟、零网络与零模型调用，把“这个方法不行”改成两条假评论：一条参数职责讨论、一条多用户归属缺失发现。分别写位置标签、前提、影响、证据或待核对事实、建议与是否阻断；为安全发现写正常及跨身份预期，不运行代码。验收是两条可验证评论和范围理由，而不是实际审查通过；图片代码未核验，例子为教程补充。
 
 ### 风险先于审查角色数量
 
@@ -134,6 +141,8 @@ diff 是定位起点，不是完整需求。[Greptile 的经验文章](https://w
 **问：十个 Agent 都没发现问题能自动上线吗？** 不能。角色可能共享盲区，批准取决于风险、独立验证与团队门禁，而不是同意票数。
 
 来源：[测试讲义](../../Resource/Fall2025/week06-1027-ai-qa-sast-dast.pptx)、[审查讲义](../../Resource/Fall2025/week07-1103-ai-code-review.pptx)、[2025 第 7 周作业](../../_assignments/2025%20fall/week7/assignment.md)、[现有提取测试](../../_assignments/2025%20fall/week2/tests/test_extract.py)。变异练习与评测报告方法为教程扩展。
+
+逐份课堂解读：[AI 测试与安全，22 页](../reading-notes/fall2025/week06/lecture-ai-qa-sast-dast.md)、[AI 代码审查，25 页](../reading-notes/fall2025/week07/lecture-ai-code-review.md)。两版正文与备注已核对，图片未视觉核验，历史检出率与误报率不作为当前产品保证，现场演示未执行。
 
 相关阅读：[Cloudflare 专业审查编排笔记](../reading-notes/fall2026/week06/02-specialist-review.md)、[Greptile 超越 diff 的审查笔记](../reading-notes/fall2026/week06/03-beyond-diff.md)。风险表、隔离实验和验收为教程改编；README 的 X 分层审查链接未成功读取，不作为正文依据。
 
