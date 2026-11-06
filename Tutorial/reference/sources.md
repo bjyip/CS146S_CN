@@ -16,6 +16,18 @@
 
 此前用户另获授权安装官方 gh，但 WinGet 不可用、官方 MSI 下载超时、curl 重试中止，未成功安装、验证或认证；上文“未安装”描述先前轮次。本轮暂停安装、网络配置及受限原入口重试，没有调整代理、下载完整视频、执行课程代码或产品实验。已读旧来源按原声明沿用，不声称本轮重新获取全部外链。
 
+### 第 01 章自包含样板
+
+2026-11-05 按用户确认方案，将已有两份课件解读、六技术双语笔记、四页中文补充与原作业静态依据按知识融入[第 01 章](../chapters/01-llm-prompting.md)。章内提供生成流程、完整提示、参数算例、六类机制与原案例、独立匹配/评测、集中练习和答案；笔记保留逐页与逐文件定位，章末可选溯源。原作业六份脚本及 assignment 本轮重读，未执行；外部材料沿用先前声明范围，未重新请求受限来源。自包含仅指本章基础学习闭环，不指全部原件、矩阵推导、真实实验或其余章节已完成。指定阅读仍为 42/64，22 项获取缺口和全部视觉核验缺口保留。
+
+2026-11-06 经样板审阅后，补充人为分词与术语例、响应结构/语义处理、多路径聚合、反思记录加载，以及完整开放题参考产物；按两段学习调整预算，原作业与来源核验明确选学。随后补齐首次出现的中文与白话定义，拆分训练与评测概念；按“降低负荷、闭合规则、做出成果”反馈，将复杂机制折叠选学，基础改为五步提取设计，提供记录框、逐步通过标准和对应答案。进阶小题独立验收，保留拆分、否定、冲突复核、容量超限及CoT/分解的边界。
+
+本次按整章叙述衔接反馈重排已有内容：以行动项需求引出生成与任务约定，先看具体失败再解释示例、分解与反馈，先比较响应再划分检查职责，先匹配任务再命名TP/FP/FN。其他案例说明切换理由并返回主线；基础练习与答案按同一顺序闭合，具体反馈不再藏在选学部分。基础阅读60–90分钟、练习75分钟仍为估计。章内假例和练习均为教程扩展，不是原课件图示、指南真实轨迹、现行 SDK 接口或模型成绩；沿用既有来源范围，未新增外链获取、视觉核验或实验执行，未做真实新手阅读测试，指定阅读仍为42/64。
+
+### 全章教学重组
+
+2026-11-06 将同一教学要求扩展到00及02–10章，保留编号、主线和原来源边界。00补必要前置与证据判断；02–04把调用关联、上下文冲突、严格候选与应用包装、工具参数、双OAuth边界及批准/幂等连成案例；05–07以诊断、交接、依赖和失败记录讲自动化、并行与诚实评测；08–10以资产/动作、全链路证据、双指标预算和阶段门禁讲安全、运维及团队交付。各章基础假材料、练习、通过标准与详细答案在章内闭合，真实实验和长来源对照独立选学。新增假记录、预算与工程策略为教程扩展，沿用既有已读范围，未重新获取外链、核验图像或运行模型、OAuth、应用、安全、数据库与工厂。指定阅读仍42/64、缺口仍22项；全部视觉核验与新手阅读效果仍待验证，章节重组不等于全部课程资料或真实项目完成。
+
 ## 1. 课程定位
 
 - [根 README](../../README.md)：课程目标、前置条件、时间投入及 2025/2026 大纲。
@@ -29,7 +41,7 @@
 | 教程 | 核心本地来源 | 教程补充 |
 | --- | --- | --- |
 | 00 环境与方法 | [2025 安装说明](../../_assignments/2025%20fall/README.md)、[2025 pyproject](../../_assignments/2025%20fall/pyproject.toml)、[2026 安装说明](../../_assignments/2026%20fall/modern-software-dev-assignments-master/README.md)、[2026 pyproject](../../_assignments/2026%20fall/modern-software-dev-assignments-master/pyproject.toml)、[Makefile](../../_assignments/2025%20fall/week4/Makefile) | 双年份目录、算法诊断、访问验收与实验设计 |
-| 01 LLM 与提示 | [LLM](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx)、[提示](../../Resource/Fall2025/week01-0926-effective-prompting.pptx)、[作业](../../_assignments/2025%20fall/week1/assignment.md) | 泄漏辨析、精确率/召回率 |
+| 01 LLM 与提示 | [LLM](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx)、[提示](../../Resource/Fall2025/week01-0926-effective-prompting.pptx)、[作业](../../_assignments/2025%20fall/week1/assignment.md) | 自包含样板：完整提示、参数、六类案例、匹配/P/R/F1、离线练习与答案；假例和评测为扩展 |
 | 02 Agent | [讲义](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 trace](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md) | 执行边界、预算与恢复 |
 | 03 上下文与规格 | [AI IDE](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx)、[设计模板](../../Resource/Fall2025/week03-1006-design-document-template.md)、[行动项作业](../../_assignments/2025%20fall/week2/assignment.md) | RePPIT 编排、示例契约 |
 | 04 MCP/OAuth | [MCP](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx)、[代码](../../Resource/Fall2025/week02-1003-completed-exercise.py)、[2025 作业](../../_assignments/2025%20fall/week3/assignment.md)、[2026 作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md) | 信任边界、幂等和 OAuth 细化 |
@@ -116,7 +128,7 @@ Resolve 第 1–2 页署名与 Tomas 的课程归属已对照；两份的页数�
 python Tutorial/scripts/pptx_text.py "Resource/Fall2025/week01-0922-intro-to-llms.pptx" "Tutorial/reference/slides/fall2025/week01-0922-intro-to-llms.pptx"
 ```
 
-不另公开归档完整逐页原文底稿；正式产物是可追溯的中文解读及章节增量。后续材料遵循同一三层流程：按页码或真实时间戳读取，编写逐份解读，按概念最小融合并更新各阶段状态。视频优先公开转写和字幕；下载完整音视频、安装 OCR/ASR 或付费转写仍需独立授权。
+不另公开归档完整逐页原文底稿；正式产物是可追溯的中文解读及章节增量。后续材料遵循同一三层流程：按页码或真实时间戳读取，编写逐份解读，按概念融合学习必需的内容并更新各阶段状态，不全文堆叠；已读笔记不自动证明章内自包含。视频优先公开转写和字幕；下载完整音视频、安装 OCR/ASR 或付费转写仍需独立授权。
 
 ### 本地 PDF 核对工具
 
