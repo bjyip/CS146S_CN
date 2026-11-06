@@ -227,3 +227,5 @@ mitmweb --listen-host 127.0.0.1 --listen-port 58888 --web-open-browser --mode re
 来源：[Agent 讲义](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[课堂代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 追踪作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md)。受控循环、假任务排序、版本拒绝与答案为教程扩展，未运行任何实验。
 
 选读：[构建 Coding Agent 中文解读](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md)含 7 页文字与备注和源码定位，[中文课件](../reference/slides/fall2025/week02-0929-building-a-coding-agent.pptx)不替代真实 trace；图片与产品演示边界见[来源表](../reference/sources.md#fall-2025-中文课件)。2026 system prompt 转写只支持已读讲解，不代表已核验原始请求、提示词全集或当前客户端加载机制。
+
+[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与规格](03-context-spec.md)

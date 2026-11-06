@@ -195,3 +195,5 @@ Claude Code 安装按[官方说明](https://code.claude.com/docs/en/setup)选择
 **问：CLI 能显示版本为何仍可能无法调用模型？** 安装与认证、访问权限、网络和额度是独立条件，要按失败类别定位，而不是重复安装或盲目购买会员。
 
 来源：[2025 环境说明](../../_assignments/2025%20fall/README.md)、[依赖配置](../../_assignments/2025%20fall/pyproject.toml)、[2026 环境说明](../../_assignments/2026%20fall/modern-software-dev-assignments-master/README.md)、[2026 依赖配置](../../_assignments/2026%20fall/modern-software-dev-assignments-master/pyproject.toml)、[第 2 周测试](../../_assignments/2025%20fall/week2/tests/test_extract.py)、[第 4 周 Makefile](../../_assignments/2025%20fall/week4/Makefile)、[Claude Code 官方安装说明](https://code.claude.com/docs/en/setup)。算法诊断、环境验收与评测方法是教程扩展。
+
+[目录](../README.md) | [下一章：LLM 与提示](01-llm-prompting.md)

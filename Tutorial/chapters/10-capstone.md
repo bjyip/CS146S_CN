@@ -277,3 +277,5 @@ P的规格可作M1材料、纸面门禁仅是M4设计，不是执行强制证据
 关联：[后台任务接管与取消](06-repo-parallel.md)、[发布后故障与恢复](09-delivery-operations.md)。这些机制在实际项目选择进阶项时须各自实测，纸面设计不证明权限、重复触发、预算或回滚有效。
 
 </details>
+
+[上一章](09-delivery-operations.md) | [目录](../README.md)

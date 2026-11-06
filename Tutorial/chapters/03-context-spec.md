@@ -317,3 +317,5 @@ A有有效候选，B是合法无任务，C可作为明确标注降级的候选�
 来源：[AI IDE 与上下文讲义](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx)、[设计文档模板](../../Resource/Fall2025/week03-1006-design-document-template.md)、[2025 第 2 周作业](../../_assignments/2025%20fall/week2/assignment.md)。RePPIT 主题来自 README；示例规格与实验为教程扩展。
 
 选读：[AI IDE、上下文与规格](../reading-notes/fall2025/week03/lecture-ai-ide-setup.md)、[Silas Alberti：同步与异步交接](../reading-notes/fall2025/week03/lecture-silas-alberti.md)。已有文字与备注范围分别为双语15、29页，图片、表格布局和演示未核验；[课件索引](../reference/sources.md#fall-2025-中文课件)保留原来源边界。S0/S1/S2、完整假上下文包与练习答案为教程扩展，未新增外部读取或实现结果。
+
+[上一章](02-agent-loop.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)

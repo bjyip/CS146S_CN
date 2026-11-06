@@ -239,3 +239,5 @@ G 的完整假交接可写：“任务：行动项去重；基线 lab-v1；修�
 [Warp 当前迁移指南](../reading-notes/fall2025/week05/02-warp-claude-code-current-migration.md)作为额外补充说明：规则改名或技能目录被发现，不证明旧命令、Hook、工具、认证与执行环境兼容；终端中的 Claude Code 与 Warp 内建 Agent 也不是同一执行者。笔记的零执行迁移审计保留需重新配置、执行层限制和未运行项，不执行改名或配置，不冒充历史指定对比课程。
 
 </details>
+
+[上一章](04-mcp-oauth.md) | [目录](../README.md) | [下一章：仓库与并行](06-repo-parallel.md)

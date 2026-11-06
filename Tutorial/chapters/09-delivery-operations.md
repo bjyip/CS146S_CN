@@ -314,3 +314,5 @@ E4两分支都是E3，去重同源，不证明队列满。E5旧runbook仅适用v
 完整缺口见[第9周索引](../reading-notes/fall2025/week09/README.md)：SRE指定导论仍待取得，产品/视频/图像/真实事故未由章内假题补齐。可选[故障复盘模板](../reference/templates.md#8-故障复盘)、[受限来源路线](../reference/offline-learning.md)供复用，不是基础题前置。
 
 </details>
+
+[上一章](08-security.md) | [目录](../README.md) | [下一章：团队与综合项目](10-capstone.md)

@@ -281,3 +281,5 @@ RASP 是运行时应用自我保护，在执行过程中观察上下文并尝试
 Agent权限关联：[非官方架构论文](../reading-notes/fall2026/week01/03-claude-code-design.md)、[定制说明](../reading-notes/fall2026/week04/03-steering-claude-code.md)、[Web Skill状态副作用](../reading-notes/fall2026/week03/03-browse.md)，仅供延伸。来源、模型判断与最终拒绝文字均不能替代执行端证据。未取得的o3提示正文、安全讲座或图像不由本章补写。
 
 </details>
+
+[上一章](07-testing-review.md) | [目录](../README.md) | [下一章：交付与运维](09-delivery-operations.md)

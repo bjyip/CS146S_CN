@@ -261,3 +261,5 @@ Issue-to-PR 的“完成”应至少表示差异和测试已经提交给审查�
 [Warp 当前迁移指南补充解读](../reading-notes/fall2025/week05/02-warp-claude-code-current-migration.md)明确终端布局、对话、进程和业务副作用是不同状态：文档称重启保留布局，但关闭终端会结束 CLI 会话。用笔记的 35 分钟零执行路径卡核对实际 Agent、共享资源与恢复前提；未验证真实恢复，且未取得 2025 指定对比课程，不计指定阅读完成数。
 
 </details>
+
+[上一章](05-skills-automation.md) | [目录](../README.md) | [下一章：测试与审查](07-testing-review.md)

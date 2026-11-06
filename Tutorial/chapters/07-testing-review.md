@@ -354,3 +354,5 @@ diff 是定位起点，不是完整需求。[Greptile 的经验文章](https://w
 工作流对照：[OpenSpec 的任务与行为验证区别](../reading-notes/fall2026/week02/02-openspec.md)、[Superpowers 的完成证据](../reading-notes/fall2026/week02/03-superpowers.md)、[pstack 的关键安全事实](../reading-notes/fall2026/week03/01-pstack.md)、[Matt Pocock 的测试边界](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[browse 的网络与结构失败](../reading-notes/fall2026/week03/03-browse.md)。各来源有自己的流程与版本，不能拼成未经验证的一致产品行为。
 
 </details>
+
+[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全](08-security.md)

@@ -886,3 +886,5 @@ P=3/4=0.75、R=3/5=0.6、F1=2/3。对单条“明天检查登录日志”的标�
 | [2025第1周作业导读](../reading-notes/fall2025/week01/assignment-guide.md)，[原说明](../../_assignments/2025%20fall/week1/assignment.md)，[源文件](../../_assignments/2025%20fall/week1/) | 复现评分、泄漏、验证与执行风险 | 当前本地快照静态核对，未执行，不等于作业通过 |
 
 本周两份指定视频与 Google 概览仍没有所需正文或字幕，本章不冒充其译文。来源统计保持42/64，22项缺口、课件视觉与在线讲义状态由[来源表](../reference/sources.md)及[阅读清单](../reading-notes/README.md)分别维护。完成本章基础学习不要求这些入口可访问，也不意味着原来源缺口已补齐。
+
+[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Agent](02-agent-loop.md)

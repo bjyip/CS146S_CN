@@ -311,3 +311,5 @@ Code Mode 可让生成代码组合多个调用。减少模型往返不意味着�
 来源：[MCP 讲义](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx)、[课堂代码](../../Resource/Fall2025/week02-1003-completed-exercise.py)、[2025 第 3 周作业](../../_assignments/2025%20fall/week3/assignment.md)、[2026 第 2 周作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week2/assignment.md)。OAuth 防护细化及预览设计为教程扩展；实际实现应核对供应商与当前 MCP SDK 文档。
 
 可选溯源：[自定义MCP Server中文解读](../reading-notes/fall2025/week02/lecture-custom-mcp-server.md)、[中文课件](../reference/slides/fall2025/week02-1003-custom-mcp-server.pptx)、[MCP入门校准](../reading-notes/fall2025/week02/01-mcp-introduction.md)。课件13页可提取文字/备注及84行配套代码已做静态解读，图片第5–7、10页未视觉核验，SDK/Server/客户端/文件工具未运行。原版与翻译边界见[来源表](../reference/sources.md#fall-2025-中文课件)。本章假schema、note_17、preview_1、批准/k1与答案均为教程扩展，不增加原来源获取数量或真实实验完成状态。
+
+[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills 与自动化](05-skills-automation.md)
