@@ -1,6 +1,6 @@
 # 00 学习准备：环境与验证方法
 
-[目录](../README.md) | [下一章：LLM 与提示](01-llm-prompting.md)
+[目录](../README.md) | [下一章：LLM 基础与应用方法](01-llm-prompting.md)
 
 想让 AI 从会议笔记整理待办，你可能先遇到三个问题：程序该在哪个目录运行？账号能不能调用模型？回答到底对不对？这三件事要分开检查，重复安装或购买会员不能一起解决它们。
 
@@ -48,7 +48,7 @@ poetry run python --version
 
 ## 4. 先跑离线测试
 
-在 `_assignments/2025 fall/` 中运行：
+本节是 2025 原作业的选学路线。只想运行教程离线实验，按[自学目录说明](pratic/README.md#离线实验)使用 Python 标准库即可。想核对原作业的 mock 测试，再进入 `_assignments/2025 fall/` 运行：
 
 ```powershell
 poetry run pytest -q week2/tests
@@ -75,6 +75,8 @@ poetry run uvicorn backend.app.main:app --reload --host 127.0.0.1 --port 8000
 不同周可能有同名 `backend` 包，切换练习时核对目录并启动新进程；结束后恢复本次改过的环境变量。
 
 ## 5. 本地模型与资源预算
+
+本节只供按原作业要求使用本地模型的读者选学。教程的无 Key 离线实验和远程 API 路线都不需要安装 Ollama 服务或下载模型。
 
 第 1 周原作业指定 `mistral-nemo:12b` 和 `llama3.1:8b`；第 2 周当前默认 `llama3.2:3b`，可用 `OLLAMA_MODEL` 调整。实际内存需求还受量化、上下文和并发影响。
 
@@ -175,4 +177,4 @@ Claude Code 的安装和登录按[官方说明](https://code.claude.com/docs/en/
 
 来源：[2025 环境说明](../../_assignments/2025%20fall/README.md)、[依赖配置](../../_assignments/2025%20fall/pyproject.toml)、[2026 环境说明](../../_assignments/2026%20fall/modern-software-dev-assignments-master/README.md)、[2026 依赖配置](../../_assignments/2026%20fall/modern-software-dev-assignments-master/pyproject.toml)、[第 2 周测试](../../_assignments/2025%20fall/week2/tests/test_extract.py)、[第 4 周 Makefile](../../_assignments/2025%20fall/week4/Makefile)、[Claude Code 官方安装说明](https://code.claude.com/docs/en/setup)。算法诊断、环境验收与评测方法是教程扩展。
 
-[目录](../README.md) | [下一章：LLM 与提示](01-llm-prompting.md)
+[目录](../README.md) | [下一章：LLM 基础与应用方法](01-llm-prompting.md)

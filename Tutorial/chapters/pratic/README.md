@@ -33,7 +33,7 @@ poetry run python week1/k_shot_prompting.py
 
 ## 贯穿项目：行动项提取器
 
-这是[第 10 章](../10-capstone.md)的起步检查点，不是完整项目。为避免把演示候选当成通用算法，`preview` 只读取固定假会议的候选，**不写数据库**；`save` 保存的是人亲自确认并传入的文字，不会自动接收候选。下面的例子把候选中的「日志」修订为「登录日志」。从仓库根目录运行，把数据库路径换成专用的空练习路径，不使用业务库。
+这是[第 03 章规格练习](../03-context-spec.md#可运行检查点从规格到行动项项目)之后的起点，后续按[第 10 章里程碑](../10-capstone.md#2-五个交付里程碑)扩展，不是完整项目。`preview` 只读取固定假会议的候选，**不写数据库**；`save` 保存的是人亲自确认并传入的文字，不会自动接收候选。下面的例子把候选中的「日志」修订为「登录日志」。从仓库根目录运行，把数据库路径换成专用的空练习路径，不使用业务库。
 
 ```powershell
 python -X utf8 Tutorial/chapters/pratic/action_items.py preview
@@ -41,7 +41,7 @@ python -X utf8 Tutorial/chapters/pratic/action_items.py --db "$env:TEMP/cs146s-a
 python -X utf8 Tutorial/chapters/pratic/action_items.py --db "$env:TEMP/cs146s-action-items.sqlite3" list
 ```
 
-预期：第一条只显示候选；第二条返回新记录 ID；第三条启动新进程，仍能读取同一个 ID 和修订后的文本。省略 `--confirm` 应报错，不能写入；同一库重复保存会产生新记录，目前没有幂等保证。测试还演示了候选生成失败时保留错误、使用固定规则降级，两者不会自动保存。
+预期：第一条只显示候选；第二条返回新记录 ID；第三条启动新进程，仍能读取同一个 ID 和修订后的文本。省略 `--confirm` 应报错，不能写入；同一库重复保存会产生新记录，目前没有幂等保证。在第一条 `preview` 末尾加 `--simulate-failure`，可核对 `source` 为 `fixture_rule`、`error` 为 `simulated_timeout`；这条路径也不写库。
 
 | 接下来做什么 | 对应章节与证据 |
 | --- | --- |

@@ -1,12 +1,14 @@
-# 04 MCP、工具设计与 OAuth
+# 04 MCP、工具设计与 OAuth 授权
 
-[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills 与自动化](05-skills-automation.md)
+[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills、规则与自动化](05-skills-automation.md)
 
 前三章已把会议笔记变成合格候选，并说明 Agent 怎样执行、怎样维持规格。现在用户要把“明天检查日志”创建到自己的任务列表里。输入不再只有文字：还需要笔记 ID、用户身份、写入范围与确认的预览。如果服务已经创建任务但回复途中丢了，重新发送又可能创建第二份。
 
 本章沿“搜索笔记 → 读取 → 预览行动项 → 人工批准 → 提交”学习工具连接、错误恢复和授权。先完成第 01–03 章，再阅读正文、做第 8 节四项练习、核对第 11 节答案。所有名称和记录都是教学假设，基础只做纸面判断，不连接服务或写入业务数据。
 
 OAuth 是用户授予应用有限访问权的机制；token 是敏感访问凭据，真实值不应交给模型。
+
+初读先画第 1 节的调用链，再用第 2、6、7 节回答三个问题：连接建立了吗？当前身份能操作这个对象吗？这一次具体写入获批了吗？对于本章的受控外部写入，三者缺一不可。
 
 ## 1. MCP 连接的是什么
 
@@ -269,4 +271,4 @@ Code Mode 减少模型往返，却仍需限制工具、主体、资源、网络�
 
 可选溯源：[自定义 MCP Server 解读](../reading-notes/fall2025/week02/lecture-custom-mcp-server.md)、[中文课件](../reference/slides/fall2025/week02-1003-custom-mcp-server.pptx)、[MCP 入门校准](../reading-notes/fall2025/week02/01-mcp-introduction.md)。已读可提取文字、备注及课堂代码，图片未视觉核验，SDK 与客户端未运行，详细边界见 [来源表](../reference/sources.md#fall-2025-中文课件)。本章假契约、批准和答案均为教程扩展。
 
-[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills 与自动化](05-skills-automation.md)
+[上一章](03-context-spec.md) | [目录](../README.md) | [下一章：Skills、规则与自动化](05-skills-automation.md)

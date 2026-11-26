@@ -1,6 +1,6 @@
 # 02 Coding Agent：从理解目标到验证结果
 
-[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与规格](03-context-spec.md)
+[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与需求规格](03-context-spec.md)
 
 第 01 章让模型从笔记里提取待办。这次把要求换成「在代码库里修改任务列表，让最新任务先显示」。给出一段排序代码和在现有项目里完成修改，是两回事：后者还要知道代码在哪里、已有实现是什么，以及改完是否符合要求。
 
@@ -236,4 +236,4 @@ mitmweb --listen-host 127.0.0.1 --listen-port 58888 --web-open-browser --mode re
 
 选读：[构建 Coding Agent 中文解读](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md)、[中文课件](../reference/slides/fall2025/week02-0929-building-a-coding-agent.pptx)。读取范围与未核验部分见[来源表](../reference/sources.md#fall-2025-中文课件)。
 
-[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与规格](03-context-spec.md)
+[上一章](01-llm-prompting.md) | [目录](../README.md) | [下一章：上下文与需求规格](03-context-spec.md)

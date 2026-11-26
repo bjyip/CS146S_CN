@@ -1,6 +1,6 @@
 # 07 测试、评测与代码审查
 
-[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全](08-security.md)
+[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全与威胁建模](08-security.md)
 
 提取器正确识别了“明天检查日志”，控制中心却在响应丢失后重试保存，创建了两条任务。mock 测试仍全部绿色，因为它只检查预设 JSON 的解析。“答案正确”和“测试绿色”为何挡不住重复写入？本章先分清验证对象，再设计独立断言、报告结果，最后写出有证据的审查发现。
 
@@ -63,6 +63,8 @@ AND 的独立预期是只返回N1，OR会返回 N1、N2、N3。只给N1和N4，�
 可在纸面上把AND换成OR，复算得到三项，发现它违反预期。这叫设计反例，不是实际变异测试。变异测试则是在获准副本故意改坏实现、运行测试确认被抓住，再恢复自己的临时变更；基础不执行它，一次成功也不证明捕获所有错误。
 
 ## 5. 评测如何报告才诚实
+
+如果第 01 章跳过了计分，现在可先做它的[第五步](01-llm-prompting.md#离线练习前四步首读第五步选做)：对一条原始假响应计分。下面再把口径扩展到多次尝试、超时与规则回退。
 
 比较方案之前先固定分母。下面四条公开教学笔记各应有一项任务；记录均为虚构，第 4 条未尝试也必须保留：
 
@@ -187,6 +189,12 @@ B提交N1并提供新正文，02按ID找到A的笔记，03只判断存在，04�
 
 完成标准：两层不混，反例能区分 AND/OR，分母透明，授权发现可核对；纸面结果不算实际测试通过。
 
+### 可运行检查点：同一项目的回归与审查
+
+沿用[第 03 章的行动项 CLI](03-context-spec.md#可运行检查点从规格到行动项项目)，不需要模型。先跑[现有离线测试](pratic/README.md#离线实验)取得基线。在练习副本的 `test_labs.py` 补一条正常保存后再拒绝的回归：用临时库保存一行，尝试不加确认地提交另一行，断言拒绝，且重读仍只有原 ID 和原文本。现有测试检查未确认时不建新库；这个检查核对已有数据不被改动。
+
+审查这份实际差异，写出规格来源、位置、触发条件、预期与实际、运行证据和未覆盖风险。如果没发现缺陷，就写「本次范围未发现」，不要编造审查发现。通过只证明这一路径；没有验证重复提交幂等、并发或模型质量。
+
 <details>
 <summary>选学：真实软件测试、变异与模型评测</summary>
 
@@ -260,4 +268,4 @@ B提交N1并提供新正文，02按ID找到A的笔记，03只判断存在，04�
 - 2026 对照：[Addy 风险分层补充](../reading-notes/fall2026/week06/01-risk-tiered-review.md)、[Cloudflare 专业审查编排](../reading-notes/fall2026/week06/02-specialist-review.md)、[Greptile 超越 diff](../reading-notes/fall2026/week06/03-beyond-diff.md)。Addy 文章不替代未读指定 X 原帖。
 - 工作流边界：[OpenSpec](../reading-notes/fall2026/week02/02-openspec.md)、[Superpowers](../reading-notes/fall2026/week02/03-superpowers.md)、[pstack](../reading-notes/fall2026/week03/01-pstack.md)、[Matt Pocock](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)、[browse](../reading-notes/fall2026/week03/03-browse.md)；各自流程与版本不能拼成统一产品行为。
 
-[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全](08-security.md)
+[上一章](06-repo-parallel.md) | [目录](../README.md) | [下一章：安全与威胁建模](08-security.md)
