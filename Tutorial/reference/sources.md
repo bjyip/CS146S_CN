@@ -189,6 +189,9 @@ python Tutorial/scripts/pdf_review.py "Resource/Fall2025/week09-1121-resolve-gue
 | [Matt Pocock skills](https://github.com/mattpocock/skills) | 固定提交 README/to-spec/tdd | [版本化解读](../reading-notes/fall2026/week03/02-matt-pocock-skills.md)；不将不同框架的测试流程拼成新规则 |
 | [browse.sh](https://browse.sh/) | 首页与一个示例条目 | [实际范围](../reading-notes/fall2026/week03/03-browse.md)；未读全站，不将目录标签当权限 |
 | [Claude Code 安装](https://code.claude.com/docs/en/setup) | 官方产品文档，已阅读 | 00、02 安装与访问验收；资格和平台能力仍按当前版本核对，不固定价格 |
+| [Building effective agents](https://www.anthropic.com/research/building-effective-agents) | 工程文章，已读工作流、Agent 和编程案例 | 02 用于区分预设路径与按反馈选择动作；不照搬产品结论 |
+| [How Claude Code works](https://code.claude.com/docs/en/how-claude-code-works)、[Checkpointing](https://code.claude.com/docs/en/checkpointing) | 官方产品文档，已读循环、会话和回退限制 | 02 用作产品示例，未运行客户端验证 |
+| [MIT Missing Semester: Agentic Coding](https://missing.csail.mit.edu/2026/agentic-coding/) | 课程讲义，已读工具反馈、测试和隐私部分 | 02 借鉴短任务的反馈方式；排序数据和离线模拟为教程自编 |
 | [Claude Code 定制机制](https://claude.com/resources/articles/steering-claude-code-skills-hooks-rules-subagents-and-more) | 官方产品说明，重试后已阅读 | 05 加载作用域、Skill、Subagent、Hook 的职责；不泛化版本机制，不将模型 Hook 判断说成确定性 |
 | [Factory AGENTS.md](https://docs.factory.com/harness/agents-md) | 产品文档，已阅读 | 05、06 短规则、命令和作用域；Droid 的发现与优先级不是通用标准 |
 | [Writing a good CLAUDE.md](https://hlyr.dev/blog/writing-a-good-claude-md) | 行业经验文章，已阅读 | 05 渐进披露、权威引用、确定性检查；行数和指令数经验阈值不是科学定律 |
