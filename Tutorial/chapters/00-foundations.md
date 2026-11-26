@@ -16,10 +16,13 @@
 
 例如，对 n 个任务逐一扫描已有列表，最坏要做 O(n²) 次比较；用哈希集合辅助通常能做到期望 O(n)，代价是 O(n) 额外空间。但还要保留首次出现的顺序，不能直接把集合当输出。用空输入、重复项和不同顺序检查行为，耗时则另行测量。
 
-Python 作业的依赖配置不在本仓库根目录，而在对应年份的目录中：
+先选路线，再决定从哪个目录运行。只读路线无需执行命令；离线路线在仓库根目录运行 `python Tutorial/chapters/pratic/agent_lab.py`，看三条示意轨迹；远程 API 路线进入 `Tutorial/chapters/pratic`，按[配置说明](pratic/README.md)运行第一章练习。不用为了这两条实操路线安装 Ollama 服务或下载模型。
+
+本仓库根目录不负责这些 Python 依赖。需要用 Poetry 时，确认自己进入的是哪套练习：
 
 | 作业 | Poetry 根目录 | 用途 |
 | --- | --- | --- |
+| 教程自学改编 | `Tutorial/chapters/pratic/` | 第 01 章智谱脚本；离线实验只依赖 Python，不用 Poetry |
 | 2025 | `_assignments/2025 fall/` | 第 1 至 8 周归档练习及本章离线测试 |
 | 2026 | `_assignments/2026 fall/modern-software-dev-assignments-master/` | 当前本地第 1 至 3 周 trace、MCP、Skill 作业 |
 

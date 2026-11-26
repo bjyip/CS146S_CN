@@ -4,7 +4,7 @@
 
 第 01 章让模型从笔记里提取待办。这次把要求换成「在代码库里修改任务列表，让最新任务先显示」。给出一段排序代码和在现有项目里完成修改，是两回事：后者还要知道代码在哪里、已有实现是什么，以及改完是否符合要求。
 
-本章先认识 Coding Agent 的组成，再看它如何把模型判断、工具操作和验证串起来。基础练习只用假文件和示意记录，不需要 API Key，也不会运行课堂脚本。如何提供上下文见[第 03 章](03-context-spec.md)，如何用 MCP 接入工具见[第 04 章](04-mcp-oauth.md)。
+本章先认识 Coding Agent 的组成，再看它如何把模型判断、工具操作和验证串起来。基础练习使用假数据；可选的本地实验只在内存里模拟源码版本，不需要 API Key，也不运行课堂脚本。如何提供上下文见[第 03 章](03-context-spec.md)，如何用 MCP 接入工具见[第 04 章](04-mcp-oauth.md)。
 
 ## 1. 什么是 Coding Agent
 
@@ -124,6 +124,18 @@
 
 检查答案时，重点看请求是否配对、冲突是否拒绝、失败是否分层、预算耗尽是否停止，不必背错误标签。
 
+### 可运行检查点：观察改变下一步
+
+从仓库根目录运行 `python Tutorial/chapters/pratic/agent_lab.py`。程序用固定规则代替模型，只操作内存里的排序夹具，包含能区分数字与字符串排序的 ID 10。运行前先预测三条轨迹：
+
+| 场景 | 要核对的证据 |
+| --- | --- |
+| `normal` | 读取后编辑，最后验证得到 `[10, 9, 8, 3]` |
+| `recovery` | 编辑被版本冲突拒绝，下一步变成重读；五次额度允许再编辑和测试 |
+| `stop` | 同样重读，但三次额度已用完，不再编辑或测试 |
+
+对比后两条轨迹，指出哪一步是模拟模型的提议，哪一步是运行时的硬限制。拒绝也计入工具额度；最后一次工具成功后还可以给出最终判断，但不能再执行工具。用[离线测试命令](pratic/README.md#离线实验)核对结果。此实验验证的是控制流，不验证真实模型能否选择正确动作。
+
 <details>
 <summary>独立选学：在授权隔离副本观察真实循环</summary>
 
@@ -220,7 +232,7 @@ mitmweb --listen-host 127.0.0.1 --listen-port 58888 --web-open-browser --mode re
 
 **问：工具返回“成功”为什么还需验证？** 工具可能成功执行了错误参数，或只完成部分操作；业务完成需要独立后置条件。
 
-来源：[Agent 讲义](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[课堂代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 追踪作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md)。受控循环、假任务排序、版本拒绝与答案为教程扩展，未运行任何实验。
+来源：[Agent 讲义](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx)、[课堂代码](../../Resource/Fall2025/week02-0929-completed-exercise.py)、[2026 追踪作业](../../_assignments/2026%20fall/modern-software-dev-assignments-master/week1/assignment.md)。受控循环、假任务排序、版本拒绝与答案为教程扩展。检查点借鉴 [MIT Missing Semester](https://missing.csail.mit.edu/2026/agentic-coding/) 的短任务反馈练习，不依赖真实客户端，不是原作业复现。
 
 选读：[构建 Coding Agent 中文解读](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md)、[中文课件](../reference/slides/fall2025/week02-0929-building-a-coding-agent.pptx)。读取范围与未核验部分见[来源表](../reference/sources.md#fall-2025-中文课件)。
 
