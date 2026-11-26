@@ -1,6 +1,6 @@
 # 03 上下文工程与规格驱动开发
 
-[上一章](02-agent-loop.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)
+[上一章](02-coding-agent.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)
 
 你已经知道 Agent 怎样读取、修改和检查任务列表，但它应该按哪份要求修改？用户说“最新任务先看到；模型失败要告知”，旧说明说按 ID 排序，当前实现又静默规则回退。如果把三者一起交给 Agent 而不说明关系，它可能实现旧需求，或把现状当成已经满足目标。
 
@@ -261,4 +261,4 @@ A有有效候选，B是合法无任务，C可作为明确标注降级的候选�
 
 选读：[AI IDE、上下文与规格](../reading-notes/fall2025/week03/lecture-ai-ide-setup.md)、[Silas Alberti：同步与异步交接](../reading-notes/fall2025/week03/lecture-silas-alberti.md)。已读课件文字与备注，图片、布局和演示未核验，详见 [课件索引](../reference/sources.md#fall-2025-中文课件)。本章假来源、规格和答案均为教程扩展。
 
-[上一章](02-agent-loop.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)
+[上一章](02-coding-agent.md) | [目录](../README.md) | [下一章：MCP 与 OAuth](04-mcp-oauth.md)

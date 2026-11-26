@@ -6,7 +6,7 @@
 
 | 周次 | 正文与材料入口 | 学习后应留下的证据 |
 | --- | --- | --- |
-| 01 Agent 内部原理 | [材料、课堂与作业](week01/README.md)，章节 [00](../../chapters/00-foundations.md)、[02](../../chapters/02-agent-loop.md) | 有定位的调用时间线、观察与推断分离 |
+| 01 Agent 内部原理 | [材料、课堂与作业](week01/README.md)，章节 [00](../../chapters/00-foundations.md)、[02](../../chapters/02-coding-agent.md) | 有定位的调用时间线、观察与推断分离 |
 | 02 上下文与 MCP | [材料、课堂与作业](week02/README.md)，章节 [03](../../chapters/03-context-spec.md)、[04](../../chapters/04-mcp-oauth.md) | 持久规格、工具契约、失败与授权证据 |
 | 03 Skills 与 CLI | [材料与作业](week03/README.md)，章节 [05](../../chapters/05-skills-automation.md) | 判断分支、触发正负例、端到端证据 |
 | 04 定制 Agent | [四份阅读笔记](week04/README.md)，章节 [05](../../chapters/05-skills-automation.md)、[06](../../chapters/06-repo-parallel.md) | 规则作用域、实际门禁与漂移核对 |

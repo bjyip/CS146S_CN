@@ -77,7 +77,7 @@
 | --- | --- | --- | --- |
 | 第 1 周：LLM 导论 | [中文 PPTX](slides/fall2025/week01-0922-intro-to-llms.pptx) | [原版](../../Resource/Fall2025/week01-0922-intro-to-llms.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
 | 第 1 周：高效提示 | [中文 PPTX](slides/fall2025/week01-0926-effective-prompting.pptx) | [原版](../../Resource/Fall2025/week01-0926-effective-prompting.pptx) | [01 LLM 与提示](../chapters/01-llm-prompting.md) |
-| 第 2 周：构建 Coding Agent | [中文 PPTX](slides/fall2025/week02-0929-building-a-coding-agent.pptx) | [原版](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx) | [02 Agent](../chapters/02-agent-loop.md) |
+| 第 2 周：构建 Coding Agent | [中文 PPTX](slides/fall2025/week02-0929-building-a-coding-agent.pptx) | [原版](../../Resource/Fall2025/week02-0929-building-a-coding-agent.pptx) | [02 Coding Agent](../chapters/02-coding-agent.md) |
 | 第 2 周：自定义 MCP Server | [中文 PPTX](slides/fall2025/week02-1003-custom-mcp-server.pptx) | [原版](../../Resource/Fall2025/week02-1003-custom-mcp-server.pptx) | [04 MCP/OAuth](../chapters/04-mcp-oauth.md) |
 | 第 3 周：AI IDE 配置 | [中文 PPTX](slides/fall2025/week03-1006-ai-ide-setup.pptx) | [原版](../../Resource/Fall2025/week03-1006-ai-ide-setup.pptx) | [03 上下文与规格](../chapters/03-context-spec.md) |
 | 第 3 周：Silas Alberti 嘉宾课件 | [中文 PPTX](slides/fall2025/week03-1010-silas-alberti.pptx) | [原版](../../Resource/Fall2025/week03-1010-silas-alberti.pptx) | [03 上下文与规格](../chapters/03-context-spec.md)、[06 仓库与并行](../chapters/06-repo-parallel.md)，已读讲义观点，不泛化效率数字 |
@@ -104,7 +104,7 @@
 | 原材料 | 文字提取与核对 | 图像与版式 | 中文解读 | 章节融合 |
 | --- | --- | --- | --- | --- |
 | LLM 导论 | 20 页及关联备注，中英文可提取文字已对照 | 图片未视觉核验；第 16 页表格文字已读但布局未还原 | [已完成，声明缺口](../reading-notes/fall2025/week01/lecture-intro-to-llms.md) | [01](../chapters/01-llm-prompting.md)：训练/推理、数据量/参数、概率辨析离线练习 |
-| 构建 Coding Agent | 7 页及关联备注，中英文可提取文字已对照；198 行配套代码静态阅读 | 第 3 页六个图片对象未视觉核验 | [已完成，声明缺口](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md) | [02](../chapters/02-agent-loop.md)：代码定位、缺参覆盖风险、消息关联与总预算 |
+| 构建 Coding Agent | 7 页及关联备注，中英文可提取文字已对照；198 行配套代码静态阅读 | 第 3 页六个图片对象未视觉核验 | [已完成，声明缺口](../reading-notes/fall2025/week02/lecture-building-a-coding-agent.md) | [02](../chapters/02-coding-agent.md)：代码定位、缺参覆盖风险、消息关联与总预算 |
 | 高效提示 | 31 页及关联备注，中英文文字已对照 | 未视觉核验，截图与角色效果有缺口 | [中文解读](../reading-notes/fall2025/week01/lecture-effective-prompting.md) | [01](../chapters/01-llm-prompting.md)：提示技术、独立证据与失败辨析 |
 | 自定义 MCP Server | 13 页及关联备注，中英文文字已对照；配套代码静态阅读 | 未视觉核验，不复原多接口图 | [中文解读](../reading-notes/fall2025/week02/lecture-custom-mcp-server.md) | [04](../chapters/04-mcp-oauth.md)：连接复用与服务端职责 |
 | AI IDE 配置 | 15 页及关联备注，中英文文字已对照 | 未视觉核验，索引图与配置截图有缺口 | [中文解读](../reading-notes/fall2025/week03/lecture-ai-ide-setup.md) | [03](../chapters/03-context-spec.md)：规格与上下文；[06](../chapters/06-repo-parallel.md)：仓库就绪 |

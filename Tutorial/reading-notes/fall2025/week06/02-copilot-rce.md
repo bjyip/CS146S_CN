@@ -1,6 +1,6 @@
 # Copilot 提示注入：从低信任内容跨到策略控制面
 
-[本周入口](README.md) | [Agent 原理](../../../chapters/02-agent-loop.md) | [安全](../../../chapters/08-security.md)
+[本周入口](README.md) | [Agent 原理](../../../chapters/02-coding-agent.md) | [安全](../../../chapters/08-security.md)
 
 ## 来源与范围
 
@@ -65,4 +65,4 @@ Agent 为完成正常任务会读取源码、网页、Issue 或工具返回值�
 
 本笔记依赖指定中文转载而非英文全文，保留路径不一致与修复状态未知的缺口。不能将风险机制解释冒充英文原文校订或产品复现。
 
-[第 08 章](../../../chapters/08-security.md)已最小融合控制面写入的独立授权、来源冲突与本篇练习入口；[第 02 章](../../../chapters/02-agent-loop.md)是工具与 Agent loop 的知识延伸，不声明为本篇新增反向链接。章节关联不改变英文未取得和产品未复现的边界。
+[第 08 章](../../../chapters/08-security.md)已最小融合控制面写入的独立授权、来源冲突与本篇练习入口；[第 02 章](../../../chapters/02-coding-agent.md)是工具与 Agent loop 的知识延伸，不声明为本篇新增反向链接。章节关联不改变英文未取得和产品未复现的边界。

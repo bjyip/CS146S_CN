@@ -1,6 +1,6 @@
 # 01 LLM 与六种提示技术
 
-[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Agent](02-agent-loop.md)
+[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Coding Agent](02-coding-agent.md)
 
 LLM（大语言模型）从大量训练数据中学习文本规律，再根据输入生成回答。我们先看一个简单任务：从下面的会议笔记中提取待办事项。
 
@@ -599,4 +599,4 @@ A标注一项，原始假响应两项：依赖核对匹配，更新配置误提�
 
 指定视频与Google概览仍缺正文或字幕，本章不冒充译文。当前缺口、课件视觉和在线讲义状态以[来源表](../reference/sources.md)及[阅读清单](../reading-notes/README.md)为准，完成练习不补齐来源。
 
-[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Agent](02-agent-loop.md)
+[上一章](00-foundations.md) | [目录](../README.md) | [下一章：Coding Agent](02-coding-agent.md)

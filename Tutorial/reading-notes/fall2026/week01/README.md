@@ -1,6 +1,6 @@
 # 第 1 周：Coding Agent 内部原理
 
-[2026 入口](../README.md) | [材料总表](../../README.md) | [Agent 章节](../../../chapters/02-agent-loop.md)
+[2026 入口](../README.md) | [材料总表](../../README.md) | [Agent 章节](../../../chapters/02-coding-agent.md)
 
 先分清模型决策与运行时执行，再分析系统说明、工具契约和失败恢复。既有笔记范围于 2026-11-04 核对；下列视频与 X 缺口于 2026-11-05 再核对。
 

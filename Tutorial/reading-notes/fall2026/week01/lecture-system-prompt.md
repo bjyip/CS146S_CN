@@ -1,6 +1,6 @@
 # 课堂解读：System Prompt 与 Coding Agent Harness
 
-[教程目录](../../../README.md) | [Agent 内部原理](../../../chapters/02-agent-loop.md) | [Skills 与规则](../../../chapters/05-skills-automation.md) | [本周作业](assignment-guide.md)
+[教程目录](../../../README.md) | [Agent 内部原理](../../../chapters/02-coding-agent.md) | [Skills 与规则](../../../chapters/05-skills-automation.md) | [本周作业](assignment-guide.md)
 
 ## 来源与范围
 

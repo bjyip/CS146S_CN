@@ -1,6 +1,6 @@
 # 第 1 周作业导读：解剖真实 Claude Code 会话
 
-[教程目录](../../../README.md) | [Agent 内部原理](../../../chapters/02-agent-loop.md) | [课堂解读](lecture-system-prompt.md)
+[教程目录](../../../README.md) | [Agent 内部原理](../../../chapters/02-coding-agent.md) | [课堂解读](lecture-system-prompt.md)
 
 ## 来源与状态
 

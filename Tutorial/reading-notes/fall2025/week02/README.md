@@ -1,6 +1,6 @@
 # Fall 2025 第 2 周：Coding Agent 与 MCP
 
-[2025 入口](../README.md) | [材料总清单](../../README.md) | [第 02 章](../../../chapters/02-agent-loop.md) | [第 04 章](../../../chapters/04-mcp-oauth.md)
+[2025 入口](../README.md) | [材料总清单](../../README.md) | [第 02 章](../../../chapters/02-coding-agent.md) | [第 04 章](../../../chapters/04-mcp-oauth.md)
 
 | 材料 | 类型 | 状态 |
 | --- | --- | --- |

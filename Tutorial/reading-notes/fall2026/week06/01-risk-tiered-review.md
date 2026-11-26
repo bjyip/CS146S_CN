@@ -73,4 +73,4 @@
 
 **问：人工不逐行读全部 diff 就能完全退出吗？** 作者主张注意力迁移到分诊、关键路径和责任，不是无人负责或自动合并。
 
-已最小关联并融入[第 07 章](../../../chapters/07-testing-review.md)：风险分层、测试变更、证据准入、去重和批准责任。[第 06 章](../../../chapters/06-repo-parallel.md)的理解预算与[第 02 章](../../../chapters/02-agent-loop.md)的输出/执行区别仅作延伸，不宣称新增来源特定融合；[原 X](https://x.com/addyosmani/status/2114604912520921136)仍未读。
+已最小关联并融入[第 07 章](../../../chapters/07-testing-review.md)：风险分层、测试变更、证据准入、去重和批准责任。[第 06 章](../../../chapters/06-repo-parallel.md)的理解预算与[第 02 章](../../../chapters/02-coding-agent.md)的输出/执行区别仅作延伸，不宣称新增来源特定融合；[原 X](https://x.com/addyosmani/status/2114604912520921136)仍未读。

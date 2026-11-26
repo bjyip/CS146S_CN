@@ -1,6 +1,6 @@
 # 深入剖析 Claude Code：选读笔记
 
-[Agent 内部原理](../../../chapters/02-agent-loop.md) · [上下文与规格](../../../chapters/03-context-spec.md) · [安全](../../../chapters/08-security.md)
+[Agent 内部原理](../../../chapters/02-coding-agent.md) · [上下文与规格](../../../chapters/03-context-spec.md) · [安全](../../../chapters/08-security.md)
 
 ## 来源与范围
 

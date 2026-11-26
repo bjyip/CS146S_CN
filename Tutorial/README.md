@@ -35,7 +35,7 @@
 | --- | --- |
 | [00 学习准备](chapters/00-foundations.md) | 怎样准备环境、记录结果，避免误判实验成功？ |
 | [01 LLM 与提示方法](chapters/01-llm-prompting.md) | 模型怎样生成回答？怎样把任务说清楚？ |
-| [02 编程助手如何工作](chapters/02-agent-loop.md) | AI 怎样调用工具？执行失败后怎么办？ |
+| [02 Coding Agent：从理解目标到验证结果](chapters/02-coding-agent.md) | 编程智能体由什么组成？怎样调用工具、验证结果和处理失败？ |
 | [03 上下文与需求规格](chapters/03-context-spec.md) | 应该给 AI 哪些信息？怎样写清要求和验收标准？ |
 | [04 MCP 工具与 OAuth 授权](chapters/04-mcp-oauth.md) | 怎样连接外部服务，并限制可访问的数据和操作？ |
 | [05 Skills、规则与自动化](chapters/05-skills-automation.md) | 怎样让 AI 按固定流程完成重复任务？ |

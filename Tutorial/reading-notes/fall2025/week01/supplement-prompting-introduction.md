@@ -75,4 +75,4 @@ Frequency penalty 按已出现次数影响重复倾向，presence penalty 更关
 
 ## 教程关联
 
-[第 01 章](../../../chapters/01-llm-prompting.md)集中解释任务提示与采样边界；[第 02 章](../../../chapters/02-agent-loop.md)区分输出上限与任务总预算；[第 03 章](../../../chapters/03-context-spec.md)定义业务契约与独立预期。已有技术解读不重复复制，受限原来源见[阅读总清单](../../README.md)。
+[第 01 章](../../../chapters/01-llm-prompting.md)集中解释任务提示与采样边界；[第 02 章](../../../chapters/02-coding-agent.md)区分输出上限与任务总预算；[第 03 章](../../../chapters/03-context-spec.md)定义业务契约与独立预期。已有技术解读不重复复制，受限原来源见[阅读总清单](../../README.md)。
