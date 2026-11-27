@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>行动项提取器</title>
+    <style>
+      body {
+        max-width: 42rem;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        font: 1rem/1.6 system-ui, sans-serif;
+      }
+      textarea {
+        box-sizing: border-box;
+        width: 100%;
+        font: inherit;
+      }
+      button {
+        margin: 0.5rem 0.5rem 0 0;
+      }
+      li {
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>行动项提取器</h1>
+      <p>规则提取在本地识别项目符号、待办复选框和 TODO: 等前缀。</p>
+      <p>LLM 提取会将笔记发送给阿里云百炼的 Qwen，可从普通段落中识别待办。请只使用练习笔记。</p>
+      <form id="extract-form">
+        <label for="note">原始笔记</label>
+        <textarea id="note" rows="6" maxlength="10000" required></textarea>
+        <label><input id="save-note" type="checkbox" /> 保存原始笔记</label>
+        <div>
+          <button id="extract" type="submit">规则提取</button>
+          <button id="extract-llm" type="submit">LLM 提取</button>
+          <button id="list-notes" type="button">列出笔记</button>
+        </div>
+      </form>
+      <p id="status" role="status"></p>
+      <h2>提取结果</h2>
+      <ul id="items"></ul>
+      <h2>已保存笔记</h2>
+      <ul id="notes"></ul>
+    </main>
+    <script>
+      const form = document.querySelector('#extract-form')
+      const status = document.querySelector('#status')
+      const extractButton = document.querySelector('#extract')
+      const llmButton = document.querySelector('#extract-llm')
+      const listButton = document.querySelector('#list-notes')
+      const buttons = [extractButton, llmButton, listButton]
+
+      function renderList(selector, values) {
+        const list = document.querySelector(selector)
+        list.replaceChildren()
+        values.forEach(value => {
+          const item = document.createElement('li')
+          item.textContent = value
+          list.append(item)
+        })
+      }
+
+      async function request(path, options) {
+        const response = await fetch(path, options)
+        if (!response.ok) {
+          const error = new Error(`HTTP ${response.status}`)
+          error.status = response.status
+          throw error
+        }
+        return response.json()
+      }
+
+      async function run(action, useLlm = false) {
+        if (extractButton.disabled) return
+        buttons.forEach(button => (button.disabled = true))
+        status.textContent = useLlm ? '正在调用 Qwen…' : '处理中…'
+        try {
+          status.textContent = await action()
+        } catch (error) {
+          console.error(error)
+          if (useLlm && error.status === 503) {
+            status.textContent = 'Qwen 调用失败，请检查百炼配置、额度或网络。'
+          } else if (useLlm && error.status === 502) {
+            status.textContent = 'Qwen 返回格式不符合要求，未改用规则提取。'
+          } else {
+            status.textContent = '请求失败，请检查输入或本地服务。'
+          }
+        } finally {
+          buttons.forEach(button => (button.disabled = false))
+        }
+      }
+
+      form.addEventListener('submit', event => {
+        event.preventDefault()
+        const text = document.querySelector('#note').value
+        if (!text.trim()) {
+          status.textContent = '请输入笔记。'
+          return
+        }
+        const saveNote = document.querySelector('#save-note').checked
+        const useLlm = event.submitter === llmButton
+        const path = useLlm ? '/action-items/extract-llm' : '/action-items/extract'
+        run(async () => {
+          renderList('#items', [])
+          const result = await request(path, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ text, save_note: saveNote })
+          })
+          renderList('#items', result.items)
+          const method = useLlm ? 'LLM' : '规则'
+          const summary = `${method}提取到 ${result.items.length} 条行动项。`
+          return result.note_id === null ? summary : `${summary}原始笔记已保存。`
+        }, useLlm)
+      })
+
+      listButton.addEventListener('click', () => {
+        run(async () => {
+          const notes = await request('/notes')
+          renderList('#notes', notes.map(note => `#${note.id} ${note.content}`))
+          return `共 ${notes.length} 条已保存笔记。`
+        })
+      })
+    </script>
+  </body>
+</html>
